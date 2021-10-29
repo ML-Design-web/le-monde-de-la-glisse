@@ -3,7 +3,7 @@
 
         <div>
             <a href="../index.php">
-                <img src="../assets/img/logo.png" alt="logo-la-glisse" width="30%">
+                <img src="https://i.imgur.com/6zANh59.png" alt="logo-la-glisse" width="30%">
             </a>
         </div>
 

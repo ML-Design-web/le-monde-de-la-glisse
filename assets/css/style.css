@@ -67,9 +67,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Disable AOS delay on mobile
---------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
@@ -77,9 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/**
-* Mobile Navigation 
-*/
+/*Navigation sur mobile */
 .mobile-nav-toggle {
   color: #fff;
   font-size: 28px;
@@ -171,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Section Background
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
