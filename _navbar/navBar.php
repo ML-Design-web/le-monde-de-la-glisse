@@ -1,0 +1,209 @@
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex justify-content-between align-items-center">
+
+        <div>
+            <a href="../index.php">
+                <img src="../assets/img/logo.png" alt="logo-la-glisse" width="30%">
+            </a>
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
+                <li class="dropdown"><a href="#"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Drop Down 1</a></li>
+                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Drop Down 2</a></li>
+                        <li><a href="#">Drop Down 3</a></li>
+                        <li><a href="#">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#"><span>Accessoires</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="#">Drop Down 1</a></li>
+                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Deep Drop Down 1</a></li>
+                                <li><a href="#">Deep Drop Down 2</a></li>
+                                <li><a href="#">Deep Drop Down 3</a></li>
+                                <li><a href="#">Deep Drop Down 4</a></li>
+                                <li><a href="#">Deep Drop Down 5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Drop Down 2</a></li>
+                        <li><a href="#">Drop Down 3</a></li>
+                        <li><a href="#">Drop Down 4</a></li>
+                    </ul>
+                </li>
+                <li><a class="nav-link scrollto " href="#portfolio">Tutoriel</a></li>
+                <li><a class="nav-link scrollto" href="#team">Méteo</a></li>
+
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+    </div>
+</header>
+
+<style>
+
+/*--------------------------------------------------------------
+# NavBar
+--------------------------------------------------------------*/
+    #header {
+        height: 90px;
+        transition: all 0.5s;
+        z-index: 997;
+        background: rgba(52, 59, 64, 0.9);
+    }
+    #header #logo h1 {
+        font-size: 32px;
+        margin: 0;
+        line-height: 1;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    #header #logo h1 a, #header #logo h1 a:hover {
+        color: #fff;
+    }
+    #header #logo img {
+        padding: 0;
+        margin: 0;
+    }
+    #header.header-transparent {
+        background: transparent;
+    }
+    #header.header-scrolled {
+        background: rgba(52, 59, 64, 0.9);
+        height: 70px;
+        transition: all 0.5s;
+    }
+
+    .scrolled-offset {
+        margin-top: 70px;
+    }
+
+    /*--------------------------------------------------------------
+    # Menu de navigation
+    --------------------------------------------------------------*/
+    /* Navigation sur PC*/
+    .navbar {
+        padding: 0;
+    }
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .navbar li {
+        position: relative;
+    }
+    .navbar > ul > li {
+        white-space: nowrap;
+        padding: 10px 0 10px 24px;
+    }
+    .navbar a, .navbar a:focus {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        font-size: 14px;
+        padding: 0 4px;
+        white-space: nowrap;
+        transition: 0.3s;
+        letter-spacing: 0.4px;
+        position: relative;
+        text-transform: uppercase;
+    }
+    .navbar a i, .navbar a:focus i {
+        font-size: 12px;
+        line-height: 0;
+        margin-left: 5px;
+    }
+    .navbar > ul > li > a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -6px;
+        left: 0;
+        background-color: #2dc997;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+        color: #fff;
+    }
+    .navbar .dropdown ul {
+        display: block;
+        position: absolute;
+        left: 24px;
+        top: calc(100% + 30px);
+        margin: 0;
+        padding: 10px 0;
+        z-index: 99;
+        opacity: 0;
+        visibility: hidden;
+        background: #fff;
+        box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+        transition: 0.3s;
+    }
+    .navbar .dropdown ul li {
+        min-width: 200px;
+    }
+    .navbar .dropdown ul a {
+        padding: 10px 20px;
+        font-size: 14px;
+        text-transform: none;
+        color: #666666;
+    }
+    .navbar .dropdown ul a i {
+        font-size: 12px;
+    }
+    .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+        color: #2dc997;
+    }
+    .navbar .dropdown:hover > ul {
+        opacity: 1;
+        top: 100%;
+        visibility: visible;
+    }
+    .navbar .dropdown .dropdown ul {
+        top: 0;
+        left: calc(100% - 30px);
+        visibility: hidden;
+    }
+    .navbar .dropdown .dropdown:hover > ul {
+        opacity: 1;
+        top: 0;
+        left: 100%;
+        visibility: visible;
+    }
+    @media (max-width: 1366px) {
+        .navbar .dropdown .dropdown ul {
+            left: -90%;
+        }
+        .navbar .dropdown .dropdown:hover > ul {
+            left: -100%;
+        }
+    }
+</style>
