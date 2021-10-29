@@ -1,40 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Nous contacter | La glisse</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="#"/>
+    <meta name="robots" content="index, follow"/>
+    <meta property="theme-color" content="#B0FF00"/>
+    <meta property="og:title" content="Nous contacter | La glisse"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="#"/>
+    <meta property="og:url" content="#"/>
+    <meta property="og:description" content="#"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="keywords" content="glisse, skateboard, rollers, neige, sport"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Nous contacter | La glisse"/>
+    <meta name="twitter:description" content="#"/>
+    <meta name="twitter:image" content="#"/>
 
-  <title>Regna Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Links -->
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+    <!--<link href="assets/img/favicon.png" rel="icon">-->
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Regna - v4.6.0
-  * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
-
 <body>
 
   <!-- ======= Header ======= -->
