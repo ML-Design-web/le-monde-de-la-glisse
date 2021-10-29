@@ -218,7 +218,6 @@ include_once('_navbar/navbar.php');
                 <h3 class="section-title">Portfolio</h3>
                 <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                     accusantium doloremque</p>
-                accusantium doloremque</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
