@@ -41,8 +41,8 @@ include_once('_navbar/navbar.php');
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-        <h1>Welcome to Regna</h1>
-        <h2>We are team of talented designers making websites with Bootstrap</h2>
+        <h1>Bienvenue Sur Le Monde De La Glisse !</h1>
+        <h2>LE site de vente d'accessoires de glisse.</h2>
         <a href="#about" class="btn-get-started">Get Started</a>
     </div>
 </section><!-- End Hero Section -->
@@ -509,16 +509,8 @@ include_once('_navbar/navbar.php');
 
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong>Regna</strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Regna
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            &lt;/&gt; avec ❤ par <strong>Alan THOB</strong> & <strong>Mathis Lambert</strong><br>
+            <strong><a href="index.php">Le Monde De La Glisse</a> 2021 - 2022.</strong><br>
         </div>
     </div>
 </footer><!-- End Footer -->
