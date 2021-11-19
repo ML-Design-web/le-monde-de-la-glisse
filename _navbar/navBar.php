@@ -12,36 +12,27 @@
                 <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
                 <li class="dropdown"><a href="#"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
+                        <li><a href="#">HOMMES</a></li>
+                        <li><a href="#">FEMMES</a></li>
+                        <li><a href="#">ENFANTS</a></li>
+                        <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#"><span>Accessoires</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                        <li class="dropdown"><a href="#"><span>PLANCHES</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
+                                <li><a href="#">Snow-Board</a></li>
+                                <li><a href="#">Skate-Board</a></li>
+                                <li><a href="#">Long-Board</a></li>
+                                <li><a href="#">Kite-Surf</a></li>
+                                <li><a href="#">Surf</a></li>
+                                <li><a href="#">Paddle</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
+                        <li><a href="#">VOILES</a></li>
+                        <li><a href="#">PATINS</a></li>
+                        <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto " href="#portfolio">Tutoriel</a></li>
@@ -55,8 +46,7 @@
 </header>
 
 <style>
-
-/*--------------------------------------------------------------
+    /*--------------------------------------------------------------
 # NavBar
 --------------------------------------------------------------*/
     #header {
@@ -67,16 +57,21 @@
         font-family: "Century Gothic", sans-serif, bold;
         font-weight: bold;
     }
-    #header #logo h1 a, #header #logo h1 a:hover {
+
+    #header #logo h1 a,
+    #header #logo h1 a:hover {
         color: #fff;
     }
+
     #header #logo img {
         padding: 0;
         margin: 0;
     }
+
     #header.header-transparent {
         background: transparent;
     }
+
     #header.header-scrolled {
         background: rgba(52, 59, 64, 0.9);
         height: 70px;
@@ -94,6 +89,7 @@
     .navbar {
         padding: 0;
     }
+
     .navbar ul {
         margin: 0;
         padding: 0;
@@ -101,14 +97,18 @@
         list-style: none;
         align-items: center;
     }
+
     .navbar li {
         position: relative;
     }
-    .navbar > ul > li {
+
+    .navbar>ul>li {
         white-space: nowrap;
         padding: 10px 0 10px 24px;
     }
-    .navbar a, .navbar a:focus {
+
+    .navbar a,
+    .navbar a:focus {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -121,12 +121,15 @@
         position: relative;
         text-transform: uppercase;
     }
-    .navbar a i, .navbar a:focus i {
+
+    .navbar a i,
+    .navbar a:focus i {
         font-size: 12px;
         line-height: 0;
         margin-left: 5px;
     }
-    .navbar > ul > li > a:before {
+
+    .navbar>ul>li>a:before {
         content: "";
         position: absolute;
         width: 100%;
@@ -138,13 +141,21 @@
         transform: scaleX(0);
         transition: all 0.3s ease-in-out 0s;
     }
-    .navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+
+    .navbar a:hover:before,
+    .navbar li:hover>a:before,
+    .navbar .active:before {
         visibility: visible;
         transform: scaleX(1);
     }
-    .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+
+    .navbar a:hover,
+    .navbar .active,
+    .navbar .active:focus,
+    .navbar li:hover>a {
         color: #fff;
     }
+
     .navbar .dropdown ul {
         display: block;
         position: absolute;
@@ -159,42 +170,53 @@
         box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
         transition: 0.3s;
     }
+
     .navbar .dropdown ul li {
         min-width: 200px;
     }
+
     .navbar .dropdown ul a {
         padding: 10px 20px;
         font-size: 14px;
         text-transform: none;
         color: #666666;
     }
+
     .navbar .dropdown ul a i {
         font-size: 12px;
     }
-    .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+
+    .navbar .dropdown ul a:hover,
+    .navbar .dropdown ul .active:hover,
+    .navbar .dropdown ul li:hover>a {
         color: #2dc997;
     }
-    .navbar .dropdown:hover > ul {
+
+    .navbar .dropdown:hover>ul {
         opacity: 1;
         top: 100%;
         visibility: visible;
     }
+
     .navbar .dropdown .dropdown ul {
         top: 0;
         left: calc(100% - 30px);
         visibility: hidden;
     }
-    .navbar .dropdown .dropdown:hover > ul {
+
+    .navbar .dropdown .dropdown:hover>ul {
         opacity: 1;
         top: 0;
         left: 100%;
         visibility: visible;
     }
+
     @media (max-width: 1366px) {
         .navbar .dropdown .dropdown ul {
             left: -90%;
         }
-        .navbar .dropdown .dropdown:hover > ul {
+
+        .navbar .dropdown .dropdown:hover>ul {
             left: -100%;
         }
     }
