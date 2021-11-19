@@ -49,12 +49,12 @@
 
         <div class="flex_homepage">
             <span class="left" id="winter">SPORT D'ÉTÉ</span>
-            <img src="img/chevron-compact-down.svg" alt="flèche" class="left">
+            <img src="img/chevron_summer.svg" alt="flèche" class="left">
         </div>
 
         <div class="flex_homepage2">
             <span class="right" id="summer">SPORT D'HIVER</span>
-            <img src="img/chevron-compact-down.svg" alt="flèche" class="right">
+            <img src="img/chevron_winter.svg" alt="flèche" class="right">
         </div>
     </div>
 
