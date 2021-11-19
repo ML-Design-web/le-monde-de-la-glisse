@@ -22,18 +22,23 @@
 
 
     <!-- Links -->
-    <link rel="stylesheet" href="style.css" />
     <!--<link href="assets/img/favicon.png" rel="icon">-->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
 </head>
 
 <body>
+
+    <?php
+    include_once('test_navbar.php');
+    ?>
 
     <div class="main_img">
         <div class="img1">
@@ -45,7 +50,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container_season">
 
         <div class="flex_homepage">
             <span class="left" id="winter">SPORT D'ÉTÉ</span>
