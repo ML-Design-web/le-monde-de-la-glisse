@@ -1,0 +1,75 @@
+body{
+    background-color: #282828;
+    color: white;
+    font-family: 'Segoe UI', bold, sans-serif;
+    overflow-x: hidden;
+}
+
+
+.main_img{
+
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+}
+
+.img1{
+
+    width: 50%;
+    height: auto;
+    background-size: cover;
+    left: -75px;
+}
+ 
+#surf{
+    height: 100%;
+    position: relative;
+    opacity: 50%;
+    margin-right: 0;
+    float: right;
+}
+.img2{
+
+    width: 50%;
+    height: auto;
+    background-size: cover;
+}
+
+#ski{
+    height: 100%;
+    opacity: 50%;
+    position: relative;
+}
+
+
+.container{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    font-size: 225%;
+    font-weight: bolder;
+    margin-top: 450px;
+    position: relative;
+    z-index: 50;
+}
+
+.flex_homepage{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+.flex_homepage2{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
