@@ -64,15 +64,8 @@
         transition: all 0.5s;
         z-index: 997;
         background: rgba(52, 59, 64, 0.9);
-    }
-    #header #logo h1 {
-        font-size: 32px;
-        margin: 0;
-        line-height: 1;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        letter-spacing: 3px;
-        text-transform: uppercase;
+        font-family: "Century Gothic", sans-serif, bold;
+        font-weight: bold;
     }
     #header #logo h1 a, #header #logo h1 a:hover {
         color: #fff;
@@ -119,9 +112,8 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        font-family: "Poppins", sans-serif;
         color: #fff;
-        font-size: 14px;
+        font-size: 20px;
         padding: 0 4px;
         white-space: nowrap;
         transition: 0.3s;

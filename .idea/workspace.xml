@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15fd406d-3c90-4e52-afdd-bc8090fe03a9" name="Changes" comment="" />
+    <list default="true" id="15fd406d-3c90-4e52-afdd-bc8090fe03a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_navbar/navBar.php" beforeDir="false" afterPath="$PROJECT_DIR$/_navbar/navBar.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -38,6 +42,8 @@
       <workItem from="1635511962708" duration="1916000" />
       <workItem from="1635514006092" duration="161000" />
       <workItem from="1635514280661" duration="60000" />
+      <workItem from="1637054302623" duration="10000" />
+      <workItem from="1637327203445" duration="665000" />
     </task>
     <servers />
   </component>
