@@ -1,0 +1,226 @@
+/**
+* Template Name: Gp - v4.6.0
+* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color-body);
+    color: var(--text-color);
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background-color: var(--element-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background-color: var(--background-color-special);
+}
+
+.back-to-top:hover i {
+    color: #fff;
+}
+
+.back-to-top.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Preloader
+--------------------------------------------------------------*/
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #151515;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 0px);
+    left: calc(50% - 30px);
+    border: 6px solid #ffc451;
+    border-top-color: #151515;
+    border-bottom-color: #151515;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+    text-align: center;
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+    background-color: var(--background-color-contenu);
+    border: var(--border-color) solid 1px
+
+}
+
+.services .icon-box .icon {
+    margin: 0 auto 20px;
+    width: 64px;
+    height: 64px;
+    background: var(--element-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.services .icon-box .icon i {
+    color: #fff;
+    font-size: 28px;
+    transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.services .icon-box h4 a {
+    color: var(--text-color);
+    transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 a:hover {
+    color: var(--text-color-special);
+}
+
+.services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    color: var(--text-color-second);
+    margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+    border-color: var(--border-hover-background-color);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+    padding: 15px 0;
+    background: var(--background-color-body);
+    min-height: 40px;
+    margin-top: 74px;
+}
+.breadcrumbs h2 {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--text-color)
+}
+.breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color)
+}
+.breadcrumbs ol li + li {
+    padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+    display: inline-block;
+    padding-right: 10px;
+    color: var(--text-color);
+    content: "/";
+}
+@media (max-width: 992px) {
+    .breadcrumbs {
+        margin-top: 68px;
+        text-align: center;
+    }
+    .breadcrumbs .d-flex {
+        display: block !important;
+    }
+    .breadcrumbs ol {
+        display: block;
+    }
+    .breadcrumbs ol li {
+        display: none;
+    }
+}
