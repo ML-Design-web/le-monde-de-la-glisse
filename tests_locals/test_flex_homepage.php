@@ -30,7 +30,7 @@
     <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="navbar_style.css" />
 
 </head>
@@ -40,7 +40,7 @@
     <?php
     include_once('test_navbar.php');
     ?>
-    <section>
+    <!-- <section>
 
         <div class="main_img">
             <div class="img1">
@@ -64,6 +64,44 @@
                 <img src="img/chevron_winter.svg" alt="flèche" class="right">
             </div>
         </div>
+    </section> -->
+
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="container mt-5  ">
+                <div class="row wd-100 mt-5">
+                    <div class="col-md-6 text-center mx-auto pr-25 mt-5">
+                        <a href="#about" class="btn-get-started">sport d'été'</a>
+                    </div>
+                    <div class="col-md-6 text-center mx-auto mt-5">
+                        <a href="#about" class="btn-get-started">sport d'hiver'</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row about-container">
+                <div class="col-sm-6 img_content">
+                    <div class="img1">
+                        <img src="img/img-surf.webp" alt="surf" id="surf">
+                    </div>
+                    <div class="flex_homepage">
+                        <span class="left" id="winter">SPORT D'ÉTÉ</span>
+                        <img src="img/chevron_summer.svg" alt="flèche" class="left">
+                    </div>
+                </div>
+                <div class="col-sm-6 img_content">
+                    <div class="img2">
+                        <img src="img/img-ski.webp" alt="ski" id="ski">
+                    </div>
+                    <div class="flex_homepage2">
+                        <span class="right" id="summer">SPORT D'HIVER</span>
+                        <img src="img/chevron_winter.svg" alt="flèche" class="right">
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </section>
 
     <main>

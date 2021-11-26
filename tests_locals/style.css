@@ -4,10 +4,12 @@ body{
     font-family: 'Segoe UI', bold, sans-serif;
     overflow-x: hidden;
     user-select: none;
+    width: 100%;
+    height: 100%;
 }
 
-
-.main_img{
+/* 
+.img_content{
 
     width: 100%;
     height: 750px;
@@ -19,47 +21,6 @@ body{
     top: 0;
 }
 
-.img1{
-
-    width: 50%;
-    height: auto;
-    background-size: cover;
-    left: -75px;
-}
- 
-#surf{
-    height: 95%;
-    position: relative;
-    opacity: 50%;
-    margin-right: 0;
-    float: right;
-}
-.img2{
-
-    width: 50%;
-    height: auto;
-    background-size: cover;
-}
-
-#ski{
-    height: 95%;
-    opacity: 50%;
-    position: relative;
-}
-
-
-.container_season{
-
-    display: flex;
-    justify-content: space-between;
-    padding: 0 16%;
-    font-size: 225%;
-    font-weight: bolder;
-    margin-top: 500px;
-    position: relative;
-    z-index: 50;
-    opacity: 85%;
-}
 
 .flex_homepage{
 
@@ -74,7 +35,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 
   a {
     color: #2dc997;
