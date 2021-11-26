@@ -31,6 +31,7 @@
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar_style.css" />
 
 </head>
 
