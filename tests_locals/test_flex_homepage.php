@@ -66,22 +66,38 @@
         </div>
     </section>
 
+    <main>
+        <section id="été">
 
-    <section id="été">
-
-    </section>
-
-
-
-    <section id="hiver">
-
-    </section>
+        </section>
 
 
 
-    <section id="contact">
+        <section id="hiver">
 
-    </section>
+        </section>
+
+
+
+        <section id="contact">
+
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                &lt;/&gt; avec ❤ par <strong>Alan THOB</strong> & <strong>Mathis Lambert</strong><br>
+                <strong><a href="index.php">Le Monde De La Glisse</a> 2021 - 2022.</strong><br>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
 
 
 </body>
