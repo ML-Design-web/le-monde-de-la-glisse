@@ -22,7 +22,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sfaitV3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -43,6 +43,7 @@
       <workItem from="1637327203445" duration="665000" />
       <workItem from="1637329594933" duration="589000" />
       <workItem from="1637437985829" duration="7000" />
+      <workItem from="1637931914742" duration="393000" />
     </task>
     <servers />
   </component>
