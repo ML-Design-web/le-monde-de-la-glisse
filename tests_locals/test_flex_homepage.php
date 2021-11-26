@@ -40,29 +40,48 @@
     <?php
     include_once('test_navbar.php');
     ?>
+    <section>
 
-    <div class="main_img">
-        <div class="img1">
-            <img src="img/img-surf.webp" alt="surf" id="surf">
+        <div class="main_img">
+            <div class="img1">
+                <img src="img/img-surf.webp" alt="surf" id="surf">
+            </div>
+
+            <div class="img2">
+                <img src="img/img-ski.webp" alt="ski" id="ski">
+            </div>
         </div>
 
-        <div class="img2">
-            <img src="img/img-ski.webp" alt="ski" id="ski">
-        </div>
-    </div>
+        <div class="container_season">
 
-    <div class="container_season">
+            <div class="flex_homepage">
+                <span class="left" id="winter">SPORT D'ÉTÉ</span>
+                <img src="img/chevron_summer.svg" alt="flèche" class="left">
+            </div>
 
-        <div class="flex_homepage">
-            <span class="left" id="winter">SPORT D'ÉTÉ</span>
-            <img src="img/chevron_summer.svg" alt="flèche" class="left">
+            <div class="flex_homepage2">
+                <span class="right" id="summer">SPORT D'HIVER</span>
+                <img src="img/chevron_winter.svg" alt="flèche" class="right">
+            </div>
         </div>
+    </section>
 
-        <div class="flex_homepage2">
-            <span class="right" id="summer">SPORT D'HIVER</span>
-            <img src="img/chevron_winter.svg" alt="flèche" class="right">
-        </div>
-    </div>
+
+    <section id="été">
+
+    </section>
+
+
+
+    <section id="hiver">
+
+    </section>
+
+
+
+    <section id="contact">
+
+    </section>
 
 
 </body>
