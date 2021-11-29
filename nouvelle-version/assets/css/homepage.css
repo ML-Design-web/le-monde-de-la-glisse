@@ -796,6 +796,8 @@ section {
     opacity: 0;
     transition: ease-in-out 0.3s;
     text-align: center;
+    color: white;
+    fill: white;
 }
 
 .team .member .social a {

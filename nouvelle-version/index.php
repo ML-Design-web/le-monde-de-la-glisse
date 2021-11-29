@@ -58,13 +58,25 @@ ini_set('display_errors', 'on');
             <img id="hero" src="assets/img/webp/img_main.webp" usemap="#mainmap">
         </div><!-- End Hero -->
         <map name="mainmap">
-            <area shape="rect" coords="0,0,760,1080" href="1" alt="img">
-            <area shape="rect" coords="760,0,1920,1080" href="2" alt="img">
+            <area shape="rect" coords="0,0,760,1080" href="#summersport" alt="img">
+            <area shape="rect" coords="760,0,1920,1080" href="#wintersport" alt="img">
         </map>
     </section>
 
     <main id="main">
 
+
+
+        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'ETE         ############## -->
+        <section id="summersport">
+
+        </section>
+
+
+        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'HIVER         ############## -->
+        <section id="wintersport">
+
+        </section>
         <!-- ======= Team Section ======= -->
         <section class="team">
             <div class="container" data-aos="fade-up">
