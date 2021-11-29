@@ -67,16 +67,27 @@ ini_set('display_errors', 'on');
 
 
 
-        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'ETE         ############## -->
+        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'ETE       ############ -->
         <section id="summersport">
+            <div class="d-flex align-items-center justify-content-center surfer">
+                <img src="assets/img/webp/surfer.webp" alt="skier">
+            </div>
 
         </section>
+        <!-- FIN CATEGORIE -->
 
 
-        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'HIVER         ############## -->
+        <!-- ###########     CATEGORIE DE CHOIX DU SPORT D'HIVER       ############ -->
         <section id="wintersport">
-
+            <div class="d-flex align-items-center justify-content-center skier">
+                <img src="assets/img/webp/skier.webp" alt="surfer">
+            </div>
         </section>
+        <!-- FIN CATEGORIE -->
+
+
+
+
         <!-- ======= Team Section ======= -->
         <section class="team">
             <div class="container" data-aos="fade-up">

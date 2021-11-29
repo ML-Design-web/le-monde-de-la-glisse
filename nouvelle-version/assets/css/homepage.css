@@ -224,6 +224,44 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+
+
+/* section été */
+/* ############ */
+#summersport{
+    background-color: #20eac4;
+    padding:0;
+    height: 900px;
+}
+
+.surfer img{
+
+    max-width: 100%;
+    display: block;
+    width: 45%;
+    transform: rotate(20deg);
+}
+/* ############## */
+
+
+
+/* section hiver */
+/* ############ */
+#wintersport{
+    background-color: #22baff;
+    padding:0;
+    height: 900px;
+}
+
+.skier img{
+    
+    max-width: 100%;
+    display: block;
+    width: 45%;
+    transform: rotate(-20deg);
+}
+/* ############## */
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
