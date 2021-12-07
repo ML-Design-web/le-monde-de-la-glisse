@@ -55,7 +55,7 @@
 
         .navbar>ul>li {
             white-space: nowrap;
-            padding: 10px 0 10px 24px;
+            padding: 9px 0 10px 24px;
         }
 
         .navbar a,
@@ -116,7 +116,7 @@
         .navbar .dropdown ul {
             display: block;
             position: absolute;
-            left: 20px;
+            left: 13px;
             top: calc(100% + 20px);
             margin-top: 15px;
             padding: 10px 0;
