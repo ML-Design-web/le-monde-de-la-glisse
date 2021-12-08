@@ -233,20 +233,28 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #fff;
     height: 100vh;
     display: block;
+    padding: 0;
 }
 
 .surfer img{
+    margin-top: -75vh;
     max-width: 100%;
+    position: absolute;
     display: block;
-    width: 20%;
-    transform: rotate(20deg);
-    z-index: 110;
-    align-items: center;
+    width: 30%;
+    transform: rotate(10deg);
 }
-fond-image-surfer {
+
+.fond{
+    height: 100vh;
+}
+.fond-image-surfer {
     background-color: #20eac4;
     width: 100%;
-    height: 75%;
+    height: 50%;
+    display: block;
+    margin-top: 25vh;
+    box-shadow: 0 0 20px #2828285e;
 }
 
 /* ############## */
@@ -255,25 +263,28 @@ fond-image-surfer {
 
 /* section hiver */
 #wintersport{
-    background-color: #22baff;
-    padding:0;
-    max-width: 100%;
-    height: auto;
+    background-color: #fff;
+    height: 100vh;
     display: block;
+    padding: 0;
 }
 
 .skier img{
-    
+    margin-top: -150vh;
     max-width: 100%;
+    position: absolute;
     display: block;
     width: 30%;
     transform: rotate(-20deg);
 }
 
-fond-image-skier {
-    background-color: #20eac4;
-    width: auto;
-    height: 75%;
+.fond-image-skier {
+    background-color: #22baff;
+    width: 100vw;
+    height: 50%;
+    display: block;
+    margin-top: 25vh;
+    box-shadow: 0 0 20px #2828285e;
 }
 
 /*--------------------------------------------------------------

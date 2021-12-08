@@ -85,7 +85,7 @@
             position: absolute;
             width: 115%;
             height: 65px;
-            bottom: -20.5px;
+            bottom: -21px;
             left: -8%;
             background-color: #3fa9f5;
             transform: scaleX(0);
@@ -194,7 +194,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero"><span id="titles">Accueil</span></a></li>
-                    <li class="dropdown"><a href="#"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                         <ul>
                             <li><a href="#">HOMMES</a></li>
                             <li><a href="#">FEMMES</a></li>
@@ -202,7 +202,7 @@
                             <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                         <ul>
                             <li class="dropdown"><a href="#"><span id="titles">PLANCHES</span> <i class="bi bi-chevron-right"></i></a>
                                 <ul>
