@@ -1,5 +1,10 @@
 @import "main.css";
 
+@font-face {
+    font-family: 'theboldfont';
+    src: url(../fonts/theboldfont.ttf);
+}
+
 /**
 * Template Name: Gp - v4.6.0
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
@@ -20,7 +25,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: "theboldfont", sans-serif;
 }
 
 .unselectable {
@@ -235,7 +240,9 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 0;
 }
-
+.surfer{
+    margin-top: 5vh;
+}
 .surfer img{
     margin-top: -75vh;
     max-width: 100%;
@@ -255,6 +262,99 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     margin-top: 25vh;
     box-shadow: 0 0 20px #2828285e;
+}
+
+.sport-list{
+    position: absolute;
+    float: right;
+    margin-top: -35vh;
+    margin-left: 65vw;
+}
+
+
+/* le container doit etre en position relative */
+.custom-select {
+    position: relative;
+    font-family: 'theboldfont';
+
+  }
+  
+  .custom-select select {
+    display: none; /*cacher le select original*/
+  }
+  
+  .select-selected {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    width: 20vw;
+    transition: all .5s;
+    border: 4px solid #ffff;
+  }
+  
+  /* Style de la flèche dans l'élément /select/: */
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  
+  /* pointer la flèche vers le haut lorsque la liste est déroulée (active): */
+  .select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 13px;
+  }
+  
+  /* style des options, inclus les éléments selectionnés */
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all .5s;
+
+  }
+  
+  /* Style des éléments d'options (options): */
+  .select-items {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    transition: all .5s;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 2px solid #ffff;
+  }
+  
+  /* refermer la liste quand un élément est selectionné */
+  .select-hide {
+    display: none;
+  }
+  
+  .select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    transition: all .5s;
+  }
+
+
+.text-glisse{
+    position: absolute;
+    margin-top: -52vh;
+    color: #fff ;
+
+}
+.text-glisse span{
+    font-family: 'theboldfont';
+    color: #fff ;
+    font-size: 7rem;
+    display: block;
+    height: 15vh;
 }
 
 /* ############## */

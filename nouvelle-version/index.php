@@ -68,12 +68,31 @@ ini_set('display_errors', 'on');
 
         <!-- ======  CATEGORIE DE CHOIX DU SPORT D'ETE  ====== -->
         <section id="summersport">
+
             <div class="fond">
                 <span class="fond-image-surfer"></span>
+                <div class="container">
+                    <div class="text-glisse">
+                        <span>CHOISIS</span>
+                        <span>TA</span>
+                        <span>GLISSE</span>
+                    </div>
+                    <div class="sport-list custom-select">
+                        <select name="sports" id="sport-select">
+                            <option value="0">choisir dans la liste</option>
+                            <option value="1">Surf</option>
+                            <option value="2">Paddle</option>
+                            <option value="3">Kite-Surf</option>
+                            <option value="4">Planche à voile</option>
+                        </select>
+                    </div>
+                </div>
             </div>
+
             <div class="d-flex align-items-center justify-content-center surfer">
                 <img src="assets/img/webp/surfer.png" alt="surfer">
             </div>
+
         </section>
         <!-- FIN CATEGORIE -->
 
@@ -83,6 +102,21 @@ ini_set('display_errors', 'on');
         <section id="wintersport">
             <div class="fond">
                 <span class="fond-image-skier"></span>
+                <div class="container">
+                    <div class="text-glisse">
+                        <span>CHOISIS</span>
+                        <span>TA</span>
+                        <span>GLISSE</span>
+                    </div>
+                    <div class="sport-list custom-select">
+                        <select name="sports" id="sport-select">
+                            <option value="0">choisir dans la liste</option>
+                            <option value="1">Ski</option>
+                            <option value="2">Snowboard</option>
+                            <option value="3">Patin à glace</option>
+                        </select>
+                    </div>
+                </div>
             </div>
             <div class="d-flex align-items-center justify-content-center skier bg" data-aos="fade-left">
                 <img src="assets/img/webp/skier.png" alt="skier">
@@ -186,6 +220,10 @@ ini_set('display_errors', 'on');
     <?php
     include_once('_footer/_footer.php');
     ?>
+
+    <script src="assets/js/select-list.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
