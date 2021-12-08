@@ -75,7 +75,7 @@ ini_set('display_errors', 'on');
                     <div class="text-glisse">
                         <span>CHOISIS</span>
                         <span>TA</span>
-                        <span>GLISSE</span>
+                        <span>GLISSE.</span>
                     </div>
                     <div class="sport-list custom-select">
                         <select name="sports" id="sport-select">
@@ -106,7 +106,7 @@ ini_set('display_errors', 'on');
                     <div class="text-glisse">
                         <span>CHOISIS</span>
                         <span>TA</span>
-                        <span>GLISSE</span>
+                        <span>GLISSE.</span>
                     </div>
                     <div class="sport-list custom-select">
                         <select name="sports" id="sport-select">
