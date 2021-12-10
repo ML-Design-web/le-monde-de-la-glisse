@@ -43,6 +43,7 @@ ini_set('display_errors', 'on');
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link href="assets/css/homepage.css" rel="stylesheet">
 </head>
 
