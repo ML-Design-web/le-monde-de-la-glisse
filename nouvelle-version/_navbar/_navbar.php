@@ -84,8 +84,8 @@
             content: "";
             position: absolute;
             width: 115%;
-            height: 65px;
-            bottom: -21px;
+            height: 64px;
+            bottom: -22px;
             left: -8%;
             background-color: #3fa9f5;
             transform: scaleX(0);
