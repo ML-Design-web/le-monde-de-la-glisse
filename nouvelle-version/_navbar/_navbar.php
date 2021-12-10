@@ -1,10 +1,10 @@
 <!-- ======= Navbar ======= -->
-<header id="header" class="fixed-top d-flex align-items-center" style="background-color: white; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; box-shadow: 0 6px 20px #0000008f; ">
+<header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
 
         <div>
             <a href="../index.php">
-                <img src="https://www.sfait.net/images/la-glisse/logo.png" alt="logo-la-glisse" width="40%">
+                <img src="https://www.sfait.net/images/la-glisse/logo.png" alt="logo-la-glisse">
             </a>
         </div>
 
