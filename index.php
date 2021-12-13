@@ -72,7 +72,7 @@ ini_set('display_errors', 'on');
 
             <div class="fond">
                 <span class="fond-image-surfer"></span>
-                <div class="container">
+                <div class="container1">
                     <div class="text-glisse">
                         <span>CHOISIS</span>
                         <span>TA</span>
@@ -103,11 +103,11 @@ ini_set('display_errors', 'on');
         <section id="wintersport">
             <div class="fond">
                 <span class="fond-image-skier"></span>
-                <div class="container">
-                    <div class="text-glisse">
-                        <span>CHOISIS</span>
-                        <span>TA</span>
-                        <span>GLISSE.</span>
+                <div class="container1">
+                    <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
+                        <span>CHOISIS&nbsp; </span>
+                        <span>TA&nbsp;</span>
+                        <span>GLISSE.&nbsp;</span>
                     </div>
                     <div class="sport-list custom-select">
                         <select name="sports" id="sport-select">
@@ -119,8 +119,8 @@ ini_set('display_errors', 'on');
                     </div>
                 </div>
             </div>
-            <div class="d-flex align-items-center justify-content-center skier bg" data-aos="fade-left">
-                <img src="assets/img/webp/skier.png" alt="skier">
+            <div class="d-flex align-items-center justify-content-center skier bg">
+                <img src="assets/img/webp/skier.png" alt="skier" data-aos="fade-left" data-aos-delay="300">
             </div>
         </section>
         <!-- FIN CATEGORIE -->
