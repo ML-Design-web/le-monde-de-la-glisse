@@ -2,19 +2,19 @@
     height: 55px;
     transition: all 0.5s;
     z-index: 997;
-    background: #28282862;
+    background: transparent;
     font-family: "Century Gothic", sans-serif, bold;
     font-weight: bold;
     transition: all 0.5s;
 /*     background-color: white;  */
     border-bottom-left-radius: 20px; 
     border-bottom-right-radius: 20px; 
-    box-shadow: 0 6px 20px #0000004f;
 }
 
 #header h1 a,
 #header h1 a:hover {
     color: #3fa9f5;
+    
 }
 
 #header img {
@@ -82,6 +82,7 @@
     bottom: -9px;
     left: -8%;
     background-color: #3fa9f5;
+    box-shadow: 0 0px 5px #0000004f;
     transform: scaleY(0);
     transition: all 0.4s ease-in-out 0s;
     border-bottom-left-radius: 20px;

@@ -1,5 +1,5 @@
 <!-- ======= Navbar ======= -->
-<header id="header" class="fixed-top d-flex align-items-center">
+<header id="header" class="startchange fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
 
         <div>

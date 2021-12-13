@@ -1068,13 +1068,13 @@ section {
 
 .contact .php-email-form input {
     background-color: var(--background-color-input);
-    color: var(--text-color-second);
+    color: var(--text-color);
     height: 44px;
 }
 
 .contact .php-email-form textarea {
     background-color: var(--background-color-input);
-    color: var(--text-color-second);
+    color: var(--text-color);
     padding: 10px 12px;
 }
 
