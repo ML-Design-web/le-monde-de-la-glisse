@@ -213,8 +213,6 @@ ini_set('display_errors', 'on');
                 </div>
 
             </div>
-
-            </div>
         </section><!-- End Contact Section -->
     </main><!-- End #main -->
 
