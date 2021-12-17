@@ -1,3 +1,11 @@
+@import "main.css";
+@import "template.css";
+
+@font-face {
+    font-family: 'theboldfont';
+    src: url(../fonts/theboldfont.ttf);
+}
+
 #shop_section {
     height: 100vh;
     width: 100vw;
