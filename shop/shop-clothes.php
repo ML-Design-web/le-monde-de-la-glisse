@@ -12,18 +12,16 @@ ini_set('display_errors', 'on');
     <meta name="description" content="#" />
     <meta name="robots" content="index, follow" />
     <meta property="theme-color" content="#B0FF00" />
-    <meta property="og:title" content="Accueil | Le monde de la glisse | SFAIT" />
+    <meta property="og:title" content="Nos Vêtements | Le monde de la glisse" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="#" />
     <meta property="og:url" content="#" />
-    <meta property="og:description" content="SFAIT est un service dédié à la réparation informatique et téléphonique. Depuis 2019, nous sommes à vos côtés pour vous assister et le serons pour toujours. Nous proposons des services d'intervention à distance via un logiciel de contrôle du pc à distance
-        ainsi que des services d'envoi de votre pc par voie postale pour une réparation faite maison." />
+    <meta property="og:description" content="#" />
     <meta property="og:locale" content="fr_FR" />
-    <meta property="keywords" content="sfait, sfait.net, dépannage informatique, réparation téléphones, informatique, téléphonie" />
+    <meta property="keywords" content="#" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Accueil | Le monde de la glisse | SFAIT" />
-    <meta name="twitter:description" content="SFAIT est un service dédié à la réparation informatique et téléphonique. Depuis 2019, nous sommes à vos côtés pour vous assister et le serons pour toujours. Nous proposons des services d'intervention à distance via un logiciel de contrôle du pc à distance
-            ainsi que des services d'envoi de votre pc par voie postale pour une réparation faite maison." />
+    <meta name="twitter:title" content="Accueil | Le monde de la glisse" />
+    <meta name="twitter:description" content="#" />
     <meta name="twitter:image" content="#" />
 
 
