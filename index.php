@@ -54,14 +54,38 @@ ini_set('display_errors', 'on');
     ?>
 
     <!-- ======= Hero Section ======= -->
-    <section id="main-hero">
-        <div class="d-flex align-items-center justify-content-center ">
-            <img id="hero" src="assets/img/webp/img_main.webp" usemap="#mainmap">
-        </div><!-- End Hero -->
-        <map name="mainmap">
-            <area shape="rect" coords="0,0,760,1080" href="#summersport" alt="img">
-            <area shape="rect" coords="760,0,1920,1080" href="#wintersport" alt="img">
-        </map>
+    <!-- <section id="main-hero">
+            <div class="d-flex align-items-center justify-content-center ">
+                <img id="hero" src="assets/img/webp/img_main.webp" usemap="#mainmap">
+            </div>
+            <map name="mainmap">
+                <area shape="rect" coords="0,0,760,1080" href="#summersport" alt="img">
+                <area shape="rect" coords="760,0,1920,1080" href="#wintersport" alt="img">
+            </map>
+        </section> -->
+    <section id="main-hero-2">
+        <div class="row-pers">
+            <div class="col-sm-6">
+                <a href="#summersport">
+                    <div class=" bg-summer text-center bg-main">
+                        <div class="text-pos">
+                            <h1>Sport D'été</h1>
+                            <i class="fs-1 bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-6">
+                <a href="#wintersport">
+                    <div class="bg-winter text-center bg-main ">
+                        <div class="text-pos">
+                            <h1>Sport D'hiver</h1>
+                            <i class="fs-1 bi bi-chevron-down"></i>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
 
     <main id="main">

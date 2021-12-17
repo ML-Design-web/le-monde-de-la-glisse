@@ -10,8 +10,8 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto" href="#main-hero-2"><span id="titles">Accueil</span></a></li>
-                <li class="nav-link scrollto dropdown"><a href="shop/shop-clothes.php"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li><a class="nav-link scrollto active" href="#hero"><span id="titles">Accueil</span></a></li>
+                <li class="nav-link scrollto dropdown"><a href="#clothes"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li><a href="#">HOMMES</a></li>
                         <li><a href="#">FEMMES</a></li>

@@ -7,7 +7,7 @@ ini_set('display_errors', 'on');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Shop | Le monde de la glisse</title>
+    <title>Nos Vêtements | Le monde de la glisse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="#" />
     <meta name="robots" content="index, follow" />
@@ -48,19 +48,19 @@ ini_set('display_errors', 'on');
     <link rel="stylesheet" href="../assets/css/shop.css">
 </head>
 
-<body class="unselectable">
+<body id="clothes" class="unselectable">
 
     <?php
-    include_once('../_navbar/_navbar.php');
+    include_once('../_navbar/_navbar-clothes.php');
     ?>
 
-    <section>
+    <section id="clothes">
         <!-- Header-->
         <header id="bg" class="py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Shop in style</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                    <h1 class="display-4 fw-bolder">Nos Vêtements</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Découvrez notre collection de vêtements d'hiver.</p>
                 </div>
             </div>
         </header>
