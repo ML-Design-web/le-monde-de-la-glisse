@@ -20,7 +20,7 @@ ini_set('display_errors', 'on');
     <meta property="og:locale" content="fr_FR" />
     <meta property="keywords" content="#" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Accueil | Le monde de la glisse" />
+    <meta name="twitter:title" content="Nos Vêtements | Le monde de la glisse" />
     <meta name="twitter:description" content="#" />
     <meta name="twitter:image" content="#" />
 
