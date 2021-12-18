@@ -40,6 +40,8 @@
                 <li><a class="nav-link scrollto" href="#team"><span id="titles"> Méteo</span></a></li>
 
                 <li><a class="nav-link scrollto" href="#contact"><span id="titles"> Contact</span></a></li>
+                <li><a href="#"> <i class="fs-5 bi bi-bag" id="titles" style="margin: 0;"></i> <span id="titles">&nbsp; 0</span> </a></li>
+                <li><a href="#"> <i class="fs-5 bi bi-person-circle" id="titles" style="margin: 0;"></i></a></li>
             </ul>
         </nav>
     </div>
