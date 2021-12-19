@@ -19,7 +19,7 @@
                         <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li class="dropdown"><a href="shop-accessories.php"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span id="titles">PLANCHES</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>

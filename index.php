@@ -47,20 +47,12 @@ ini_set('display_errors', 'off');
 
 <body class="unselectable">
 
+
     <?php
     include_once('_navbar/_navbar.php');
     ?>
 
     <!-- ======= Hero Section ======= -->
-    <!-- <section id="main-hero">
-            <div class="d-flex align-items-center justify-content-center ">
-                <img id="hero" src="assets/img/webp/img_main.webp" usemap="#mainmap">
-            </div>
-            <map name="mainmap">
-                <area shape="rect" coords="0,0,760,1080" href="#summersport" alt="img">
-                <area shape="rect" coords="760,0,1920,1080" href="#wintersport" alt="img">
-            </map>
-        </section> -->
     <section id="main-hero-2">
         <div class="row-pers">
             <div class="col-sm-6">
@@ -95,7 +87,7 @@ ini_set('display_errors', 'off');
             <div class="fond">
                 <span class="fond-image-surfer"></span>
                 <div class="container1">
-                    <div class="text-glisse">
+                    <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
                         <span>CHOISIS</span>
                         <span>TA</span>
                         <span>GLISSE.</span>
@@ -113,7 +105,7 @@ ini_set('display_errors', 'off');
             </div>
 
             <div class="d-flex align-items-center justify-content-center surfer">
-                <img src="assets/img/webp/surfer.png" alt="surfer">
+                <img src="assets/img/webp/surfer.png" alt="surfer" data-aos="fade-left" data-aos-delay="300">
             </div>
 
         </section>
@@ -241,9 +233,6 @@ ini_set('display_errors', 'off');
     <?php
     include_once('_footer/_footer.php');
     ?>
-
-    <script src="assets/js/select-list.js"></script>
-    <script src="assets/js/main.js"></script>
 
 </body>
 

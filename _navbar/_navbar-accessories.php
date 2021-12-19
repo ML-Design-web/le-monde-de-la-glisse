@@ -10,8 +10,8 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero"><span id="titles">Accueil</span></a></li>
-                <li class="nav-link scrollto dropdown"><a href="#clothes"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li><a class="nav-link scrollto" href="../index.php"><span id="titles">Accueil</span></a></li>
+                <li class="nav-link scrollto dropdown"><a href="shop-clothes.php"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li><a href="#">HOMMES</a></li>
                         <li><a href="#">FEMMES</a></li>
@@ -19,7 +19,7 @@
                         <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li class="dropdown"><a class="nav-link scrollto active" href="#"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span id="titles">PLANCHES</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
@@ -38,8 +38,9 @@
                 </li>
                 <li><a class="nav-link scrollto " href="#portfolio"><span id="titles"> Tutoriel</span></a></li>
                 <li><a class="nav-link scrollto" href="#team"><span id="titles"> Méteo</span></a></li>
-
-                <li><a class="nav-link scrollto" href="#contact"><span id="titles"> Contact</span></a></li>
+                <li><a class="nav-link scrollto" href="../index.php#contact"><span id="titles"> Contact</span></a></li>
+                <li><a href="#"> <i class="fs-5 bi bi-bag" id="titles" style="margin: 0;"></i> <span id="titles">&nbsp; 0</span> </a></li>
+                <li><a href="#"> <i class="fs-5 bi bi-person-circle" id="titles" style="margin: 0;"></i></a></li>
             </ul>
         </nav>
     </div>

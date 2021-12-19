@@ -7,7 +7,7 @@ ini_set('display_errors', 'on');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Nos Vêtements | Le monde de la glisse</title>
+    <title>Nos Accessoires | Le monde de la glisse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="#" />
     <meta name="robots" content="index, follow" />
@@ -49,7 +49,7 @@ ini_set('display_errors', 'on');
 <body id="clothes" class="unselectable">
 
     <?php
-    include_once('../_navbar/_navbar-clothes.php');
+    include_once('../_navbar/_navbar-accessories.php');
     ?>
 
     <section id="clothes">
@@ -57,8 +57,8 @@ ini_set('display_errors', 'on');
         <header id="bg" class="py-5">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder">Nos Vêtements</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">Découvrez notre collection de vêtements d'hiver.</p>
+                    <h1 class="display-4 fw-bolder">Nos Accessoires</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Découvrez notre collection d'accessoires d'hiver.</p>
                 </div>
             </div>
         </header>
