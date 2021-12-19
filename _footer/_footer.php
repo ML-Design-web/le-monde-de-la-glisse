@@ -170,13 +170,13 @@
 
     <div class="container">
         <div id="copyright" class="copyright">
-            &lt;/&gt; avec ❤ par <strong><span><a href="https://github.com/Cresus83" target="_blank">THOB Alan</a></strong> & <strong><a href="https://github.com/ML-Design-web/" target="_blank">LAMBERT Mathis</a></span>.<br>
-                &copy; Copyright<a href="#"> Le monde de la glisse</a> #DATE#.
+            &lt;/&gt; avec ❤ par <strong><span><a href="https://github.com/Cresus83" target="_blank">THOB Alan</a></strong> & <strong><a href="https://github.com/ML-Design-web/" target="_blank">LAMBERT Mathis</a></strong>.<br>
+            &copy; Copyright<a href="#"> Le monde de la glisse</a> #DATE#.
         </div>
     </div>
 </footer><!-- End Footer -->
 
-<div id="preloader"></div>
+<!--<div id="preloader"></div>-->
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
     <i class="bi bi-arrow-up-short"></i>
 </a>
@@ -184,14 +184,14 @@
 
 <!-- Vendor JS Files -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://www.sfait.net/assets/vendor/aos/aos.js"></script>
-<script src="https://www.sfait.net/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://www.sfait.net/assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="https://www.sfait.net/assets/vendor/php-mail-form/validate-mail.js"></script>
-<script src="https://www.sfait.net/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="https://www.sfait.net/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/vendor/aos/aos.js"></script>
+<script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="../assets/vendor/php-mail-form/validate-mail.js"></script>
+<script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
 <!-- Template Main JS File -->
-<script src="https://www.sfait.net/assets/js/main.js"></script>
+<script src="../assets/js/main.js"></script>
 <script>document.getElementById(`copyright`).innerHTML = document.getElementById(`copyright`).innerHTML.replace(`#DATE#`, new Date().getFullYear());</script>
 </html>
