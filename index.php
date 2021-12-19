@@ -1,5 +1,5 @@
 <?php
-ini_set('display_errors', 'on');
+ini_set('display_errors', 'off');
 ?>
 <!DOCTYPE html>
 <html lang="fr">
