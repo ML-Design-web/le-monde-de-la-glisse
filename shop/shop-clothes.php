@@ -275,6 +275,7 @@ ini_set('display_errors', 'on');
     include_once('../_footer/_footer.php');
     ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
