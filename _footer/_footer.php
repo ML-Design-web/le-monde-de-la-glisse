@@ -63,7 +63,7 @@
 
         #footer .footer-top .footer-links ul i {
             padding-right: 2px;
-            color: #000000;
+            color: #3fa9f5;
             font-size: 18px;
             line-height: 1;
         }
