@@ -1,0 +1,355 @@
+.badge {
+    background-color: #6394F8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.connect-button {
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#main-hero {
+    background-color: #282828;
+    padding: 0;
+}
+#main-hero-2 {
+    background-color: #282828;
+    padding: 0;
+    height: 100vh;
+    max-width: 100vw;
+
+}
+
+.row-pers{
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.bg-main h1{
+    color: #fff;
+    transition: all .3s;
+    z-index: 2;
+    position: relative;
+}
+.bg-main h1:hover{
+    color: rgba(255, 255, 255, 0.575);
+    transition: all .3s;
+    font-size: 3rem;
+    z-index: 2;
+    position: relative;
+}
+
+
+.bg-summer:before{
+    background-image: url(../img/webp/img-surf.webp);
+    background-size: cover;
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.bg-winter:before{
+    background-image: url(../img/webp/img-ski.webp);
+    background-size: cover;
+    content: ' ';
+    display: block;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.50;
+}
+.bg-summer i{
+    color: #06a4ff;
+    z-index: 2;
+    position: relative;
+
+}
+
+.bg-winter i{
+    color: #06ffde;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (min-width:576px){
+    .bg-summer, .bg-summer:before{
+        height: 100vh;
+        width: 50vw;
+        background-position: 60% 0;
+
+    }
+
+    .bg-winter, .bg-winter:before{
+        height: 100vh;
+        width: 50vw;
+        background-position: 20% 0;
+
+    }
+    .text-pos{
+        padding-top: 75vh;
+    }
+}
+@media screen and (max-width:576px){
+    .bg-summer, .bg-summer:before{
+        height: 50vh;
+        width: 100vw;
+        background-position: center;
+
+    }
+
+    .bg-winter, .bg-winter:before{
+        height: 50vh;
+        width: 100vw;
+        background-position: center;
+
+    }
+    .text-pos{
+        padding-top: 35vh;
+    }
+}
+
+#hero {
+    max-width: 100%;
+    background-size: cover;
+    height: auto;
+    display: block;
+    z-index: 100;
+
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+    #hero {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #hero {
+        height: auto;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #hero h2 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+/* section été */
+#summersport {
+    background-color: #fff;
+    height: 80vh;
+    display: block;
+    padding: 0;
+}
+
+.surfer {
+    margin-top: 5vh;
+}
+
+.surfer img {
+    margin-top: -79vh;
+    max-width: 100%;
+    position: absolute;
+    display: block;
+    width: 25%;
+    transform: rotate(10deg);
+}
+
+.fond {
+    height: 100vh;
+}
+
+.fond-image-surfer {
+    background-color: #20eac4;
+    width: 100%;
+    height: 50%;
+    display: block;
+    margin-top: 25vh;
+    box-shadow: 0 0 20px #2828285e;
+}
+
+.sport-list {
+    position: absolute;
+    float: right;
+    margin-top: -35vh;
+}
+
+
+/* le container doit etre en position relative */
+.custom-select {
+    position: relative;
+    font-family: 'theboldfont';
+
+}
+
+.custom-select select {
+    display: none; /*cacher le select original*/
+}
+
+.select-selected {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    width: 20vw;
+    transition: all .5s;
+    border: 4px solid #ffff;
+    margin-right: 10vw;
+}
+
+/* Style de la flèche dans l'élément /select/: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 20px;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    margin-right: 10vw;
+}
+
+/* pointer la flèche vers le haut lorsque la liste est déroulée (active): */
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 13px;
+}
+
+/* style des options, inclus les éléments selectionnés */
+.select-items div, .select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+
+/* Style des éléments d'options (options): */
+.select-items {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    transition: all .5s;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border: 2px solid #ffff;
+    margin-right: 10vw;
+}
+
+/* refermer la liste quand un élément est selectionné */
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    transition: all .5s;
+}
+
+
+.text-glisse {
+    position: absolute;
+    margin-top: -52vh;
+    color: #fff;
+
+}
+
+.text-glisse span {
+    font-family: 'theboldfont';
+    color: #fff;
+    font-size: 7rem;
+    display: block;
+    height: 15vh;
+}
+
+/* ############## */
+
+
+/* section hiver */
+#wintersport {
+    background-color: #fff;
+    height: 80vh;
+    display: block;
+    padding: 0;
+}
+
+.skier img {
+    margin-top: -75vh;
+    max-width: 100%;
+    position: absolute;
+    display: block;
+    width: 25%;
+}
+
+.fond-image-skier {
+    background-color: #22baff;
+    width: 100vw;
+    height: 50%;
+    display: block;
+    margin-top: 25vh;
+    box-shadow: 0 0 20px #2828285e;
+}
+
+.container1 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 1.25rem);
+    padding-left: var(--bs-gutter-x, 1.25rem);
+}
+
+@media screen and (max-width: 1024px) {
+    .text-glisse span{
+        font-size: 80px;
+        height: 80px;
+        display: block;
+    }
+    .text-glisse{
+        margin-top: -37vh;
+    }
+    .fond-image-surfer, .fond-image-skier {
+        height: 40vh;
+    }
+    .surfer img {
+        margin-top: -85vh;
+    }
+    .select-selected {
+        width: 26vh;
+    }
+    .sport-list {
+        margin-top: -24vh;
+    }
+}
