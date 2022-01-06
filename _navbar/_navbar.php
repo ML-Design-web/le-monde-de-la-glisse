@@ -1,17 +1,16 @@
 <!-- ======= Navbar ======= -->
 <header id="header" class="startchange fixed-top d-flex align-items-center">
     <div class="container d-flex justify-content-between align-items-center">
-
-        <div>
+        <div><!-- Logo de la Barre de navigation + Lien cliquable.-->
             <a href="../index.php">
                 <img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png" alt="logo-la-glisse">
             </a>
         </div>
 
-        <nav id="navbar" class="navbar">
+        <nav id="navbar" class="navbar"><!-- Boutons de la Barre de navigation -->
             <ul>
                 <li><a class="nav-link scrollto" href="#main-hero-2"><span id="titles">Accueil</span></a></li>
-                <li class="nav-link scrollto dropdown"><a href="shop/shop-clothes.php"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li class="nav-link scrollto dropdown"><a href="../shop/shop-clothes.php"><span id="titles">Vêtements</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li><a href="#">HOMMES</a></li>
                         <li><a href="#">FEMMES</a></li>
@@ -19,7 +18,7 @@
                         <li id="bon_plan"><a href="#" style=" color: red;">BONS PLANS</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="shop/shop-accessories.php"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
+                <li class="dropdown"><a href="../shop/shop-accessories.php"><span id="titles">Accessoires</span> <i class="bi bi-chevron-down" id="titles"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span id="titles">PLANCHES</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
