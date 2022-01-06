@@ -4,7 +4,7 @@
 
         <div>
             <a href="../index.php">
-                <img src="https://www.sfait.net/images/la-glisse/logo.png" alt="logo-la-glisse">
+                <img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png" alt="logo-la-glisse">
             </a>
         </div>
 

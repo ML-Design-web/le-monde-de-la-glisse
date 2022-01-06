@@ -127,7 +127,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-info">
-                            <a href="#"><img src="https://www.sfait.net/images/la-glisse/logo.png" alt="logo-le-monde-de-la-glisse" class="img-fluid" width="210"></a>
+                            <a href="#"><img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png" alt="logo-le-monde-de-la-glisse" class="img-fluid" width="210"></a>
                             <div class="social-links mt-3">
                                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                                 <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
