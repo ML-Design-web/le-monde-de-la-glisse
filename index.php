@@ -25,7 +25,7 @@ ini_set('display_errors', 'off');
     <meta name="twitter:image" content="#" />
 
 
-    <!-- Favicons -->
+    <!-- Favicons --> 
     <link href="assets/img/favicon.ico" rel="icon">
     <!--<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
 

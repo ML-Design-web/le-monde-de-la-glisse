@@ -112,20 +112,21 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px 0;
 }
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(24, 6, 185, 0.8);
+  background: #fff;
   padding: 12px 0;
 }
-#header .logo {
-  font-size: 32px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+#header.header-scrolled a{
+  color: #3fa9f5;
 }
-#header .logo a {
+#header.header-scrolled .navbar .getstarted, .navbar .getstarted:focus {
+  border: 2px solid #3fa9f5;
+  color: #3fa9f5;
+}
+
+#header.header-scrolled .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
+  border: 2px solid #3fa9f5;
+  background-color: #3fa9f5;
 }
 #header .logo img {
   max-height: 40px;
