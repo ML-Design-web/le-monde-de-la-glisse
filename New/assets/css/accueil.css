@@ -46,6 +46,8 @@
     transition: all .3s;
     z-index: 2;
     position: relative;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .bg-main h1:hover{
     color: rgba(255, 255, 255, 0.575);

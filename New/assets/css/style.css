@@ -4,7 +4,27 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  overflow-x: hidden;
 }
+
+/*--------------------------------------------------------------
+# Scroll Bar
+--------------------------------------------------------------*/
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color:#666666;
+border-radius: 20px;
+border: 3px solid #fff;
+}
+/*--------------------------------------------------------------*/
+
 
 a {
   color: #5846f9;
@@ -113,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header.header-scrolled, #header.header-inner-pages {
   background: #fff;
-  padding: 12px 0;
+  padding: 7.5px 0;
 }
 #header.header-scrolled a{
   color: #3fa9f5;
@@ -129,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3fa9f5;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 35px;
 }
 
 /*--------------------------------------------------------------
@@ -160,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 0 3px;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.7);
   white-space: nowrap;
@@ -192,11 +212,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 .navbar .getstarted, .navbar .getstarted:focus {
-  padding: 8px 25px;
+  padding: 8px 12px;
   border-radius: 5px;
   color: #fff;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 600;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
@@ -292,6 +312,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(28, 47, 65, 0.9);
   transition: 0.3s;
   z-index: 999;
+  height: 66vh;
 }
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
