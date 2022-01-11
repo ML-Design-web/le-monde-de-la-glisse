@@ -818,9 +818,7 @@ ini_set('display_errors', 'off');
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <p>Un problème avec votre commande ou avec la livraison ? Contactez-nous dès maintenant ! Nos services se chargeront de vous répondre sous 24h ouvrés, du Lundi au Vendredi de 9h00 à 19h et le Samedi de 10h à 18h.</p>
         </div>
 
         <div class="row">
@@ -860,24 +858,24 @@ ini_set('display_errors', 'off');
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
               </div>
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
               <div class="my-3">
-                <div class="loading">Loading</div>
+                <div class="loading">Chargement ...</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Votre message a bien été envoyé et sera traité par nos services très prochainement. A bientot !</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
           </div>
 
@@ -896,13 +894,13 @@ ini_set('display_errors', 'off');
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Techie</h3>
+            <a href="index.html" class="logo-footer"><img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png" alt="" class="img-fluid"></a>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              70 Avenue Roger Devoucoux <br>
+              83000 Toulon<br>
+              France <br><br>
+              <strong>Téléphone:</strong> +33 6 21 19 12 14<br>
+              <strong>Email:</strong> hello@la-glisse.fr<br>
             </p>
           </div>
 
@@ -929,10 +927,10 @@ ini_set('display_errors', 'off');
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Ne manquez plus jamais un bon plan !</h4>
+            <p>Inscrivez votre adresse mail et ne ratez pas un seul bon plan.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email" placeholder="john.doe@domaine.fr"><input type="submit" value="Envoyer">
             </form>
           </div>
 
@@ -945,14 +943,7 @@ ini_set('display_errors', 'off');
       <div class="copyright-wrap d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
           <div class="copyright">
-            &copy; Copyright <strong><span>Techie</span></strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            &copy; Copyright <strong><span>LA GLISSE</span></strong>. Tous droits réservés
           </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
