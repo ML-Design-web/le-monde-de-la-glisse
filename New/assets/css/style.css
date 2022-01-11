@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  border-color: #fff;
+  border: 2px solid #3fa9f5;
 }
 .navbar .getstarted:before, .navbar li:hover > .getstarted:before {
   visibility: hidden;
