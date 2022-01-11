@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #5846f9;
+  border: 6px solid #3fa9f5;
   border-top-color: #e7e4fe;
   border-radius: 50%;
   width: 60px;
@@ -214,11 +214,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .getstarted, .navbar .getstarted:focus {
   padding: 8px 12px;
   border-radius: 5px;
-  color: #fff;
   transition: 0.3s;
   font-size: 10px;
   font-weight: 600;
   border: 2px solid rgba(255, 255, 255, 0.5);
+  float: left;
 }
 
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
@@ -347,6 +347,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
+  border: 2px solid #2c4964;
 }
 .navbar-mobile .dropdown ul {
   position: static;
