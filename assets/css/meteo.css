@@ -1,6 +1,6 @@
 @import "template.css";
 
-.baniere1 {
+.baniere {
     background-image: url("../img/jpg/meteo.jpg");
     background-position: 50% 25%;
     background-size: cover;

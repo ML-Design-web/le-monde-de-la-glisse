@@ -71,7 +71,8 @@ include_once('../__navbar/navbar.php');
         </div>
     </section><!-- End Breadcrumbs -->
 
-    <div class="baniere1" id="discord">
+
+    <div class="baniere">
         <div class="text-center title-baniere">
             <h1>Météo</h1>
             <p>Retrouvez toutes les informations météorologiques sur notre page !</p>
