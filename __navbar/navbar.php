@@ -6,7 +6,7 @@
                     class="img-fluid"></a>
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto " href="#hero">Accueil</a></li>
+                <li><a class="nav-link scrollto " href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
                 <li class="dropdown"><a href="#"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="#">Hommes</a></li>

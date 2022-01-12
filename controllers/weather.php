@@ -7,12 +7,12 @@ ini_set('display_errors', 'off');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Météo | Le monde de la glisse</title>
+    <title>Météo | La glisse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="#" />
     <meta name="robots" content="index, follow" />
     <meta property="theme-color" content="#B0FF00" />
-    <meta property="og:title" content="Météo | Le monde de la glisse" />
+    <meta property="og:title" content="Météo | La glisse" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="#" />
     <meta property="og:url" content="#" />
@@ -20,7 +20,7 @@ ini_set('display_errors', 'off');
     <meta property="og:locale" content="fr_FR" />
     <meta property="keywords" content="#" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Météo | Le monde de la glisse" />
+    <meta name="twitter:title" content="Météo | La glisse" />
     <meta name="twitter:description" content="#" />
     <meta name="twitter:image" content="#" />
 
@@ -40,8 +40,9 @@ ini_set('display_errors', 'off');
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
+    <link href="../__navbar/navbar.css" rel="stylesheet">
+    <link href="../__footer/footer.css" rel="stylesheet">
     <link href="../assets/css/style.css" rel="stylesheet">
-    <link href="../assets/css/accueil.css" rel="stylesheet">
 </head>
 
 <body>
