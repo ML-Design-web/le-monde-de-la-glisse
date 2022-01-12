@@ -40,6 +40,8 @@ ini_set('display_errors', 'off');
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
+  <link href="__navbar/navbar.css" rel="stylesheet">
+  <link href="__footer/footer.css" rel="stylesheet">
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/accueil.css" rel="stylesheet">
 </head>
@@ -179,9 +181,9 @@ include_once('__navbar/navbar.php');
 
         <div class="faq-list">
           <ul>
-            <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+            <li data-aos="fade-up" data-aos-delay="100">
               <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Quels sont les types de livraison possibles ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+              <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                 <p>
                     Où que vous soyez, quelles que soient vos habitudes ou vos préférences, nous mettons à votre disposition un vaste choix de modes de livraison. <br><br>
                     <span style="font-weight: bold">Pour les petits articles :</span><br>
@@ -283,7 +285,7 @@ include_once('__navbar/navbar.php');
                           <h3>Saul Goodman</h3>
                           <h4>Homme, 43 ans</h4>
                       </div>
-                  </div><!-- End testimonial item -->
+                  </div><!-- Fin Avis Client 1 -->
 
                   <div class="swiper-slide">
                       <div class="testimonial-item">
@@ -296,7 +298,7 @@ include_once('__navbar/navbar.php');
                           <h3>Sara Wilsson</h3>
                           <h4>Femme, 27 ans</h4>
                       </div>
-                  </div><!-- End testimonial item -->
+                  </div><!-- Fin Avis Client 2 -->
 
                   <div class="swiper-slide">
                       <div class="testimonial-item">
@@ -309,7 +311,7 @@ include_once('__navbar/navbar.php');
                           <h3>Jena Karlis</h3>
                           <h4>Femme, 31 ans</h4>
                       </div>
-                  </div><!-- End testimonial item -->
+                  </div><!-- Fin Avis Client 3 -->
 
                   <div class="swiper-slide">
                       <div class="testimonial-item">
@@ -322,14 +324,14 @@ include_once('__navbar/navbar.php');
                           <h3>Matt Brandon</h3>
                           <h4>Homme, 37 ans</h4>
                       </div>
-                  </div><!-- End testimonial item -->
+                  </div><!-- Fin Avis Client 4 -->
 
               </div>
               <div class="swiper-pagination"></div>
           </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section><!-- ======= Fin Section Avis Clients ======= -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -370,11 +372,11 @@ include_once('__navbar/navbar.php');
         <div class="row">
 
           <div class="col-lg-6 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1731.6043288981625!2d5.9388666071762755!3d43.12132994423468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b0a6b2cea6f%3A0xa865e0843e39d84e!2sIUT%20MMI!5e0!3m2!1sfr!2sfr!4v1641496230553!5m2!1sfr!2sfr" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1731.6043288981625!2d5.9388666071762755!3d43.12132994423468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b0a6b2cea6f%3A0xa865e0843e39d84e!2sIUT%20MMI!5e0!3m2!1sfr!2sfr!4v1641496230553!5m2!1sfr!2sfr" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact" method="post" role="form" class="php-email-form">
+            <form action="forms/contact" method="post" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
@@ -415,7 +417,6 @@ include_once('__footer/footer.php');
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
