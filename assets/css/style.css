@@ -547,7 +547,7 @@ section {
   margin: 0 0 0 45px;
 }
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: #b1a9fc;
+  color: #20eac4;
   font-size: 26px;
 }
 .testimonials .testimonial-item .quote-icon-left {
@@ -581,10 +581,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #5846f9;
+  border: 1px solid #3fa9f5;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #5846f9;
+  background-color: #3fa9f5;
 }
 @media (max-width: 767px) {
   .testimonials {
@@ -856,7 +856,7 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq {
-  background: linear-gradient(42deg, #5846f9 0%, #7b27d8 100%);
+  background: linear-gradient(42deg, #22baff 0%, #20eac4 100%);
 }
 .faq .section-title h2, .faq .section-title p {
   color: #fff;
@@ -890,13 +890,14 @@ section {
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #2c4964;
 }
 .faq .faq-list .icon-help {
   font-size: 24px;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #8577fb;
+  color: #22baff;
 }
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
@@ -915,7 +916,7 @@ section {
   color: #2c4964;
 }
 .faq .faq-list a.collapsed:hover {
-  color: #5846f9;
+  color: #22baff;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;

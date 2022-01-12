@@ -51,7 +51,7 @@ include_once('__navbar/navbar.php');
 ?>
 
 <main id="main">
-  <!-- ======= Hero Section ======= -->
+  <!-- ======= Début Hero Section ======= -->
   <section id="main-hero-2">
     <div class="row-pers">
       <div class="col-sm-6">
@@ -76,7 +76,7 @@ include_once('__navbar/navbar.php');
       </div>
     </div>
   </section>
-
+  <!-- ======= Fin Hero Section ======= -->
 
   <!-- ======  CATEGORIE DE CHOIX DU SPORT D'ETE  ====== -->
   <section id="summersport">
@@ -139,12 +139,6 @@ include_once('__navbar/navbar.php');
   <!-- FIN CATEGORIE -->
 
 
-
-
-
-
-
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -174,71 +168,90 @@ include_once('__navbar/navbar.php');
       </div>
     </section><!-- End About Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ======= Début Section FAQ ======= -->
     <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
+          <h2>Foire Aux Questions</h2>
+          <p>Trouvez les réponses à vos questions dans cette section !</p>
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Quels sont les types de livraison possibles ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                  gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    Où que vous soyez, quelles que soient vos habitudes ou vos préférences, nous mettons à votre disposition un vaste choix de modes de livraison. <br><br>
+                    <span style="font-weight: bold">Pour les petits articles :</span><br>
+                    Point Relais Colis ® <br>
+                    Colissimo<br>
+                    Livraison Express (24h) par Chronopost. <br><br>
+
+                    <span style="font-weight: bold">Pour les articles volumineux :</span><br>
+                    Relais Colis ® Max<br>
+                    À domicile ou à l'adresse de votre choix.<br><br>
+                    Choisissez tout simplement celui qui vous convient le mieux !
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Que dois-je faire si je n'ai pas reçu ma commande ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                  donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
-                  ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    Tout d'abord, rendez-vous dans votre suivi de commande, cliquez sur la commande concernée, vérifiez bien qu'elle n'a pas déjà été livrée ou présentée, et assurez-vous que le lieu de livraison correspond à celui que vous aviez choisi.
+                    Si vous décelez une anomalie, et si la date de livraison est dépassée, contactez notre Service Client qui élucidera ce mystère avec vous.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Quelles sont les modalités de remboursement ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
-                  integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-                  Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi
-                  quis
+                    <span style="font-weight: bold">Les conditions de remboursement.</span><br>
+                    L’article doit être retourné dans son état d’origine et dans le délai de rétractation de 30 jours.
+                    Dans le cadre du Code de la Consommation, si vous retournez l’intégralité de votre commande, La Redoute vous rembourse les frais de livraison. Ils feront l’objet d’un remboursement séparé.<br><br>
+
+                    <span style="font-weight: bold">Les délais de remboursement.</span><br>
+                    Comptez environ 14 jours ouvrés pour les articles retournés en points Relais Colis ® et 3 à 4 semaines pour ceux déposés à La Poste ou repris à votre domicile.<br><br>
+
+                    <span style="font-weight: bold">Les modes de remboursement.</span><br>
+                    Pas de surprise, sauf cas exceptionnel, votre remboursement se fait sur le mode de paiement initial de votre commande.<br><br>
+
+                    <span style="font-weight: bold">Bon à savoir :</span><br>
+                    Si vous avez réglé avec une carte cadeau et que celle-ci est périmée à la date du remboursement, nous vous rembourserons par bon d'achat.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">J’ai effectué mon retour en Relais Colis et je n’ai pas été remboursé. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc
-                  vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
-                  gravida quis blandit turpis cursus in.
+                    Tout d’abord, vérifiez les emails que nous vous envoyons : dès que votre retour nous parvient, nous déclenchons votre remboursement et nous vous en avertissons par email.<br><br>
+                    Vous n'avez rien trouvé dans vos mails ? Cliquez sur l'historique des remboursements dans votre suivi de commande. Vous y trouverez tous les renseignements utiles.<br><br>
+                    Toujours rien malgré vos recherches ? Nous allons regarder cela ensemble : munissez-vous du n° de retour figurant sur votre preuve de dépôt signée par le commerçant du point Relais Colis ® et appelez votre Service Clients,
+                    il vous apportera des réponses claires, nettes et précises !
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="500">
-              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
-                dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Comment modifier ma commande ou annuler un article ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
-                  nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis
-                  tellus in metus vulputate eu scelerisque.
+                    <span style="font-weight: bold">Vous souhaitez modifier votre commande ?</span><br>
+                    Cela n'est pas possible mais soyez rassuré, vous avez 30 jours pour nous retourner les articles après réception.<br><br>
+
+                    <span style="font-weight: bold">Vous souhaitez annuler un article ?</span><br>
+                    Si votre article est en état « en attente », tout est encore possible ! Annulez-le via le lien « Annuler cet article » ou remplacez-le par un autre article, si le lien « Voir un article similaire » vous est proposé.<br><br>
+
+                    Si votre article est déjà en cours d'acheminement, c’est malheureusement trop tard.
+                    Vous pourrez nous le retourner ou le refuser lors de sa mise à disposition par la Poste ou dans votre point Relais Colis ® pour être remboursé au plus vite.
+                    Vous serez remboursé dès son retour dans nos entrepots (sous 10 à 15 jours environ).
                 </p>
               </div>
             </li>
@@ -247,9 +260,9 @@ include_once('__navbar/navbar.php');
         </div>
 
       </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section><!-- Fin Section FAQ -->
 
-    <!-- ======= Testimonials Section ======= -->
+    <!-- ======= Début Section Avis Clients ======= -->
     <section id="testimonials" class="testimonials section-bg">
         <div class="container" data-aos="fade-up">
 
