@@ -11,7 +11,7 @@
         #footer {
             color: #fff;
             font-size: 14px;
-            background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, #3fa9f5 100%), url(../img/hero-bg.jpg) center center no-repeat;
+            background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, #3fa9f5 100%), url(http://localhost/le-monde-de-la-glisse/assets/img/jpg/hero-bg.jpg) center no-repeat;
             background-size: cover;
         }
 
@@ -126,7 +126,7 @@
             background: none;
             font-size: 16px;
             padding: 0 20px;
-            background: rgba(123, 39, 216, 0.8);
+            background: #22baff;
             color: #fff;
             transition: 0.3s;
             border-radius: 0 5px 5px 0;
@@ -134,11 +134,11 @@
         }
 
         #footer .footer-newsletter form input[type=submit]:hover {
-            background: #5846f9;
+            background: #20eac4;
         }
 
         #footer .copyright-wrap {
-            border-top: 1px solid #8577fb;
+            border-top: 1px solid #22baff;
         }
 
         #footer .credits {
@@ -172,7 +172,8 @@
             text-decoration: none;
         }
     </style>
-
+</head>
+<body>
 
     <footer id="footer">
 
@@ -181,7 +182,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-contact">
-                        <a href="index.html" class="logo-footer"><img
+                        <a href="http://localhost/le-monde-de-la-glisse/index.html" class="logo-footer"><img
                                     src="http://localhost/le-monde-de-la-glisse/assets/img/png/logo.png" alt="Logo-La-Glisse"
                                     class="img-fluid"></a>
                         <p>
@@ -247,3 +248,5 @@
 
         </div>
     </footer><!-- End Footer -->
+</body>
+</html>

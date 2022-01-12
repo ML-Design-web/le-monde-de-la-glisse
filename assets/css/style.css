@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5846f9;
+  background: #22baff;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #7b27d8;
+  background: #20eac4;
   color: #fff;
 }
 .back-to-top.active {
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(45deg, rgba(86, 58, 250, 0.9) 0%, rgba(116, 15, 214, 0.9) 100%), url("../img/jpg/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 #hero .container, #hero .container-fluid {
@@ -269,7 +269,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #5846f9;
+  background: #20eac4;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -941,7 +941,7 @@ section {
 }
 .contact .info-box i {
   font-size: 32px;
-  color: #5846f9;
+  color: #22baff;
   border-radius: 50%;
   padding: 8px;
 }
@@ -1014,7 +1014,7 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #5846f9;
+  background: #22baff;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1022,7 +1022,7 @@ section {
   border-radius: 5px;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #7b27d8;
+  background: #20eac4;
 }
 @-webkit-keyframes animate-loading {
   0% {
