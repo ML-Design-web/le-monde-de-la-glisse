@@ -121,85 +121,88 @@
 </head>
 
 <body>
-    <footer id="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-info">
-                            <a href="#"><img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png" alt="logo-le-monde-de-la-glisse" class="img-fluid" width="210"></a>
-                            <div class="social-links mt-3">
-                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                                <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
-                                <a href="#" class="discord"><i class="bx bxl-discord"></i></a>
-                                <a href="#" class="mail"><i class='bx bx-mail-send'></i></a>
-                            </div>
+<footer id="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-info">
+                        <a href="#"><img src="https://www.sfait.net/assets/img/le-monde-de-la-glisse/logo.png"
+                                         alt="logo-le-monde-de-la-glisse" class="img-fluid" width="210"></a>
+                        <div class="social-links mt-3">
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+                            <a href="#" class="discord"><i class="bx bxl-discord"></i></a>
+                            <a href="#" class="mail"><i class='bx bx-mail-send'></i></a>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Vêtements par catégorie</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Homme</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Femme</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Enfants</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Bons plans</a></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Vêtements par catégorie</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Homme</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Femme</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Enfants</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Bons plans</a></li>
+                    </ul>
+                </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Accessoires par catégorie</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Assistance</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Nos services</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Nos produits</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Suivi de commande</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Centre de téléchargements</a></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Accessoires par catégorie</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Assistance</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Nos services</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Nos produits</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Suivi de commande</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Centre de téléchargements</a></li>
+                    </ul>
+                </div>
 
-                    <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Juridique</h4>
-                        <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">CGU</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">CGV</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#">Cookies</a></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Juridique</h4>
+                    <ul>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">CGU</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">CGV</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#">Cookies</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
+    </div>
 
-        <div class="container">
-            <div id="copyright" class="copyright">
-                &lt;/&gt; avec ❤ par <strong><span><a href="https://github.com/Cresus83" target="_blank">THOB Alan</a></strong> & <strong><a href="https://github.com/ML-Design-web/" target="_blank">LAMBERT Mathis</a></strong>.<br>
-                &copy; Copyright<a href="#"> Le monde de la glisse</a> #DATE#.
-            </div>
+    <div class="container">
+        <div id="copyright" class="copyright">
+            &lt;/&gt; avec ❤ par <strong><span><a href="https://github.com/Cresus83"
+                                                  target="_blank">THOB Alan</a></strong> & <strong><a
+                        href="https://github.com/ML-Design-web/" target="_blank">LAMBERT Mathis</a></strong>.<br>
+            &copy; Copyright<a href="#"> Le monde de la glisse</a> #DATE#.
         </div>
-    </footer><!-- End Footer -->
+    </div>
+</footer><!-- End Footer -->
 
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up-short"></i>
-    </a>
+<div id="preloader"></div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+</a>
 
-    <!-- Vendor JS Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/aos/aos.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/php-mail-form/validate-mail.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="http://localhost/le-monde-de-la-glisse/assets/js/select-list.js"></script>
+<!-- Vendor JS Files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/aos/aos.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/php-mail-form/validate-mail.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="http://localhost/le-monde-de-la-glisse/assets/js/select-list.js"></script>
 
-    <!-- Template Main JS File -->
-    <!-- <script src="assets/js/main.js"></script> -->
-    <script src="http://localhost/le-monde-de-la-glisse/assets/js/main.js"></script>
-    <script>
-        document.getElementById(`copyright`).innerHTML = document.getElementById(`copyright`).innerHTML.replace(`#DATE#`, new Date().getFullYear());
-    </script>
+<!-- Template Main JS File -->
+<!-- <script src="assets/js/main.js"></script> -->
+<script src="http://localhost/le-monde-de-la-glisse/assets/js/main.js"></script>
+<script>
+    document.getElementById(`copyright`).innerHTML = document.getElementById(`copyright`).innerHTML.replace(`#DATE#`, new Date().getFullYear());
+</script>
 </body>
 
 </html>

@@ -189,29 +189,31 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #282828;
     padding: 0;
 }
+
 #main-hero-2 {
     background-color: #282828;
     padding: 0;
     width: 100vw;
     height: 100vh;
     max-width: 100vw;
-      
+
 }
 
-.row-pers{
+.row-pers {
     display: flex;
     flex-flow: row wrap;
     max-width: 100vw;
     width: 100vw;
 }
 
-.bg-main h1{
+.bg-main h1 {
     color: #fff;
     transition: all .3s;
     z-index: 2;
     position: relative;
 }
-.bg-main h1:hover{
+
+.bg-main h1:hover {
     color: rgba(255, 255, 255, 0.575);
     transition: all .3s;
     font-size: 3rem;
@@ -220,7 +222,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.bg-summer:before{
+.bg-summer:before {
     background-image: url(../img/webp/img-surf.webp);
     background-size: cover;
     content: ' ';
@@ -230,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.5;
 }
 
-.bg-winter:before{
+.bg-winter:before {
     background-image: url(../img/webp/img-ski.webp);
     background-size: cover;
     content: ' ';
@@ -239,52 +241,56 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1;
     opacity: 0.50;
 }
-.bg-summer i{
+
+.bg-summer i {
     color: #06a4ff;
     z-index: 2;
     position: relative;
-    
+
 }
 
-.bg-winter i{
+.bg-winter i {
     color: #06ffde;
     z-index: 2;
     position: relative;
 }
 
-@media screen and (min-width:576px){
-    .bg-summer, .bg-summer:before{
+@media screen and (min-width: 576px) {
+    .bg-summer, .bg-summer:before {
         height: 100vh;
         width: 50vw;
         background-position: 60% 0;
 
     }
-    
-    .bg-winter, .bg-winter:before{
+
+    .bg-winter, .bg-winter:before {
         height: 100vh;
         width: 50vw;
         background-position: 20% 0;
 
     }
-    .text-pos{
+
+    .text-pos {
         padding-top: 75vh;
     }
 }
-@media screen and (max-width:576px){
-    .bg-summer, .bg-summer:before{
+
+@media screen and (max-width: 576px) {
+    .bg-summer, .bg-summer:before {
         height: 50vh;
         width: 100vw;
         background-position: center;
 
     }
-    
-    .bg-winter, .bg-winter:before{
+
+    .bg-winter, .bg-winter:before {
         height: 50vh;
         width: 100vw;
         background-position: center;
 
     }
-    .text-pos{
+
+    .text-pos {
         padding-top: 35vh;
     }
 }
@@ -495,23 +501,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 1024px) {
-    .text-glisse span{
+    .text-glisse span {
         font-size: 80px;
         height: 80px;
         display: block;
     }
-    .text-glisse{
+
+    .text-glisse {
         margin-top: -37vh;
     }
+
     .fond-image-surfer, .fond-image-skier {
         height: 40vh;
     }
+
     .surfer img {
         margin-top: -85vh;
     }
+
     .select-selected {
         width: 26vh;
     }
+
     .sport-list {
         margin-top: -24vh;
     }

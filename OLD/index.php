@@ -8,30 +8,31 @@ ini_set('display_errors', 'off');
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Accueil | Le monde de la glisse</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="#" />
-    <meta name="robots" content="index, follow" />
-    <meta property="theme-color" content="#B0FF00" />
-    <meta property="og:title" content="Accueil | Le monde de la glisse" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="#" />
-    <meta property="og:url" content="#" />
-    <meta property="og:description" content="#" />
-    <meta property="og:locale" content="fr_FR" />
-    <meta property="keywords" content="#" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Accueil | Le monde de la glisse" />
-    <meta name="twitter:description" content="#" />
-    <meta name="twitter:image" content="#" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="#"/>
+    <meta name="robots" content="index, follow"/>
+    <meta property="theme-color" content="#B0FF00"/>
+    <meta property="og:title" content="Accueil | Le monde de la glisse"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="#"/>
+    <meta property="og:url" content="#"/>
+    <meta property="og:description" content="#"/>
+    <meta property="og:locale" content="fr_FR"/>
+    <meta property="keywords" content="#"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Accueil | Le monde de la glisse"/>
+    <meta name="twitter:description" content="#"/>
+    <meta name="twitter:image" content="#"/>
 
 
-    <!-- Favicons --> 
+    <!-- Favicons -->
     <link href="assets/img/favicon.ico" rel="icon">
     <!--<link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
 
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -48,191 +49,196 @@ ini_set('display_errors', 'off');
 <body class="unselectable">
 
 
-    <?php
-    include_once('_navbar/_navbar.php');
-    ?>
+<?php
+include_once('_navbar/_navbar.php');
+?>
 
-    <!-- ======= Hero Section ======= -->
-    <section id="main-hero-2">
-        <div class="row-pers">
-            <div class="col-sm-6">
-                <a href="#summersport">
-                    <div class=" bg-summer text-center bg-main">
-                        <div class="text-pos">
-                            <h1>Sport D'été</h1>
-                            <i class="fs-1 bi bi-chevron-down"></i>
-                        </div>
+<!-- ======= Hero Section ======= -->
+<section id="main-hero-2">
+    <div class="row-pers">
+        <div class="col-sm-6">
+            <a href="#summersport">
+                <div class=" bg-summer text-center bg-main">
+                    <div class="text-pos">
+                        <h1>Sport D'été</h1>
+                        <i class="fs-1 bi bi-chevron-down"></i>
                     </div>
-                </a>
-            </div>
-            <div class="col-sm-6">
-                <a href="#wintersport">
-                    <div class="bg-winter text-center bg-main ">
-                        <div class="text-pos">
-                            <h1>Sport D'hiver</h1>
-                            <i class="fs-1 bi bi-chevron-down"></i>
-                        </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <a href="#wintersport">
+                <div class="bg-winter text-center bg-main ">
+                    <div class="text-pos">
+                        <h1>Sport D'hiver</h1>
+                        <i class="fs-1 bi bi-chevron-down"></i>
                     </div>
-                </a>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<main id="main">
+
+
+    <!-- ======  CATEGORIE DE CHOIX DU SPORT D'ETE  ====== -->
+    <section id="summersport">
+
+        <div class="fond">
+            <span class="fond-image-surfer"></span>
+            <div class="container1">
+                <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
+                    <span>CHOISIS</span>
+                    <span>TA</span>
+                    <span>GLISSE.</span>
+                </div>
+                <div class="sport-list custom-select">
+                    <select name="sports" id="sport-select">
+                        <option value="0">choisir dans la liste</option>
+                        <option value="1">Surf</option>
+                        <option value="2">Paddle</option>
+                        <option value="3">Kite-Surf</option>
+                        <option value="4">Planche à voile</option>
+                    </select>
+                </div>
             </div>
         </div>
+
+        <div class="d-flex align-items-center justify-content-center surfer">
+            <img src="assets/img/webp/surfer.png" alt="surfer" data-aos="fade-left" data-aos-delay="300">
+        </div>
+
     </section>
+    <!-- FIN CATEGORIE -->
 
-    <main id="main">
 
+    <!-- ======  CATEGORIE DE CHOIX DU SPORT D'HIVER  ====== -->
 
-        <!-- ======  CATEGORIE DE CHOIX DU SPORT D'ETE  ====== -->
-        <section id="summersport">
-
-            <div class="fond">
-                <span class="fond-image-surfer"></span>
-                <div class="container1">
-                    <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
-                        <span>CHOISIS</span>
-                        <span>TA</span>
-                        <span>GLISSE.</span>
-                    </div>
-                    <div class="sport-list custom-select">
-                        <select name="sports" id="sport-select">
-                            <option value="0">choisir dans la liste</option>
-                            <option value="1">Surf</option>
-                            <option value="2">Paddle</option>
-                            <option value="3">Kite-Surf</option>
-                            <option value="4">Planche à voile</option>
-                        </select>
-                    </div>
+    <section id="wintersport">
+        <div class="fond">
+            <span class="fond-image-skier"></span>
+            <div class="container1">
+                <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
+                    <span>CHOISIS&nbsp; </span>
+                    <span>TA&nbsp;</span>
+                    <span>GLISSE.&nbsp;</span>
+                </div>
+                <div class="sport-list custom-select">
+                    <select name="sports" id="sport-select">
+                        <option value="0">choisir dans la liste</option>
+                        <option value="1">Ski</option>
+                        <option value="2">Snowboard</option>
+                        <option value="3">Patin à glace</option>
+                    </select>
                 </div>
             </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center skier bg">
+            <img src="assets/img/webp/skier.png" alt="skier" data-aos="fade-left" data-aos-delay="300">
+        </div>
+    </section>
+    <!-- FIN CATEGORIE -->
 
-            <div class="d-flex align-items-center justify-content-center surfer">
-                <img src="assets/img/webp/surfer.png" alt="surfer" data-aos="fade-left" data-aos-delay="300">
+
+    <!-- ======= Team Section ======= -->
+    <section class="team">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Notre équipe</h2>
+                <p>Toute une équipe pour vous !</p>
             </div>
 
-        </section>
-        <!-- FIN CATEGORIE -->
+            <div class="row">
 
-
-        <!-- ======  CATEGORIE DE CHOIX DU SPORT D'HIVER  ====== -->
-
-        <section id="wintersport">
-            <div class="fond">
-                <span class="fond-image-skier"></span>
-                <div class="container1">
-                    <div class="text-glisse" data-aos="fade-left" data-aos-delay="200">
-                        <span>CHOISIS&nbsp; </span>
-                        <span>TA&nbsp;</span>
-                        <span>GLISSE.&nbsp;</span>
-                    </div>
-                    <div class="sport-list custom-select">
-                        <select name="sports" id="sport-select">
-                            <option value="0">choisir dans la liste</option>
-                            <option value="1">Ski</option>
-                            <option value="2">Snowboard</option>
-                            <option value="3">Patin à glace</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-center skier bg">
-                <img src="assets/img/webp/skier.png" alt="skier" data-aos="fade-left" data-aos-delay="300">
-            </div>
-        </section>
-        <!-- FIN CATEGORIE -->
-
-
-        <!-- ======= Team Section ======= -->
-        <section class="team">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Notre équipe</h2>
-                    <p>Toute une équipe pour vous !</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up" data-aos-delay="100">
-                            <div class="member-img">
-                                <img src="assets/img/team/Cresus.webp" class="img-fluid" alt="Profil_Alan_THOB">
-                                <div class="social">
-                                    <a href="https://twitter.com/sfait_fr" target="_blank"><i class="bi bi-twitter"></i></a>
-                                    <a href="https://www.instagram.com/sfait_fr/" target="_blank"><i class="bi bi-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4><a href="https://github.com/Cresus83">Alan THOB</a></h4>
-                                <span>Fondateur</span>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="assets/img/team/Cresus.webp" class="img-fluid" alt="Profil_Alan_THOB">
+                            <div class="social">
+                                <a href="https://twitter.com/sfait_fr" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.instagram.com/sfait_fr/" target="_blank"><i
+                                            class="bi bi-instagram"></i></a>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up" data-aos-delay="300">
-                            <div class="member-img">
-                                <img src="assets/img/team/mathis.webp" class="img-fluid" alt="Profil_Mathis_LAMBERT">
-                                <div class="social">
-                                    <a href="#"><i class="bi bi-twitter"></i></a>
-                                    <a href="#"><i class="bi bi-instagram"></i></a>
-                                    <a href="#"><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4><a href="#">Mathis Lambert</a></h4>
-                                <span>Fondateur</span>
-                            </div>
+                        <div class="member-info">
+                            <h4><a href="https://github.com/Cresus83">Alan THOB</a></h4>
+                            <span>Fondateur</span>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </section><!-- End Team Section -->
-
-        <!-- ======= Contact Section ======= -->
-        <section id="contact" class="contact">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Contact</h2>
-                    <p>Contacter le service client</p>
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="assets/img/team/mathis.webp" class="img-fluid" alt="Profil_Mathis_LAMBERT">
+                            <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4><a href="#">Mathis Lambert</a></h4>
+                            <span>Fondateur</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-12 mt-5 mt-lg-0">
-                    <form action="mail/contact-form" method="post" class="php-email-form">
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom et Prénom" required>
-                            </div>
-                            <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Patientez...</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Votre message a bien été envoyé et sera traité dans les meilleurs
-                                délais.
-                            </div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit">Envoyer</button>
-                        </div>
-                    </form>
+            </div>
 
-                </div>
+        </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Contact</h2>
+                <p>Contacter le service client</p>
+            </div>
+            <div class="col-lg-12 mt-5 mt-lg-0">
+                <form action="mail/contact-form" method="post" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Nom et Prénom"
+                                   required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail"
+                                   required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet"
+                               required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                  required></textarea>
+                    </div>
+                    <div class="my-3">
+                        <div class="loading">Patientez...</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Votre message a bien été envoyé et sera traité dans les meilleurs
+                            délais.
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </form>
 
             </div>
-        </section><!-- End Contact Section -->
-    </main><!-- End #main -->
 
-    <?php
-    include_once('_footer/_footer.php');
-    ?>
+        </div>
+    </section><!-- End Contact Section -->
+</main><!-- End #main -->
+
+<?php
+include_once('_footer/_footer.php');
+?>
 
 </body>
 

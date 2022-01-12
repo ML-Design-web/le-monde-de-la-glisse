@@ -173,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
     transform: translateY(-10px);
 }
+
 section {
     padding: 60px 0;
     overflow: hidden;
@@ -187,11 +188,13 @@ section {
     min-height: 40px;
     margin-top: 74px;
 }
+
 .breadcrumbs h2 {
     font-size: 28px;
     font-weight: 400;
     color: var(--text-color)
 }
+
 .breadcrumbs ol {
     display: flex;
     flex-wrap: wrap;
@@ -200,26 +203,32 @@ section {
     margin: 0;
     color: var(--text-color)
 }
+
 .breadcrumbs ol li + li {
     padding-left: 10px;
 }
+
 .breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
     color: var(--text-color);
     content: "/";
 }
+
 @media (max-width: 992px) {
     .breadcrumbs {
         margin-top: 68px;
         text-align: center;
     }
+
     .breadcrumbs .d-flex {
         display: block !important;
     }
+
     .breadcrumbs ol {
         display: block;
     }
+
     .breadcrumbs ol li {
         display: none;
     }

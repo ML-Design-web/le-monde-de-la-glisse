@@ -1,0 +1,19 @@
+@import "template.css";
+
+.baniere1 {
+    background-image: url("../img/jpg/meteo.jpg");
+    background-position: 50% 25%;
+    background-size: cover;
+    height: 200px;
+}
+.title-baniere h1 {
+    padding-top: 40px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.title-baniere p {
+    padding-top: 20px;
+    font-size: 23px;
+    color: #fff;
+}
