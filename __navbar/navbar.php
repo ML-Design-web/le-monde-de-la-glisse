@@ -9,7 +9,7 @@
                 <li><a class="nav-link scrollto " href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
                 <li class="dropdown"><a href="#"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Hommes</a></li>
+                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/men-clothes.php">Hommes</a></li>
                         <li><a href="#">Femmes</a></li>
                         <li><a href="#">Enfants</a></li>
                         <li><a href="#" style=" color: red;">Bons plans</a></li>
