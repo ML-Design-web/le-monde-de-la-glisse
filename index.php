@@ -432,48 +432,87 @@ include_once('__navbar/navbar.php');
                 <div class="col-lg-12">
                     <form action="forms/contact" method="post" class="php-email-form">
                         <div class="row">
-                                <label class="col-md-6 form-group" for="civilité">
-                                    <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilité" id="civilité" required>
-                                        <option selected value="Civilité" disabled>Civilité</option>
-                                        <option value="M.">M.</option>
-                                        <option value="Mme">Mme</option>
-                                    </select>
-                                </label>
+                            <label class="col-md-6 form-group" for="civilité">
+                                <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilité"
+                                        id="civilité" required>
+                                    <option selected value="Civilité" disabled>Civilité</option>
+                                    <option value="M.">Monsieur</option>
+                                    <option value="Mme">Madame</option>
+                                </select>
+                            </label>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom"
+                                       required>
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance (jj/mm/aaaa)" required>
+                                <input type="text" name="born-date" class="form-control" id="born-date"
+                                       placeholder="Date de naissance (jj/mm/aaaa)" required>
                             </div>
 
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
+                                <input type="email" class="form-control" name="email" id="email"
+                                       placeholder="Adresse mail" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Adresse" required>
+                                <input type="text" name="adresse" class="form-control" id="adresse"
+                                       placeholder="Adresse" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal" required>
+                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal"
+                                       required>
                             </div>
-                        </div>
-                        <div class="form-group mt-3">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
-                        </div>
-                        <div class="form-group mt-3">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Chargement ...</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Votre message a bien été envoyé et sera traité par nos services très prochainement. A bientot !</div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit">Envoyer</button>
-                        </div>
+
+                            <div id="faq" class="faq">
+                                <div class="faq-list">
+                                    <ul>
+                                        <li>
+                                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
+                                                Sélectionnez le lieu de l'activité pratiqué. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+
+                                            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                                                <img class="mx-auto d-block" src="assets/img/png/carte-france-regions.png" usemap="#image-map">
+                                                <map name="image-map">
+                                                    <area target="_blank" alt="Nouvelle-Aquitaine" title="Nouvelle-Aquitaine" href="" coords="166,434,121,410,146,307,160,319,146,297,147,268,166,264,165,248,155,237,169,233,185,230,197,238,204,236,223,263,241,264,259,267,269,286,263,294,267,311,255,330,244,336,232,328,220,346,209,371,187,381,171,387,178,412" shape="poly">
+                                                    <area target="_blank" alt="Occitanie" title="Occitanie" href="" coords="170,433,201,440,204,435,223,436,235,442,244,447,267,456,287,451,285,426,294,412,304,411,321,399,328,403,335,394,345,379,338,366,325,366,313,342,296,334,284,345,277,335,269,351,255,351,252,334,236,332,226,337,214,365,197,381,173,387" shape="poly">
+                                                    <area target="_blank" alt="Provence-Alpes-Cote-D'Azur" title="Provence-Alpes-Cote-D'Azur" href="" coords="331,405,342,405,353,407,367,407,368,414,386,419,408,418,413,403,424,389,436,386,443,371,424,365,417,351,416,340,403,322,393,324,397,332,381,338,378,352,370,355,379,364,369,372,360,369,354,364,344,366,347,382,340,392" shape="poly">
+                                                    <area target="_blank" alt="Auvergne-Rhone-Alpes" title="Auvergne-Rhone-Alpes" href="" coords="264,264,271,263,271,254,286,248,300,254,303,248,316,263,312,275,323,275,331,267,340,272,346,261,360,262,367,267,373,269,384,266,381,275,395,269,405,264,412,278,410,289,412,296,418,304,418,313,407,321,394,323,398,335,374,351,372,366,356,366,341,366,331,359,324,361,314,343,302,334,289,335,285,342,280,336,270,349,262,349,257,335,265,319,264,292,275,289" shape="poly">
+                                                    <area target="_blank" alt="Bourgogne-Franche-Compté" title="Bourgogne-Franche-Compté" href="" coords="287,246,283,231,279,224,282,210,280,203,285,195,287,187,282,183,285,174,299,169,306,182,313,192,336,184,346,192,345,201,354,204,366,204,369,194,377,191,382,185,387,189,396,189,408,193,414,203,408,210,411,216,394,231,393,238,385,247,381,255,378,265,372,264,366,267,361,257,351,256,343,260,341,269,334,267,327,269,316,272,315,261,309,259,309,251,303,247,297,255" shape="poly">
+                                                    <area target="_blank" alt="Grand-Est" title="Grand-Est" href="" coords="295,166,301,158,298,152,303,143,304,132,303,123,312,121,317,109,321,103,319,95,332,94,335,85,342,104,352,109,359,115,364,113,375,118,382,115,393,117,398,128,404,130,421,129,439,133,436,150,433,164,426,202,416,207,410,190,375,189,370,196,365,202,348,202,352,189,339,188,320,191" shape="poly">
+                                                    <area target="_blank" alt="Hauts-De-France" title="Hauts-De-France" href="" coords="316,94,316,80,308,75,301,78,298,68,286,66,287,59,274,56,268,42,237,47,237,65,237,80,233,88,244,95,242,111,243,128,254,129,268,131,283,134,294,142,300,143,304,124,312,122,320,105" shape="poly">
+                                                    <area target="_blank" alt="Normandie" title="Normandie" href="" coords="232,87,214,97,195,103,192,109,203,112,199,121,178,128,152,120,149,109,128,103,130,122,139,135,140,153,146,160,166,158,179,157,186,169,194,161,208,175,214,171,215,163,210,156,220,153,228,145,232,138,241,128,244,97" shape="poly">
+                                                    <area target="_blank" alt="Bretagne" title="Bretagne" href="" coords="148,161,141,156,129,156,107,157,102,160,92,140,74,143,59,149,39,152,51,159,57,166,47,165,50,173,41,176,48,184,71,189,78,192,94,199,104,204,118,206,117,200,128,198,133,195,145,193,150,181,153,168" shape="poly">
+                                                    <area target="_blank" alt="Pays-De-La-Loire" title="Pays-De-La-Loire" href="" coords="152,159,162,165,175,160,184,171,192,164,200,173,209,178,211,193,202,205,194,206,186,227,169,229,160,238,166,266,147,270,133,258,116,241,118,232,117,219,112,214,102,216,116,207,122,199,147,196,152,182" shape="poly">
+                                                    <area target="_blank" alt="Centre-Val-De-Loire" title="Centre-Val-De-Loire" href="" coords="189,227,193,210,213,200,214,178,218,169,214,155,229,152,235,147,244,160,249,171,259,171,265,177,280,180,286,193,277,198,280,214,283,244,271,252,266,259,256,261,224,262" shape="poly">
+                                                    <area target="_blank" alt="Ile-De-France" title="Ile-De-France" href="" coords="239,147,235,138,241,132,261,131,274,137,292,141,298,146,295,153,296,163,284,170,279,177,270,180,250,172" shape="poly">
+                                                </map>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                       placeholder="Objet" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                              required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Chargement ...</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Votre message a bien été envoyé et sera traité par nos
+                                    services très prochainement. A bientot !
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">Envoyer</button>
+                            </div>
                     </form>
                 </div>
 
