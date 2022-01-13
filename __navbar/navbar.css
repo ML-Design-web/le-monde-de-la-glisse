@@ -135,7 +135,7 @@
     left: 0;
     background-color: #2c4964;
     visibility: hidden;
-
+    width: 0px;
     transition: all 0.3s ease-in-out 0s;
 }
 
