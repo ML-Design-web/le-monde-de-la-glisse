@@ -1,0 +1,83 @@
+.connect{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 25vh;
+}
+.connect-wdw{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.connect-wdw ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.connect img{
+    width: 200px;
+
+}
+
+.window{
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+    border: solid 2px #0dcaf0;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.window li{
+    padding: 10px 0;
+}
+
+.connect-wdw input{
+    border-radius: 25px;
+    padding-left: .5em;
+    border: solid 1px #00ffc8;
+}
+
+.connect-wdw input, .connect-wdw input::placeholder{
+    font-family: "Poppins", sans-serif;
+}
+
+.connect-wdw button{
+    background: none;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    margin: .2em;
+
+    /* Smooth fonts */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: .0em .2em;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+}
+
+.connect-wdw button:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    background: #00ffc8;
+    height: 7px;
+    bottom: 0;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+
+}
+
+.connect-wdw button:hover:before{
+    right: 0;
+}

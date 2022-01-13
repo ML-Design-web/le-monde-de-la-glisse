@@ -96,7 +96,7 @@ include_once('../__navbar/navbar.php');
             </div>
         </div>
 
-        
+
     </section>
 
     <!-- ======= About Section ======= -->
