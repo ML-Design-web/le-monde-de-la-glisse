@@ -39,6 +39,7 @@ ini_set('display_errors', 'off');
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Template Main CSS File -->
     <link href="__navbar/navbar_home.css" rel="stylesheet">
@@ -430,11 +431,10 @@ include_once('__navbar/navbar.php');
                 </div>
 
                 <div class="col-lg-12">
-                    <form action="forms/contact.php" method="post" class="php-email-form">
+                    <form action="forms/contact" method="post" class="php-email-form">
                         <div class="row">
-                            <label class="col-md-6 form-group" for="civilité">
-                                <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilité"
-                                        id="civilité" required>
+                            <label class="col-md-6 form-group" for="civilite">
+                                <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilite" id="civilite" required>
                                     <option selected value="Civilité" disabled>Civilité</option>
                                     <option value="M.">Monsieur</option>
                                     <option value="Mme">Madame</option>
@@ -442,35 +442,37 @@ include_once('__navbar/navbar.php');
                             </label>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom"
-                                       required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="born-date" class="form-control" id="born-date"
-                                       placeholder="Date de naissance (jj/mm/aaaa)" required>
+                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance (jj/mm/aaaa)" required>
                             </div>
 
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email"
-                                       placeholder="Adresse mail" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="adresse" class="form-control" id="adresse"
-                                       placeholder="Adresse" required>
+                                <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Adresse" required>
+                            </div>
+
+                            <div class="col-md-6 form-group pt-3">
+                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3 pb-3">
-                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal"
-                                       required>
+                                <input type="text" name="city" class="form-control" id="city" placeholder="Ville" required>
                             </div>
 
-                            <div class="faq">
+                            <div class="col-md-6 form-group pt-3 pb-3">
+                                <input type="text" name="activity" class="form-control" id="activity" placeholder="Sport pratiqué" required>
+                            </div>
+
+                            <div class="map-section">
                                 <div class="faq-list">
                                     <ul>
-                                        <li>
-                                            <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
+                                        <li><i class='bx bx-current-location icon-location'></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
                                                 Sélectionnez le lieu de l'activité pratiqué. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
 
                                             <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
@@ -490,11 +492,7 @@ include_once('__navbar/navbar.php');
                                                     <area class="poly" alt="Ile-De-France" title="Ile-De-France" href="#null" coords="239,147,235,138,241,132,261,131,274,137,292,141,298,146,295,153,296,163,284,170,279,177,270,180,250,172" shape="poly">
                                                     <area class="poly" alt="Corse" title="Corse" href="#null" coords="451,479,452,468,456,451,459,442,456,420,454,404,451,417,443,413,430,426,430,436,427,447,435,460,442,470" shape="poly">
                                                 </map>
-
-
-                                                <textarea disabled id="location" name="region" class="form-control" placeholder="Veuillez sélectionner une région sur la carte." required="required" data-error="Veuillez remplir le champ Message."></textarea>
-
-                                                <div class="mx-auto text-center" id="location"></div>
+                                                <textarea id="location" name="location" class="form-control text-center" placeholder="Veuillez sélectionner une région sur la carte." rows="1" required="required" data-error="Veuillez sélectionner une région sur la carte ci-dessus."></textarea>
                                             </div>
                                         </li>
                                     </ul>
@@ -502,12 +500,10 @@ include_once('__navbar/navbar.php');
                             </div>
 
                             <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject"
-                                       placeholder="Objet" required>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
                             </div>
                             <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                              required></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>
                             <div class="my-3">
                                 <div class="loading">Chargement ...</div>
@@ -538,13 +534,15 @@ include_once('__footer/footer.php');
             class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
 
-<!-- Vendor JS Files -->
+<!-- JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <!--<script src="assets/js/select-list.js"></script>-->
 
 <!-- Template Main JS File -->
@@ -560,7 +558,25 @@ include_once('__footer/footer.php');
     function handleClick(e) {
         msg.innerText = e.target.getAttribute("alt");
     }
+</script>
+<script>
+    $( function() {
+        var activity = [
+            "Ski",
+            "Snow-Board",
+            "Patin",
+            "Skate-Board",
+            "Long-Board",
+            "Lite-Surf",
+            "Surf",
+            "Paddle",
 
+
+        ];
+        $( "#activity" ).autocomplete({
+            source: activity
+        });
+    } );
 </script>
 
 </body>

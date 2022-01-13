@@ -1135,6 +1135,103 @@ section {
     background: #20eac4;
 }
 
+/*--------------------------------------------------------------
+# Map for Contact Section
+--------------------------------------------------------------*/
+
+.map-section textarea:disabled {
+    resize: none;
+    color: #fff;
+    background-color: #22baff;
+}
+
+.map-section textarea::placeholder {
+    color: #fff;
+}
+.map-section .section-title h2, .faq .section-title p {
+    color: #fff;
+}
+
+.map-section .section-title h2::after {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.map-section .faq-list ul {
+    padding: 0;
+    list-style: none;
+}
+
+.map-section .faq-list li + li {
+    margin-top: 15px;
+}
+
+.map-section .faq-list li {
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    border: 2px solid #22baff;
+    position: relative;
+}
+
+.map-section .faq-list a {
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 0 30px;
+    outline: none;
+    cursor: pointer;
+    color: #2c4964;
+}
+
+.map-section .faq-list .icon-location {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    left: 20px;
+    color: #22baff;
+}
+
+.map-section .faq-list .icon-show, .faq .faq-list .icon-close {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.map-section .faq-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+}
+
+.map-section .faq-list .icon-show {
+    display: none;
+}
+
+.map-section .faq-list a.collapsed {
+    color: #2c4964;
+}
+
+.map-section .faq-list a.collapsed:hover {
+    color: #22baff;
+}
+
+.map-section .faq-list a.collapsed .icon-show {
+    display: inline-block;
+}
+
+.map-section .faq-list a.collapsed .icon-close {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .map-section .faq-list {
+        padding: 0;
+    }
+}
+
 @-webkit-keyframes animate-loading {
     0% {
         transform: rotate(0deg);
