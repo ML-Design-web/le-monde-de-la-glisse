@@ -424,15 +424,26 @@ include_once('__navbar/navbar.php');
 
             <div class="row">
 
-                <div class="col-lg-6 ">
+                <div class="col-lg-12 ">
                     <iframe class="mb-4 mb-lg-0"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1731.6043288981625!2d5.9388666071762755!3d43.12132994423468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c91b0a6b2cea6f%3A0xa865e0843e39d84e!2sIUT%20MMI!5e0!3m2!1sfr!2sfr!4v1641496230553!5m2!1sfr!2sfr"
                             style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-12">
                     <form action="forms/contact" method="post" class="php-email-form">
                         <div class="row">
+
+                                <label for="civilité">
+                                    <select class="col-md-6 form-group mt-3 mt-md-0" name="civilité" id="civilité" required>
+                                        <option selected value="Civilité" disabled>Civilité</option>
+                                        <option value="M.">M.</option>
+                                        <option value="Mme">Mme</option>
+                                    </select>
+                                </label>
+                            </div>
+
+
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom"
                                        required>
