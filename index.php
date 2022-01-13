@@ -461,12 +461,12 @@ include_once('__navbar/navbar.php');
                                        placeholder="Adresse" required>
                             </div>
 
-                            <div class="col-md-6 form-group pt-3">
+                            <div class="col-md-6 form-group pt-3 pb-3">
                                 <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal"
                                        required>
                             </div>
 
-                            <div id="faq" class="faq">
+                            <div class="faq">
                                 <div class="faq-list">
                                     <ul>
                                         <li>
@@ -490,10 +490,11 @@ include_once('__navbar/navbar.php');
                                                     <area class="poly" alt="Ile-De-France" title="Ile-De-France" href="#null" coords="239,147,235,138,241,132,261,131,274,137,292,141,298,146,295,153,296,163,284,170,279,177,270,180,250,172" shape="poly">
                                                     <area class="poly" alt="Corse" title="Corse" href="#null" coords="451,479,452,468,456,451,459,442,456,420,454,404,451,417,443,413,430,426,430,436,427,447,435,460,442,470" shape="poly">
                                                 </map>
-                                                <div class="col-md-6 form-group form-control pt-3 mx-auto" id="location"></div>
-                                                <div class="col-md-6 form-group pt-3 mx-auto">
-                                                    <input id="location" type="text" name="location" class="form-control text-center" required>
-                                                </div>
+
+
+                                                <textarea disabled id="location" name="region" class="form-control" placeholder="Veuillez sélectionner une région sur la carte." required="required" data-error="Veuillez remplir le champ Message."></textarea>
+
+                                                <div class="mx-auto text-center" id="location"></div>
                                             </div>
                                         </li>
                                     </ul>
