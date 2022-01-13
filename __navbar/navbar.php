@@ -15,10 +15,16 @@
                         <li><a href="#" style=" color: red;">Bons plans</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a href="#"><span>Accessoires</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php"><span>Accessoires</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li><a href="#">Voiles</a></li>
+                        <li class="dropdown"><a href="#"><span>Montagne</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="#">Ski</a></li>
+                                <li><a href="#">Snow-Board</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Patins</a></li>
+                        <li><a href="#">Voiles</a></li>
                         <li class="dropdown"><a href="#"><span>Planches</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="#">Snow-Board</a></li>

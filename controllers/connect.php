@@ -64,12 +64,12 @@ include_once('../__navbar/navbar.php');
                 <li><img src="../assets/img/png/logo.png" alt="logo" ></li>
                 <li><div class="window">
                         <ul>
-                            <li><h1>Connexion</h1></li>
+                            <li><h3>Connexion</h3></li>
                             <li><label>
-                                    <input type="text" placeholder="Login">
+                                    <input type="text" placeholder="Identifiant">
                                 </label></li>
                             <li><label>
-                                    <input type="text" placeholder="Mot de passe">
+                                    <input type="password" placeholder="Mot de passe">
                                 </label></li>
                             <li><button type="submit">se connecter</button></li>
                         </ul>

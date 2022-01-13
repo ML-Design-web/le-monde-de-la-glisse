@@ -2637,3 +2637,17 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
 }
 
 /*# sourceMappingURL=style.css.map */
+
+h1.accessories{
+  position: relative;
+  margin-right: 10vw;
+}
+h1.accessories:after{
+  content: '';
+  position: absolute;
+  height: 2.5px;
+  width: 25vw;
+  top: 25px;
+  margin-left: 2.5vw;
+  background-color: #00ffbb;
+}
