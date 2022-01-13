@@ -1,7 +1,7 @@
 .connect{
     height: 100vh;
     width: 100vw;
-    padding-top: 25vh;
+    padding-top: 20vh;
 }
 .connect-wdw{
     display: flex;
@@ -23,8 +23,8 @@
 
 .window{
     margin-top: 50px;
-    height: 300px;
-    width: 400px;
+    height: max-content;
+    width: 25vw;
     border: solid 2px #0dcaf0;
     border-radius: 25px;
     padding: 25px;
@@ -38,6 +38,7 @@
     border-radius: 25px;
     padding-left: .5em;
     border: solid 1px #00ffc8;
+    width: 100%;
 }
 
 .connect-wdw input, .connect-wdw input::placeholder{
@@ -80,4 +81,22 @@
 
 .connect-wdw button:hover:before{
     right: 0;
+}
+
+@media (max-width: 1200px){
+    .window{
+        width:50vw;
+    }
+}
+
+@media (max-width: 560px){
+    .window{
+        width:75vw;
+    }
+}
+
+@media (max-width: 425px){
+    .window{
+        width:80vw;
+    }
 }
