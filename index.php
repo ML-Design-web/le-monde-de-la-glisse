@@ -433,7 +433,7 @@ include_once('__navbar/navbar.php');
                     <form action="forms/contact" method="post" class="php-email-form">
                         <div class="row">
                                 <label class="col-md-6 form-group" for="civilité">
-                                    <select class="form-control" style="padding: 8px" name="civilité" id="civilité" required>
+                                    <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilité" id="civilité" required>
                                         <option selected value="Civilité" disabled>Civilité</option>
                                         <option value="M.">M.</option>
                                         <option value="Mme">Mme</option>
@@ -443,8 +443,21 @@ include_once('__navbar/navbar.php');
                             <div class="col-md-6 form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
                             </div>
+
+                            <div class="col-md-6 form-group">
+                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance (jj/mm/aaaa)" required>
+                            </div>
+
                             <div class="col-md-6 form-group mt-3 mt-md-0">
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
+                            </div>
+
+                            <div class="col-md-6 form-group pt-3">
+                                <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Adresse" required>
+                            </div>
+
+                            <div class="col-md-6 form-group pt-3">
+                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal" required>
                             </div>
                         </div>
                         <div class="form-group mt-3">

@@ -18,7 +18,7 @@ $contact->from_name = $_POST['name'];
 $contact->from_email = $_POST['email'];
 $contact->subject = $_POST['subject'];
 
-$contact->add_message($_POST['name'], 'From');
+$contact->add_message($_POST['name'], 'Nom et Prénom');
 $contact->add_message($_POST['email'], 'Email');
 $contact->add_message($_POST['message'], 'Message', 10);
 $contact->cc = array('mathis.lambert27@gmail.com');
