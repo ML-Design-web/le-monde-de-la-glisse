@@ -143,43 +143,6 @@ include_once('__navbar/navbar.php');
     <!-- FIN CATEGORIE -->
 
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
-                    <img src="assets/img/about.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-                    <h3>Voluptatem dignissimos provident quasi corporis</h3>
-                    <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et
-                        dolore
-                        magna aliqua.
-                    </p>
-                    <ul>
-                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </li>
-                        <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
-                            velit.
-                        </li>
-                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute
-                            irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
-                            nulla
-                            pariatur.
-                        </li>
-                    </ul>
-                    <a href="#" class="read-more">Read More <i class="bi bi-long-arrow-right"></i></a>
-                </div>
-            </div>
-
-
-        </div>
-    </section><!-- End About Section -->
-
     <!-- ======= Début Section FAQ ======= -->
     <section id="faq" class="faq">
         <div class="container" data-aos="fade-up">
@@ -192,10 +155,7 @@ include_once('__navbar/navbar.php');
             <div class="faq-list">
                 <ul>
                     <li data-aos="fade-up" data-aos-delay="100">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                                                                       data-bs-target="#faq-list-1">Quels sont les types
-                            de livraison possibles ? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Quels sont les types de livraison possibles ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 Où que vous soyez, quelles que soient vos habitudes ou vos préférences, nous mettons à
@@ -214,10 +174,7 @@ include_once('__navbar/navbar.php');
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="200">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                       data-bs-target="#faq-list-2" class="collapsed">Que
-                            dois-je faire si je n'ai pas reçu ma commande ? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Que dois-je faire si je n'ai pas reçu ma commande ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 Tout d'abord, rendez-vous dans votre suivi de commande, cliquez sur la commande
@@ -230,10 +187,7 @@ include_once('__navbar/navbar.php');
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="300">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                       data-bs-target="#faq-list-3" class="collapsed">Quelles
-                            sont les modalités de remboursement ? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Quelles sont les modalités de remboursement ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 <span style="font-weight: bold">Les conditions de remboursement.</span><br>
@@ -259,10 +213,7 @@ include_once('__navbar/navbar.php');
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="400">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                       data-bs-target="#faq-list-4" class="collapsed">J’ai
-                            effectué mon retour en Relais Colis et je n’ai pas été remboursé. <i
-                                    class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">J’ai effectué mon retour en Relais Colis et je n’ai pas été remboursé. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 Tout d’abord, vérifiez les emails que nous vous envoyons : dès que votre retour nous
@@ -279,10 +230,7 @@ include_once('__navbar/navbar.php');
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="500">
-                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                       data-bs-target="#faq-list-5" class="collapsed">Comment
-                            modifier ma commande ou annuler un article ? <i class="bx bx-chevron-down icon-show"></i><i
-                                    class="bx bx-chevron-up icon-close"></i></a>
+                        <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Comment modifier ma commande ou annuler un article ? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 <span style="font-weight: bold">Vous souhaitez modifier votre commande ?</span><br>
@@ -315,9 +263,9 @@ include_once('__navbar/navbar.php');
             <div class="section-title">
                 <h2>Nos clients racontent leur expérience ...</h2>
             </div>
+
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <p>
@@ -376,8 +324,9 @@ include_once('__navbar/navbar.php');
                             <h4>Homme, 37 ans</h4>
                         </div>
                     </div><!-- Fin Avis Client 4 -->
-
                 </div>
+                <!-- Fin Avis Client 4 -->
+
                 <div class="swiper-pagination"></div>
             </div>
 
@@ -441,7 +390,7 @@ include_once('__navbar/navbar.php');
                                 </select>
                             </label>
 
-                            <div class="col-md-6 form-group">
+                            <div class="col-md-6 form-group pb-3">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
                             </div>
 
@@ -461,7 +410,7 @@ include_once('__navbar/navbar.php');
                                 <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal" required>
                             </div>
 
-                            <div class="col-md-6 form-group pt-3 pb-3">
+                            <div class="col-md-6 form-group pt-3">
                                 <input type="text" name="city" class="form-control" id="city" placeholder="Ville" required>
                             </div>
 
@@ -472,10 +421,8 @@ include_once('__navbar/navbar.php');
                             <div class="map-section">
                                 <div class="faq-list">
                                     <ul>
-                                        <li><i class='bx bx-current-location icon-location'></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">
-                                                Sélectionnez le lieu de l'activité pratiqué. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-
-                                            <div id="faq-list-1" class="collapse" data-bs-parent=".faq-list">
+                                        <li><i class='bx bx-current-location icon-location'></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-6">Sélectionnez le lieu de l'activité pratiqué. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                            <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
                                                 <img class="mx-auto d-block" src="assets/img/png/carte-france-regions.png" usemap="#image-map">
                                                 <map name="image-map">
                                                     <area class="poly" alt="Nouvelle-Aquitaine" title="Nouvelle-Aquitaine" href="#null" coords="166,434,121,410,146,307,160,319,146,297,147,268,166,264,165,248,155,237,169,233,185,230,197,238,204,236,223,263,241,264,259,267,269,286,263,294,267,311,255,330,244,336,232,328,220,346,209,371,187,381,171,387,178,412" shape="poly">
@@ -508,9 +455,7 @@ include_once('__navbar/navbar.php');
                             <div class="my-3">
                                 <div class="loading">Chargement ...</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Votre message a bien été envoyé et sera traité par nos
-                                    services très prochainement. A bientot !
-                                </div>
+                                <div class="sent-message">Votre message a bien été envoyé et sera traité par nos services très prochainement. A bientot !</div>
                             </div>
                             <div class="text-center">
                                 <button type="submit">Envoyer</button>
@@ -547,7 +492,7 @@ include_once('__footer/footer.php');
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<script>
+<script><!-- Permet de saisir automatiquement le nom d'une région dans un champ lorsque l'utilisation clique sur une région -->
     console.clear();
 
     const maps = document.querySelectorAll(".poly");
@@ -559,7 +504,7 @@ include_once('__footer/footer.php');
         msg.innerText = e.target.getAttribute("alt");
     }
 </script>
-<script>
+<script><!-- Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
     $( function() {
         var activity = [
             "Ski",
@@ -570,15 +515,35 @@ include_once('__footer/footer.php');
             "Lite-Surf",
             "Surf",
             "Paddle",
-
-
+            "Canoë-kayak",
+            "Voile",
         ];
         $( "#activity" ).autocomplete({
             source: activity
         });
     } );
+
+    $( function() {
+        var location = [
+            "Nouvelle-Aquitaine",
+            "Occitanie",
+            "Provence-Alpes-Cote-D'Azur",
+            "Auvergne-Rhone-Alpes",
+            "Bourgogne-Franche-Compté",
+            "Grand-Est",
+            "Hauts-De-France",
+            "Normandie",
+            "Bretagne",
+            "Pays-De-La-Loire",
+            "Centre-Val-De-Loire",
+            "Ile-De-France",
+            "Corse",
+        ];
+        $( "#location" ).autocomplete({
+            source: location
+        });
+    } );
 </script>
 
 </body>
-
 </html>

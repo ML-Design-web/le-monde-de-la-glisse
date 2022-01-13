@@ -23,8 +23,16 @@
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snow-Board</a></li>
                             </ul>
                         </li>
+
+                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Nautique</span> <i class="bi bi-chevron-right"></i></a>
+                            <ul>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#canoe-kayak">Canoë-kayak</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles">Voiles</a></li>
+                            </ul>
+                        </li>
+
+
                         <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins">Patins</a></li>
-                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles">Voiles</a></li>
                         <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Planches</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snow-Board</a></li>

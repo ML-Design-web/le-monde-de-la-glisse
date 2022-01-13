@@ -1139,14 +1139,14 @@ section {
 # Map for Contact Section
 --------------------------------------------------------------*/
 
-.map-section textarea:disabled {
+.map-section textarea{
     resize: none;
-    color: #fff;
+    color: #000000;
     background-color: #22baff;
 }
 
 .map-section textarea::placeholder {
-    color: #fff;
+    color: #000;
 }
 .map-section .section-title h2, .faq .section-title p {
     color: #fff;
