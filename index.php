@@ -430,7 +430,7 @@ include_once('__navbar/navbar.php');
                 </div>
 
                 <div class="col-lg-12">
-                    <form action="forms/contact" method="post" class="php-email-form">
+                    <form action="forms/contact.php" method="post" class="php-email-form">
                         <div class="row">
                             <label class="col-md-6 form-group" for="civilité">
                                 <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilité"
