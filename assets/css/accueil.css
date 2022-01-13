@@ -192,6 +192,7 @@
     position: absolute;
     float: right;
     margin-top: -35vh;
+
 }
 
 /*/* ################ Part n° Séléction Customisée ############### */
@@ -199,11 +200,21 @@
 .custom-select {
     position: relative;
     font-family: 'theboldfont';
+    z-index: 2;
 
 }
 
 .custom-select select {
-    display: none; /*cacher le select original*/
+     /*cacher le select original*/
+
+    border-radius: 20px;
+    padding-left: 0.4em;
+    width: 20vw;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border: solid 4px white;
+    color: white;
+    margin-right: 8.5vw;
 }
 
 .select-selected {
@@ -273,6 +284,7 @@
     position: absolute;
     margin-top: -52vh;
     color: #fff;
+    z-index: 2;
 
 }
 
@@ -281,7 +293,7 @@
     color: #fff;
     font-size: 7rem;
     display: block;
-    height: 15vh;
+    height: 16vh;
 }
 
 /* Boutton OK Formulaire */
@@ -290,7 +302,7 @@
     right: 4vw;
     border-radius: 20px;
     border: solid 4px white;
-    padding: 0.5em 0.75em;
+    padding: 0.3em 0.75em;
     background-color: rgba(0, 0, 0, 0.25);
     color: white;
     transition: ease-in-out .2s;
@@ -298,7 +310,6 @@
 
 .custom-submit-btn:hover {
     border: solid 4px white;
-    padding: 0.5em 0.75em;
     background-color: rgba(255, 255, 255, 1);
     color: black;
 }
@@ -339,7 +350,7 @@
 @media screen and (max-width: 1024px) {
     .text-glisse span {
         font-size: 80px;
-        height: 80px;
+        height: 100px;
         display: block;
     }
 
@@ -361,5 +372,32 @@
 
     .sport-list {
         margin-top: -24vh;
+    }
+
+    .custom-select select{
+        width: 25vw;
+        margin-right: 15vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .text-glisse span {
+        font-size: 10vw;
+        height: 100px;
+        display: inline-block;
+    }
+
+    .surfer img {
+        margin-top: -70vh;
+        width: 65%;
+    }
+
+    .skier img {
+        margin-top: -70vh;
+        width: 65%;
+    }
+    .custom-select select{
+        width: 60vw;
+        margin-right: 20vw;
     }
 }

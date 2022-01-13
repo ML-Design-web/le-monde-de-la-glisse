@@ -36,7 +36,7 @@
                 <li><a class="nav-link scrollto" href="http://localhost/le-monde-de-la-glisse/controllers/weather.php">Météo</a>
                 </li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                <li><a class="getstarted scrollto" href="#"><i class="fs-5 bi bi-person-circle"
+                <li><a class="getstarted scrollto" href="http://localhost/le-monde-de-la-glisse/controllers/connect.php"><i class="fs-5 bi bi-person-circle"
                                                                style="margin: 0;"></i><span class="connect-button">Se connecter</span></a>
                 </li>
                 <li><a class="getstarted scrollto" href="#"><i class="fs-5 bi bi-bag" style="margin: 0;">&nbsp;</i><span
