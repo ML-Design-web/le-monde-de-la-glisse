@@ -17,22 +17,22 @@
                 </li>
                 <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php"><span>Accessoires</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
-                        <li class="dropdown"><a href="#"><span>Montagne</span> <i class="bi bi-chevron-right"></i></a>
+                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#mountain"><span>Montagne</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Ski</a></li>
-                                <li><a href="#">Snow-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#ski">Ski</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snow-Board</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Patins</a></li>
-                        <li><a href="#">Voiles</a></li>
-                        <li class="dropdown"><a href="#"><span>Planches</span> <i class="bi bi-chevron-right"></i></a>
+                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins">Patins</a></li>
+                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles">Voiles</a></li>
+                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Planches</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="#">Snow-Board</a></li>
-                                <li><a href="#">Skate-Board</a></li>
-                                <li><a href="#">Long-Board</a></li>
-                                <li><a href="#">Kite-Surf</a></li>
-                                <li><a href="#">Surf</a></li>
-                                <li><a href="#">Paddle</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snow-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#skatebd">Skate-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#longbd">Long-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite">Kite-Surf</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#surf">Surf</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#paddle">Paddle</a></li>
                             </ul>
                         </li>
                         <li><a href="#" style=" color: red;">Bons plans</a></li>
