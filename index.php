@@ -395,7 +395,7 @@ include_once('__navbar/navbar.php');
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance (jj/mm/aaaa)" required onfocus="(this.type='date')">
+                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance" required onfocus="(this.type='date')">
                             </div>
 
                             <div class="col-md-6 form-group mt-3 mt-md-0">
