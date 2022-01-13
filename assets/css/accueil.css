@@ -194,7 +194,7 @@
     margin-top: -35vh;
 }
 
-
+/*/* ################ Part n° Séléction Customisée ############### */
 /* le container doit etre en position relative */
 .custom-select {
     position: relative;
@@ -223,7 +223,7 @@
     right: 20px;
     width: 0;
     height: 0;
-    border: 6px solid transparent;
+    border: 6px solid ;
     border-color: #fff transparent transparent transparent;
     margin-right: 10vw;
 }
@@ -277,15 +277,33 @@
 }
 
 .text-glisse span {
-    font-family: 'theboldfont';
+    font-family: 'theboldfont', sans-serif;
     color: #fff;
     font-size: 7rem;
     display: block;
     height: 15vh;
 }
 
-/* ############## */
+/* Boutton OK Formulaire */
+.custom-submit-btn {
+    position: absolute;
+    right: 4vw;
+    border-radius: 20px;
+    border: solid 4px white;
+    padding: 0.5em 0.75em;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    transition: ease-in-out .2s;
+}
 
+.custom-submit-btn:hover {
+    border: solid 4px white;
+    padding: 0.5em 0.75em;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+/* ########################## */
 
 /* section hiver */
 #wintersport {
