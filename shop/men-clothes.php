@@ -87,7 +87,7 @@ include_once('../__navbar/navbar.php');
         <div class="container">
             <div class="row">
 
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <span class="bage">Sale</span>
@@ -114,7 +114,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -140,7 +140,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -166,7 +166,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -192,7 +192,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -218,7 +218,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -244,7 +244,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <span class="bage">Sale</span>
@@ -271,7 +271,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
@@ -297,7 +297,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-6 col-sm-6 col-md-4 col-lg-3">
                     <div class="product-item">
                         <div class="product-thumb">
                             <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>

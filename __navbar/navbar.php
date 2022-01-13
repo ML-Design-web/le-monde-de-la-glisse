@@ -42,7 +42,7 @@
                 <li><a class="getstarted scrollto" href="#"><i class="fs-5 bi bi-bag" style="margin: 0;">&nbsp;</i><span
                                 class="badge">3</span></a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            <i class="burger bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
     </div>

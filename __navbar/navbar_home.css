@@ -14,7 +14,18 @@
 
 #header.header-scrolled a {
     color: #3fa9f5;
+    justify-content: center;
+
 }
+
+#header img {
+    width: 100%;
+    transition:  .3s ease-in-out;
+}
+
+#header.header-scrolled img {
+    width: 75%;
+    transition:  .3s ease-in-out;}
 
 #header.header-scrolled a:hover {
     color: #20eac4;
@@ -45,6 +56,11 @@
 
 #header .logo img {
     max-height: 35px;
+}
+
+.header-scrolled .burger::before{
+    color: #0a53be;
+    transition: all 0.5s;
 }
 
 /*--------------------------------------------------------------

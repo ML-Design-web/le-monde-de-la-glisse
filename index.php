@@ -175,6 +175,8 @@ include_once('__navbar/navbar.php');
                 </div>
             </div>
 
+            
+
         </div>
     </section><!-- End About Section -->
 

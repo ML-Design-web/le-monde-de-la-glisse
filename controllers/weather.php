@@ -81,21 +81,22 @@ include_once('../__navbar/navbar.php');
 
     <section id="weather">
         <div class="container">
-            <div class="col-lg-6 col-md-12 col-xs-12 location">
+            <div class="col-12 col-lg-6 col-md-12  location">
                 <input type="search" name="location" id="locate-search" placeholder="rentrez une adresse">
-
+                <button type="submit">ok</button>
             </div>
+            <div class="row">
+                <div class="maps col-12 col-sm-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688278.507870118!2d8.427253278356485!3d45.88836862453288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0x38c7fdcd674c57d!2sAlpes!5e1!3m2!1sfr!2sfr!4v1642071170571!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
+                </div>
 
-            <div class="white-bg maps">
+                <div class="white-bg weather-res col-12 col-sm-6">
 
-            </div>
-
-            <div class="white-bg weather-res">
-
+                </div>
             </div>
         </div>
 
-
+        
     </section>
 
     <!-- ======= About Section ======= -->
