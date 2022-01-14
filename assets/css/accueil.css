@@ -61,14 +61,14 @@
 }
 
 .bg-summer i {
-    color: #06a4ff;
+    color: #06ffde;
     z-index: 2;
     position: relative;
 
 }
 
 .bg-winter i {
-    color: #06ffde;
+    color: #06a4ff;
     z-index: 2;
     position: relative;
 }
