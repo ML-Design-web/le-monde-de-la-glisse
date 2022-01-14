@@ -84,6 +84,19 @@ include_once('../__navbar/navbar.php');
     </div>
 
     <section class="products section">
+        <div class="container shop-filters">
+            <div class="row justify-content-center shop-filters-border">
+                <div class="shop-filter"><a href="#ski">ski</a></div>
+                <div class="shop-filter"><a href="#snowbd">Snow-board</a></div>
+                <div class="shop-filter"><a href="#patins">Patin à glace</a></div>
+                <div class="shop-filter"><a href="#voiles">planche à voile</a></div>
+                <div class="shop-filter"><a href="#skatebd">skate-board</a></div>
+                <div class="shop-filter"><a href="#longbd">long-board</a></div>
+                <div class="shop-filter"><a href="#kite">kite-surf</a></div>
+                <div class="shop-filter"><a href="#surf">surf</a></div>
+                <div class="shop-filter"><a href="#paddle">paddle</a></div>
+            </div>
+        </div>
         <div class="container">
             <h1 id="mountain" class="accessories">Montagne</h1>
             <h3 id="ski">Ski</h3>
