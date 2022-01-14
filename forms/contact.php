@@ -2,6 +2,7 @@
 
 // Adresse mail de réception.
 $receiving_email_address = 'alan.thob@hotmail.fr';
+$receiving_email_address2 = $_POST['email'];
 
 // Initialisation de la bibliothèque PHP Email Form.
 if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-mail-form.php')) {
@@ -13,7 +14,7 @@ if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-mail-form
 $contact = new PHP_Email_Form;
 $contact->ajax = true;
 
-$contact->to = $receiving_email_address;
+$contact->to = $receiving_email_address . $receiving_email_address2;
 $contact->from_name = $_POST['name'];
 $contact->from_email = $_POST['email'];
 $contact->subject = $_POST['subject'];
@@ -29,6 +30,5 @@ $contact->add_message($_POST['sport-type'], 'Sport pratiqué');
 $contact->add_message($_POST['location'], 'Lieu pratiqué');
 $contact->add_message($_POST['subject'], 'Sujet');
 $contact->add_message($_POST['message'], 'Message', 10);
-$contact->cc = array($_POST['email']);
 $contact->cc = array('mathis.lambert27@gmail.com');
 echo $contact->send();
