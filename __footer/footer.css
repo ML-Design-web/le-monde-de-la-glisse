@@ -164,3 +164,10 @@
     color: #fff;
     text-decoration: none;
 }
+#footer .footer-condition {
+    color: rgba(255, 255, 255, 0.8);
+}
+#footer .footer-condition:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
