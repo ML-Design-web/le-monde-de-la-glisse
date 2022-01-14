@@ -2710,7 +2710,7 @@ h1.accessories:after{
   background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/webp/men_clothes.webp");
 }
 .wrapper:nth-child(2){
-  background-size: 150%;
+  background-size: 200%;
   background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/webp/women_clothes.webp");
 }
 .wrapper:nth-child(3){
