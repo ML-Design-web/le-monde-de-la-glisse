@@ -94,14 +94,25 @@ include_once('__navbar/navbar.php');
                     <span>GLISSE.</span>
                 </div>
                 <div class="sport-list custom-select">
-                    <select name="sports" id="sport-select">
-                        <option value="0">choisir dans la liste</option>
-                        <option value="1">Surf</option>
-                        <option value="2">Paddle</option>
-                        <option value="3">Kite-Surf</option>
-                        <option value="4">Planche à voile</option>
-                    </select>
-                    <button class="custom-submit-btn" type="submit">ok</button>
+                    <form action="index.php" method="get">
+                        <label for="sport-select">
+                            <select name="sports" id="sport-select">
+                                <option name="" value="0">choisir dans la liste</option>
+                                <option name="surf" value="1">Surf</option>
+                                <option name="paddle" value="2">Paddle</option>
+                                <option name="kite" value="3">Kite-Surf</option>
+                                <option name="voile" value="4">Planche à voile</option>
+                            </select>
+                        </label>
+                        <button class="custom-submit-btn" type="submit">ok</button>
+                    </form>
+
+                    <?php
+                    if (!empty($_GET)) {
+
+                    }
+                    ?>
+
                 </div>
             </div>
         </div>
@@ -126,12 +137,14 @@ include_once('__navbar/navbar.php');
                     <span>GLISSE.&nbsp;</span>
                 </div>
                 <div class="sport-list custom-select">
-                    <select name="sports" id="sport-select">
-                        <option value="0">choisir dans la liste</option>
-                        <option value="1">Ski</option>
-                        <option value="2">Snowboard</option>
-                        <option value="3">Patin à glace</option>
-                    </select>
+                    <label for="sport-select">
+                        <select name="sports" id="sport-select">
+                            <option value="0">choisir dans la liste</option>
+                            <option value="1">Ski</option>
+                            <option value="2">Snowboard</option>
+                            <option value="3">Patin à glace</option>
+                        </select>
+                    </label>
                     <button class="custom-submit-btn" type="submit">ok</button>
                 </div>
             </div>
