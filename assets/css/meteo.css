@@ -1,7 +1,7 @@
 @import "template.css";
 
 .baniere {
-    background-image: url("../img/jpg/meteo.jpg");
+    background-image: url("../img/webp/meteo.webp");
     background-position: 50% 25%;
     background-size: cover;
     height: 200px;

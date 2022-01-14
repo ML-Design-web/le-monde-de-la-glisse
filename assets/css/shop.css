@@ -2089,16 +2089,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   height: 100vh;
 }
 
-.bg-1 {
-  background-image: url(../images/backgrounds/bg-1.jpg);
-  background-size: cover;
-}
-
-.bg-2 {
-  background-image: url("../images/page-header-1.jpg");
-  background-size: cover;
-}
-
 .bg-2:before {
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -2107,17 +2097,6 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   right: 0;
   left: 0;
   bottom: 0;
-}
-
-.bg-coming-soon {
-  background: url("../images/backgrounds/coming-soon-bg.jpg");
-  background-size: cover;
-  height: 100vh;
-}
-
-.bg-brand-identity {
-  background-image: url("../images/backgrounds/brand-identity-bg.jpg");
-  background-repeat: no-repeat;
 }
 
 .coming-soon {
@@ -2728,14 +2707,14 @@ h1.accessories:after{
 }
 
 .wrapper:nth-child(1){
-  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/men_clothes.jpg");
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/webp/men_clothes.webp");
 }
 .wrapper:nth-child(2){
   background-size: 150%;
-  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/women_clothes.jpg");
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/webp/women_clothes.webp");
 }
 .wrapper:nth-child(3){
-  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/kids_clothes.jpg");
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/webp/kids_clothes.webp");
 }
 
 .wrapper > img {
