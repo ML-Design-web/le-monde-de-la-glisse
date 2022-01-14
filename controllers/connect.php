@@ -25,7 +25,7 @@ ini_set('display_errors', 'off');
     <meta name="twitter:image" content="#"/>
 
     <!-- Favicons -->
-    <link href="../assets/img/favicon.png" rel="icon">
+    <link href="../assets/img/svg/favicon.svg" rel="icon">
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -73,7 +73,7 @@ include_once('../__navbar/navbar.php');
     <section class="connect">
         <div class="connect-wdw">
             <ul>
-                <li><img src="../assets/img/png/logo.png" alt="logo" ></li>
+                <li><img src="../assets/img/webp/logo.webp" alt="logo" ></li>
                 <li><div class="window">
                         <ul>
                             <li><h3>Connexion</h3></li>
