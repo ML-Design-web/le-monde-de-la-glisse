@@ -55,6 +55,14 @@
 
 #header .logo img {
     max-height: 35px;
+
+}
+#header .logo{
+    transition: all 0.3s ease;
+}
+#header .logo:hover {
+    opacity: 0.75;
+
 }
 
 .header-scrolled .burger::before{

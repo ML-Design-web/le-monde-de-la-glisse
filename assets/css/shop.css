@@ -2706,7 +2706,7 @@ h1.accessories:after{
 
 .wrapper{
   border-radius: 25px;
-  height: 75vh;
+  height: 70vh;
   width: 33%;
   cursor: pointer;
   flex-grow: 1;
@@ -2714,16 +2714,18 @@ h1.accessories:after{
   margin: 2%;
 
   background-size: cover;
+  background-position: center;
 }
 
 .wrapper:nth-child(1){
   background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/men_clothes.jpg");
 }
 .wrapper:nth-child(2){
+  background-size: 150%;
   background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/women_clothes.jpg");
 }
 .wrapper:nth-child(3){
-  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/men_clothes.jpg");
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/kids_clothes.jpg");
 }
 
 .wrapper > img {
