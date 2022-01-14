@@ -12,7 +12,7 @@ ini_set('display_errors', 'off');
     <meta name="description" content="#"/>
     <meta name="robots" content="index, follow"/>
     <meta property="theme-color" content="#B0FF00"/>
-    <meta property="og:title" content="Vêtements pour Hommes | La glisse"/>
+    <meta property="og:title" content="Vêtements | La glisse"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="#"/>
     <meta property="og:url" content="#"/>
@@ -20,7 +20,7 @@ ini_set('display_errors', 'off');
     <meta property="og:locale" content="fr_FR"/>
     <meta property="keywords" content="#"/>
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Vêtements pour Hommes | La glisse"/>
+    <meta name="twitter:title" content="Vêtements | La glisse"/>
     <meta name="twitter:description" content="#"/>
     <meta name="twitter:image" content="#"/>
 
@@ -69,7 +69,7 @@ include_once('../__navbar/navbar.php');
             <div class="d-flex justify-content-between align-items-center">
                 <ol>
                     <li><a href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
-                    <li>Nos Vêtements</li>
+                    <li>Vêtements</li>
                 </ol>
             </div>
 
@@ -985,8 +985,6 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="../assets/vendor/php-email-form/validate.js"></script>
-<script src="../assets/js/select-list.js"></script>
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>

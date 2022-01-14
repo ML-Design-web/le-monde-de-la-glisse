@@ -14,6 +14,9 @@
 #kids.baniere{
   background-image: url("../img/webp/kids_clothes.webp");
 }
+#accessories.baniere {
+  background-image: url("../img/webp/accessories.webp");
+}
 .title-baniere h1 {
   padding-top: 40px;
   font-size: 50px;

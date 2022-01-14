@@ -44,7 +44,6 @@ ini_set('display_errors', 'off');
     <!-- Template Main CSS File -->
     <link href="../__navbar/navbar.css" rel="stylesheet">
     <link href="../__footer/footer.css" rel="stylesheet">
-    <link href="../assets/css/template.css" rel="stylesheet">
     <link href="../assets/css/meteo.css" rel="stylesheet">
 </head>
 
@@ -122,8 +121,6 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="../assets/vendor/php-email-form/validate.js"></script>
-<script src="../assets/js/select-list.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 

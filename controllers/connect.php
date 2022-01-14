@@ -7,12 +7,12 @@ ini_set('display_errors', 'off');
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Météo | La glisse</title>
+    <title>Se connecter | La glisse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="description" content="#"/>
     <meta name="robots" content="index, follow"/>
     <meta property="theme-color" content="#B0FF00"/>
-    <meta property="og:title" content="Météo | La glisse"/>
+    <meta property="og:title" content="Se connecter | La glisse"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="#"/>
     <meta property="og:url" content="#"/>
@@ -20,7 +20,7 @@ ini_set('display_errors', 'off');
     <meta property="og:locale" content="fr_FR"/>
     <meta property="keywords" content="#"/>
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Météo | La glisse"/>
+    <meta name="twitter:title" content="Se connecter | La glisse"/>
     <meta name="twitter:description" content="#"/>
     <meta name="twitter:image" content="#"/>
 
@@ -43,8 +43,6 @@ ini_set('display_errors', 'off');
     <!-- Template Main CSS File -->
     <link href="../__navbar/navbar.css" rel="stylesheet">
     <link href="../__footer/footer.css" rel="stylesheet">
-    <link href="../assets/css/template.css" rel="stylesheet">
-    <link href="../assets/css/meteo.css" rel="stylesheet">
     <link href="../assets/css/connect.css" rel="stylesheet">
 </head>
 
@@ -73,21 +71,33 @@ include_once('../__navbar/navbar.php');
     <section class="connect">
         <div class="connect-wdw">
             <ul>
-                <li><img src="../assets/img/webp/logo.webp" alt="logo" ></li>
-                <li><div class="window">
+                <li>
+                    <img src="../assets/img/webp/logo.webp" alt="logo" >
+                </li>
+                <li>
+                    <div class="window">
                         <ul>
-                            <li><h3>Connexion</h3></li>
-                            <li><label>
+                            <li>
+                                <h3>Connexion</h3>
+                            </li>
+                            <li>
+                                <label>
                                     <input type="text" placeholder="Identifiant">
-                                </label></li>
-                            <li><label>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
                                     <input type="password" placeholder="Mot de passe">
-                                </label></li>
-                            <li><button type="submit">Se connecter</button></li>
+                                </label>
+                            </li>
+                            <li>
+                                <button type="submit">Se connecter</button>
+                            </li>
                         </ul>
                         <span>Pas encore de compte ? |</span>
                         <span><a href="#">Créer un compte</a></span>
-                    </div></li>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
@@ -110,9 +120,6 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="../assets/vendor/php-email-form/validate.js"></script>
-<script src="../assets/js/select-list.js"></script>
-
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
 

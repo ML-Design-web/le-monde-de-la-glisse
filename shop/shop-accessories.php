@@ -12,7 +12,7 @@ ini_set('display_errors', 'off');
     <meta name="description" content="#"/>
     <meta name="robots" content="index, follow"/>
     <meta property="theme-color" content="#B0FF00"/>
-    <meta property="og:title" content="Vêtements pour Hommes | La glisse"/>
+    <meta property="og:title" content="Accessoires | La glisse"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="#"/>
     <meta property="og:url" content="#"/>
@@ -20,7 +20,7 @@ ini_set('display_errors', 'off');
     <meta property="og:locale" content="fr_FR"/>
     <meta property="keywords" content="#"/>
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="Vêtements pour Hommes | La glisse"/>
+    <meta name="twitter:title" content="Accessoires | La glisse"/>
     <meta name="twitter:description" content="#"/>
     <meta name="twitter:image" content="#"/>
 
@@ -69,14 +69,14 @@ include_once('../__navbar/navbar.php');
             <div class="d-flex justify-content-between align-items-center">
                 <ol>
                     <li><a href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
-                    <li>Nos accessoires</li>
+                    <li>Accessoires</li>
                 </ol>
             </div>
 
         </div>
     </section><!-- End Breadcrumbs -->
 
-    <div class="baniere">
+    <div class="baniere" id="accessories">
         <div class="text-center title-baniere">
             <h1>Nos accessoires</h1>
             <p>Découvrez notre collection d'accessoires pour sport de glisse !</p>
@@ -258,85 +258,7 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
+
                 <!-- Modal -->
                 <div class="modal product-modal fade" id="product-modal">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
