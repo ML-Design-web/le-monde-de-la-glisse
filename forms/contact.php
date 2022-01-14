@@ -27,7 +27,7 @@ $contact->add_message($_POST['email'], 'Email');
 $contact->add_message($_POST['adresse'], 'Adresse');
 $contact->add_message($_POST['zip'], 'Code postal');
 $contact->add_message($_POST['city'], 'Ville');
-$contact->add_message($_POST['sport-type'], 'Sport pratiqué');
+$contact->add_message($_POST['activity'], 'Sport pratiqué');
 $contact->add_message($_POST['location'], 'Lieu pratiqué');
 $contact->add_message($_POST['subject'], 'Sujet');
 $contact->add_message($_POST['message'], 'Message', 10);
