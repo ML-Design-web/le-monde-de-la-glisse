@@ -21,12 +21,12 @@
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#ski">Ski</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snowboard</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins">Patins</a></li>
                             </ul>
                         </li>
 
                         <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#nautic"><span>Nautique</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#canoe-kayak">Canoë-kayak</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles">Voiles</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite">Kite-Surf</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#surf">Surf</a></li>
@@ -35,8 +35,8 @@
                         </li>
 
 
-                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins">Patins</a></li>
-                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Planches</span> <i class="bi bi-chevron-right"></i></a>
+
+                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Planche terrestre</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#skatebd">Skate-Board</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#longbd">Long-Board</a></li>
