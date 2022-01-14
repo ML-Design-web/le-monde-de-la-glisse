@@ -46,7 +46,7 @@
                         <li><a href="#" style=" color: red;">Bons plans</a></li>
                     </ul>
                 </li>
-                <li><a class="nav-link scrollto" href="#team">Tutoriel</a></li>
+                <li><a class="nav-link scrollto" href="http://localhost/le-monde-de-la-glisse/controllers/tutoriels.php">Tutoriel</a></li>
                 <li><a class="nav-link scrollto" href="http://localhost/le-monde-de-la-glisse/controllers/weather.php">Météo</a>
                 </li>
                 <li><a class="nav-link scrollto" href="http://localhost/le-monde-de-la-glisse/#contact">Contact</a></li>
