@@ -394,7 +394,7 @@ include_once('__navbar/navbar.php');
 
         </div>
     </section><!-- End Team Section -->
-    
+
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
         <div class="container" data-aos="fade-up">
