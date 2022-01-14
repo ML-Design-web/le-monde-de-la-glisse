@@ -95,15 +95,15 @@ include_once('../__navbar/navbar.php');
         <div class="container-wrapper">
 
             <div class="wrapper" onclick="href('men')">
-
+                <div class="wrapper-text"><h1>HOMMES</h1></div>
             </div>
 
             <div class="wrapper" onclick="href('women')">
-
+                <div class="wrapper-text"><h1>FEMMES</h1></div>
             </div>
 
             <div class="wrapper" onclick="href('kids')">
-
+                <div class="wrapper-text"><h1>ENFANTS</h1></div>
             </div>
         </div>
     </section>

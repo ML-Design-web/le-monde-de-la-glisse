@@ -1,10 +1,18 @@
 @import "template.css";
 
 .baniere {
-  background-image: url("../img/jpg/men_clothes.jpg");
   background-position: 50% 45%;
   background-size: cover;
   height: 200px;
+}
+#men.baniere{
+  background-image: url("../img/jpg/men_clothes.jpg");
+}
+#women.baniere{
+  background-image: url("../img/jpg/women_clothes.jpg");
+}
+#kids.baniere{
+  background-image: url("../img/jpg/kids_clothes.jpg");
 }
 .title-baniere h1 {
   padding-top: 40px;
@@ -2712,9 +2720,11 @@ h1.accessories:after{
   flex-grow: 1;
   transition: width 300ms ease;
   margin: 2%;
+  position: relative;
 
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .wrapper:nth-child(1){
@@ -2731,13 +2741,26 @@ h1.accessories:after{
 .wrapper > img {
   width: 100%;
   border-radius: 25px;
-
-
 }
 
 .wrapper:hover{
   width: 50%;
+}
 
+.wrapper:before{
+  content: '';
+  position: absolute;
+  background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(255,255,255,0) 47%);
+  inset: 0;
+
+}
+
+.wrapper-text {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  top: 85%;
 }
 
 @media (max-width: 700px){
