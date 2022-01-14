@@ -97,15 +97,1205 @@ include_once('../__navbar/navbar.php');
                 <div class="shop-filter"><a href="#paddle">paddle</a></div>
             </div>
         </div>
+
+        <!-- Catégorie Montagne -->
         <div class="container">
             <h1 id="mountain" class="accessories">Montagne</h1>
+
+            <!-- Catégorie Ski -->
             <h3 id="ski">Ski</h3>
             <div class="row">
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">360€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/ski.jpg" alt="SKI"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">SKI</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Catégorie Snowboard -->
+            </div>
+            <h3 id="snowbd">Snowboard</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/snowboard.jpg" alt="Snowboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Snowboard</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/snowboard.jpg" alt="Snowboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Snowboard</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/snowboard.jpg" alt="Snowboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Snowboard</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/snowboard.jpg" alt="Snowboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Snowboard</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/snowboard.jpg" alt="Snowboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Snowboard</a></h4>
+                            <p class="price">360€</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Catégorie Patin à glace -->
+            <h3 id="patins">Patin à glace</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/patin.jpg" alt="Patin"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Patin à glace</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/patin.jpg" alt="Patin"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Patin à glace</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/patin.jpg" alt="Patin"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Patin à glace</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catégorie Nautique -->
+            <h1 class="accessories">Nautique</h1>
+
+                <!-- Catégorie Planches à voile -->
+            <h3 id="voiles">Planche à voile</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">360€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/plan-a-voile.jpg" alt="Planche-a-voile"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Planche à voile</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Catégorie SkateBoard -->
+
+            <h3 id="skatebd">SkateBoard</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">260€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Catégorie LongBoard -->
+
+
+            <h3 id="longbd">LongBoard</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">260€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catégorie Kitesurf -->
+
+            </div>
+            <h3 id="kite">Kitesurf</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">260€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/kitesurf.jpg" alt="Kitesurf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Kitesurf</a></h4>
+                            <p class="price">390€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catégorie Surf -->
+
+            <h3 id="surf">Surf</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">260€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/surf.jpg" alt="Surf"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
+									<span data-toggle="modal" data-target="#product-modal">
+										<i class="tf-ion-ios-search-strong"></i>
+									</span>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Surf</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Catégorie Paddle -->
+
+            <h3 id="paddle">Paddle</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -131,7 +1321,7 @@ include_once('../__navbar/navbar.php');
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -157,7 +1347,7 @@ include_once('../__navbar/navbar.php');
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -183,7 +1373,7 @@ include_once('../__navbar/navbar.php');
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -209,7 +1399,7 @@ include_once('../__navbar/navbar.php');
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -235,7 +1425,7 @@ include_once('../__navbar/navbar.php');
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
                     <div class="product-item">
                         <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
+                            <img class="img-responsive" src="../assets/img/jpg/paddle.jpg" alt="Paddle"/>
                             <div class="preview-meta">
                                 <ul>
                                     <li>
@@ -259,1480 +1449,8 @@ include_once('../__navbar/navbar.php');
                     </div>
                 </div>
 
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="snowbd">Snow-Board</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="patins">Patin à glace</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h1 class="accessories">Planches</h1>
-            <h3 id="voiles">Planche à voile</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="skatebd">Skate-Board</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="longbd">Long-Board</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="kite">Kite-surf</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="surf">Surf</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
-            </div>
-            <h3 id="paddle">Paddle</h3>
-            <div class="row">
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <span class="bage">Sale</span>
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Reef Boardsport</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Strayhorn SP</a></h4>
-                            <p class="price">$230</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Bradley Mid</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                    <div class="product-item">
-                        <div class="product-thumb">
-                            <img class="img-responsive" src="../assets/img/hero-img.png" alt="product-img"/>
-                            <div class="preview-meta">
-                                <ul>
-                                    <li>
-									<span data-toggle="modal" data-target="#product-modal">
-										<i class="tf-ion-ios-search-strong"></i>
-									</span>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-content">
-                            <h4><a href="product-single.html">Rainbow Shoes</a></h4>
-                            <p class="price">$200</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Modal -->
-                <div class="modal product-modal fade" id="product-modal">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <i class="tf-ion-close"></i>
-                    </button>
-                    <div class="modal-dialog " role="document">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="modal-image">
-                                            <img class="img-responsive" src="../assets/img/hero-img.png"
-                                                 alt="product-img"/>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 col-xs-12">
-                                        <div class="product-short-details">
-                                            <h2 class="product-title">GM Pendant, Basalt Grey</h2>
-                                            <p class="product-price">$200</p>
-                                            <p class="product-short-description">
-                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iusto
-                                                nihil cum. Illo laborum numquam rem aut officia dicta cumque.
-                                            </p>
-                                            <a href="cart.html" class="btn btn-main">Add To Cart</a>
-                                            <a href="product-single.html" class="btn btn-transparent">View Product
-                                                Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.modal -->
+                <!-- Catégorie Terre -->
+                <h1 class="accessories">Terre</h1>
             </div>
         </div>
     </section>

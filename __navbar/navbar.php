@@ -20,7 +20,7 @@
                         <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#mountain"><span>Montagne</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#ski">Ski</a></li>
-                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snow-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd">Snowboard</a></li>
                             </ul>
                         </li>
 
