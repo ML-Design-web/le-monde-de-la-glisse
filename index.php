@@ -98,10 +98,10 @@ include_once('__navbar/navbar.php');
                         <label for="sport-select"></label>
                             <select name="summer" id="sport-select">
                                 <option value="0">choisir dans la liste</option>
+                                <option value="voile">Planche à voile</option>
+                                <option value="kite">Kite-Surf</option>
                                 <option value="surf">Surf</option>
                                 <option value="paddle">Paddle</option>
-                                <option value="kite">Kite-Surf</option>
-                                <option value="voile">Planche à voile</option>
                             </select>
 
                         <button class="custom-submit-btn" type="submit">ok</button>
@@ -170,6 +170,8 @@ include_once('__navbar/navbar.php');
                         <button class="custom-submit-btn" type="submit">ok</button>
                     </form>
 
+
+                    <!-- ======  CATEGORIE DE CHOIX DU SPORT D'HIVER  ====== -->
                     <?php
                     if (isset($_POST)) {
                         $selectsport = $_POST['winter'];
