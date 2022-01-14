@@ -78,21 +78,11 @@ include_once('../__navbar/navbar.php');
             <p>Retrouvez toutes les informations météorologiques sur notre page !</p>
         </div>
     </div>
-
-    <section id="weather">
+    <section>
         <div class="container">
-            <div class="col-12 col-lg-6 col-md-12  location">
-                <input type="search" name="location" id="locate-search" placeholder="rentrez une adresse">
-                <button type="submit">ok</button>
-            </div>
             <div class="row">
-                <div class="maps col-12 col-sm-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688278.507870118!2d8.427253278356485!3d45.88836862453288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4789459fb534be51%3A0x38c7fdcd674c57d!2sAlpes!5e1!3m2!1sfr!2sfr!4v1642071170571!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-
-                <div class="white-bg weather-res col-12 col-sm-6">
-
-                </div>
+                <div id="weatherapi-weather-widget-4"></div><script type='text/javascript' src='https://www.weatherapi.com/weather/widget.ashx?loc=767595&wid=4&tu=1&div=weatherapi-weather-widget-4' async></script>
+                <noscript><a href="https://www.weatherapi.com/weather/q/chamonix-767595" alt="Hour by hour Chamonix weather">10 day hour by hour Chamonix weather</a></noscript>
             </div>
         </div>
     </section>
@@ -117,6 +107,7 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="../assets/vendor/php-email-form/validate.js"></script>
 <script src="../assets/js/select-list.js"></script>
+<script src="../assets/current.json"></script>
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
