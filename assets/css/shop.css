@@ -6,13 +6,13 @@
   height: 200px;
 }
 #men.baniere{
-  background-image: url("../img/jpg/men_clothes.jpg");
+  background-image: url("../img/webp/men_clothes.webp");
 }
 #women.baniere{
-  background-image: url("../img/jpg/women_clothes.jpg");
+  background-image: url("../img/webp/women_clothes.webp");
 }
 #kids.baniere{
-  background-image: url("../img/jpg/kids_clothes.jpg");
+  background-image: url("../img/webp/kids_clothes.webp");
 }
 .title-baniere h1 {
   padding-top: 40px;
