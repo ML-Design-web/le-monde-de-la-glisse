@@ -2,7 +2,6 @@
 
 // Adresse mail de réception.
 $receiving_email_address = 'alan.thob@hotmail.fr';
-$receiving_email_address2 = $_POST['email'];
 
 // Initialisation de la bibliothèque PHP Email Form.
 if (file_exists($php_email_form = '../assets/vendor/php-email-form/php-mail-form.php')) {
@@ -15,7 +14,7 @@ $contact = new PHP_Email_Form;
 $contact->ajax = true;
 
 $contact->to = $receiving_email_address;
-$contact->cc = array('mathis.lambert27@gmail.com');
+//$contact->cc = array('mathis.lambert27@gmail.com');
 $contact->cc = $_POST['email'];
 $contact->from_name = $_POST['name'];
 $contact->from_email = $_POST['email'];
