@@ -107,7 +107,6 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
 <script src="../assets/vendor/php-email-form/validate.js"></script>
 <script src="../assets/js/select-list.js"></script>
-<script src="../assets/current.json"></script>
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>

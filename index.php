@@ -384,44 +384,44 @@ include_once('__navbar/navbar.php');
                         <div class="row">
                             <label class="col-md-6 form-group" for="civilite">
                                 <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilite" id="civilite" required>
-                                    <option selected value="" disabled>Civilité</option>
+                                    <option selected value="" disabled>Civilité*</option>
                                     <option value="M.">Monsieur</option>
                                     <option value="Mme">Madame</option>
                                 </select>
                             </label>
 
                             <div class="col-md-6 form-group pb-3">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom" required>
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Nom & Prénom*" required>
                             </div>
 
                             <div class="col-md-6 form-group">
-                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance" required onfocus="(this.type='date')" data-error="Veuillez rentrer votre date de naissance.">
+                                <input type="text" name="born-date" class="form-control" id="born-date" placeholder="Date de naissance*" required onfocus="(this.type='date')" theTextArea.onChange = function(){ if(this.value == ''){ alert('You must supply a value for this field'); } };>
                             </div>
 
                             <div class="col-md-6 form-group mt-3 mt-md-0">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail" required>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Adresse mail*" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Adresse" required>
+                                <input type="text" name="adresse" class="form-control" id="adresse" placeholder="Adresse*" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal" required>
+                                <input type="text" name="zip" class="form-control" id="zip" placeholder="Code postal*" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3">
-                                <input type="text" name="city" class="form-control" id="city" placeholder="Ville" required>
+                                <input type="text" name="city" class="form-control" id="city" placeholder="Ville*" required>
                             </div>
 
                             <div class="col-md-6 form-group pt-3 pb-3">
-                                <input type="text" name="activity" class="form-control" id="activity" placeholder="Activité pratiquée" required>
+                                <input type="text" name="activity" class="form-control" id="activity" placeholder="Activité pratiquée*" required>
                             </div>
 
                             <div class="map-section">
                                 <div class="faq-list">
                                     <ul>
-                                        <li><i class='bx bx-current-location icon-location'></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-6">Sélectionnez le lieu de l'activité pratiquée. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                        <li><i class='bx bx-current-location icon-location'></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-6">Sélectionnez le lieu de l'activité pratiquée*. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                                             <div id="faq-list-6" class="collapse" data-bs-parent=".faq-list">
                                                 <img class="carte mx-auto d-block" src="assets/img/png/carte-france-regions.png" usemap="#image-map">
                                                 <map name="image-map">
@@ -447,10 +447,10 @@ include_once('__navbar/navbar.php');
                             </div>
 
                             <div class="form-group mt-3">
-                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet" required>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Objet*" required>
                             </div>
                             <div class="form-group mt-3">
-                                    <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                                    <textarea class="form-control" name="message" rows="5" placeholder="Message*" required></textarea>
                             </div>
                             <div class="my-3">
                                 <div class="loading">Chargement ...</div>
@@ -458,6 +458,7 @@ include_once('__navbar/navbar.php');
                                 <div class="sent-message">Votre message a bien été envoyé et sera traité par nos services très prochainement. A bientot !</div>
                             </div>
                             <div class="text-center">
+                                <p style="color: red">Les champs mentionnés avec un * sont obligatoires.</p>
                                 <button type="submit">Envoyer</button>
                             </div>
                     </form>
@@ -546,6 +547,5 @@ include_once('__footer/footer.php');
         });
     } );
 </script>
-
 </body>
 </html>
