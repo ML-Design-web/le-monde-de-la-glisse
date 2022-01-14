@@ -7,11 +7,11 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto " href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
-                <li class="dropdown"><a href="#"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-clothes.php"><span>Vêtements</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="http://localhost/le-monde-de-la-glisse/shop/men-clothes.php">Hommes</a></li>
-                        <li><a href="#">Femmes</a></li>
-                        <li><a href="#">Enfants</a></li>
+                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/women-clothes.php">Femmes</a></li>
+                        <li><a href="http://localhost/le-monde-de-la-glisse/shop/kids-clothes.php">Enfants</a></li>
                         <li><a href="#" style=" color: red;">Bons plans</a></li>
                     </ul>
                 </li>

@@ -50,6 +50,7 @@
     font-family: "Poppins", sans-serif;
     border: none;
     margin: .2em;
+    color: #0c0c0c;
 
     /* Smooth fonts */
     -webkit-font-smoothing: antialiased;

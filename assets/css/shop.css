@@ -2651,3 +2651,110 @@ h1.accessories:after{
   margin-left: 2.5vw;
   background-color: #00ffbb;
 }
+.shop-filters{
+  padding: 5vh 5vw;
+  text-transform: uppercase;
+
+}
+
+.shop-filters-border{
+  border: solid 1px black;
+  padding: 2vh 0;
+  border-radius: 15px;
+}
+
+.shop-filter{
+  width: fit-content;
+  margin: 0 .3em;
+  padding: 0 .2em;
+  position: relative;
+
+
+  /* Smooth fonts */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.shop-filter:before{
+  content: '';
+  position: absolute;
+  height: 1.5px;
+  background-color: #04414d;
+  right: 100%;
+  left: 0;
+  bottom: 0;
+
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.shop-filter:hover:before{
+  right: 0;
+}
+.container-wrapper{
+  display: flex;
+  height: 100%;
+  padding: 0 5vw;
+}
+
+.wrapper{
+  border-radius: 25px;
+  height: 75vh;
+  width: 33%;
+  cursor: pointer;
+  flex-grow: 1;
+  transition: width 300ms ease;
+  margin: 2%;
+
+  background-size: cover;
+}
+
+.wrapper:nth-child(1){
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/men_clothes.jpg");
+}
+.wrapper:nth-child(2){
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/women_clothes.jpg");
+}
+.wrapper:nth-child(3){
+  background-image: url("http://localhost/le-monde-de-la-glisse/assets/img/jpg/men_clothes.jpg");
+}
+
+.wrapper > img {
+  width: 100%;
+  border-radius: 25px;
+
+
+}
+
+.wrapper:hover{
+  width: 50%;
+
+}
+
+@media (max-width: 700px){
+  .container-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0 5vw;
+  }
+
+  .wrapper{
+    width: 100vw;
+    height: 25vh;
+    transition: height 300ms ease;
+
+  }
+  .wrapper:hover{
+     width: 100vw;
+    height: 50vh;
+
+   }
+}
