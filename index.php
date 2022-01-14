@@ -384,7 +384,7 @@ include_once('__navbar/navbar.php');
                         <div class="row">
                             <label class="col-md-6 form-group" for="civilite">
                                 <select class="form-control" style="padding: 8px; margin-bottom: 15px" name="civilite" id="civilite" required>
-                                    <option selected value="Civilité" disabled>Civilité</option>
+                                    <option selected value="" disabled>Civilité</option>
                                     <option value="M.">Monsieur</option>
                                     <option value="Mme">Madame</option>
                                 </select>
