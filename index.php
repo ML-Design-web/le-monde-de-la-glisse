@@ -94,22 +94,42 @@ include_once('__navbar/navbar.php');
                     <span>GLISSE.</span>
                 </div>
                 <div class="sport-list custom-select">
-                    <form action="index.php" method="get">
-                        <label for="sport-select">
-                            <select name="sports" id="sport-select">
-                                <option name="" value="0">choisir dans la liste</option>
-                                <option name="surf" value="1">Surf</option>
-                                <option name="paddle" value="2">Paddle</option>
-                                <option name="kite" value="3">Kite-Surf</option>
-                                <option name="voile" value="4">Planche à voile</option>
+                    <form action="index.php" method="post">
+                        <label for="sport-select"></label>
+                            <select name="summer" id="sport-select">
+                                <option value="0">choisir dans la liste</option>
+                                <option value="surf">Surf</option>
+                                <option value="paddle">Paddle</option>
+                                <option value="kite">Kite-Surf</option>
+                                <option value="voile">Planche à voile</option>
                             </select>
-                        </label>
+
                         <button class="custom-submit-btn" type="submit">ok</button>
                     </form>
 
                     <?php
-                    if (!empty($_GET)) {
-
+                    if (isset($_POST)) {
+                        $selectsport = $_POST['summer'];
+                        if ($selectsport == 'surf') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#surf");
+                                  </script>';
+                        }
+                        if ($selectsport == 'paddle') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#paddle");
+                                  </script>';
+                        }
+                        if ($selectsport == 'kite') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite");
+                                  </script>';
+                        }
+                        if ($selectsport == 'voile') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles");
+                                  </script>';
+                        }
                     }
                     ?>
 
@@ -136,16 +156,41 @@ include_once('__navbar/navbar.php');
                     <span>TA&nbsp;</span>
                     <span>GLISSE.&nbsp;</span>
                 </div>
+
                 <div class="sport-list custom-select">
-                    <label for="sport-select">
-                        <select name="sports" id="sport-select">
-                            <option value="0">choisir dans la liste</option>
-                            <option value="1">Ski</option>
-                            <option value="2">Snowboard</option>
-                            <option value="3">Patin à glace</option>
-                        </select>
-                    </label>
-                    <button class="custom-submit-btn" type="submit">ok</button>
+                    <form action="index.php" method="post">
+                        <label for="sport-select"></label>
+                            <select name="winter" id="sport-select">
+                                <option value="0">choisir dans la liste</option>
+                                <option value="ski">Ski</option>
+                                <option value="snow">Snowboard</option>
+                                <option value="patin">Patin à glace</option>
+                            </select>
+
+                        <button class="custom-submit-btn" type="submit">ok</button>
+                    </form>
+
+                    <?php
+                    if (isset($_POST)) {
+                        $selectsport = $_POST['winter'];
+                        if ($selectsport == 'ski') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#ski");
+                                  </script>';
+                        }
+                        if ($selectsport == 'snow') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd");
+                                  </script>';
+                        }
+                        if ($selectsport == 'patin') {
+                            echo '<script type="text/javascript">
+                                    window.open("http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins");
+                                  </script>';
+                        }
+                    }
+                    ?>
+
                 </div>
             </div>
         </div>
