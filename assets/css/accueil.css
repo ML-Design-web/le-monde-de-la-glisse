@@ -496,6 +496,101 @@
 }
 
 /*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+    background-color: var(--background-color-body);
+    padding: 60px 0;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: var(--background-color-contenu);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    color: white;
+    fill: white;
+}
+
+.team .member .social a {
+    color: var(--icon-color);
+    margin: 0 3px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    transition: ease-in-out 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .member .social a:hover {
+    color: var(--icon-color);
+    background: var(--background-color-special);
+}
+
+.team .member .social i {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.member-info {
+    background-color: var(--background-color-contenu);
+}
+
+.member-info a {
+    color: var(--text-color);
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+
+/*--------------------------------------------------------------
 # Section contact
 --------------------------------------------------------------*/
 @media screen and (max-width: 425px) {

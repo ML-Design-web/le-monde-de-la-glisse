@@ -346,6 +346,55 @@ include_once('__navbar/navbar.php');
         </div>
     </section><!-- ======= Fin Section Avis Clients ======= -->
 
+    <!-- ======= Team Section ======= -->
+    <section class="team">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Notre équipe</h2>
+                <p>Toute une équipe pour vous !</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="assets/img/team/Cresus.webp" class="img-fluid" alt="Profil_Alan_THOB">
+                            <div class="social">
+                                <a href="https://twitter.com/sfait_fr" target="_blank"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.instagram.com/sfait_fr/" target="_blank"><i
+                                            class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4><a href="https://github.com/Cresus83">Alan THOB</a></h4>
+                            <span>Fondateur</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="assets/img/team/mathis.webp" class="img-fluid" alt="Profil_Mathis_LAMBERT">
+                            <div class="social">
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4><a href="#">Mathis Lambert</a></h4>
+                            <span>Fondateur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+    
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
         <div class="container" data-aos="fade-up">
