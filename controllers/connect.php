@@ -58,6 +58,18 @@ include_once('../__navbar/navbar.php');
 
 <main id="main">
 
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <ol>
+                    <li><a href="../index.php">Accueil</a></li>
+                    <li>Se connecter</li>
+                </ol>
+            </div>
+        </div>
+    </section><!-- End Breadcrumbs -->
+
     <section class="connect">
         <div class="connect-wdw">
             <ul>
@@ -71,15 +83,13 @@ include_once('../__navbar/navbar.php');
                             <li><label>
                                     <input type="password" placeholder="Mot de passe">
                                 </label></li>
-                            <li><button type="submit">se connecter</button></li>
+                            <li><button type="submit">Se connecter</button></li>
                         </ul>
                         <span>Pas encore de compte ? |</span>
                         <span><a href="#">Créer un compte</a></span>
                     </div></li>
             </ul>
         </div>
-
-
     </section>
 
 </main><!-- End #main -->
