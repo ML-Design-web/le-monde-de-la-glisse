@@ -1,5 +1,59 @@
 @import "template.css";
 
+#tutoriels.baniere {
+    background-image: url("../img/jpg/tutoriels.jpg");
+}
+.baniere {
+    background-position: 50% 45%;
+    background-size: cover;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+.baniere:before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0,0,0,0.75) 0%, rgba(255,255,255,0) 47%);
+    inset: 0;
+    z-index: 2;
+}
+.baniere:after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,0.75) 0%, rgba(255,255,255,0) 47%);
+    inset: 0;
+    z-index: 2;
+}
+.title-baniere h1 {
+    padding-top: 40px;
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.title-baniere p {
+    padding-top: 20px;
+    font-size: 23px;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+@media (max-width: 700px){
+    .title-baniere h1 {
+
+        font-size: 35px;
+
+    }
+    .title-baniere p {
+        padding-top: 20px;
+        font-size: 13px;
+        color: #fff;
+    }
+}
+/*##########*/
 .gtco-testimonials .owl-stage-outer {
     padding: 30px 0;
 }

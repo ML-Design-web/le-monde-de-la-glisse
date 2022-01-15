@@ -74,13 +74,14 @@ include_once('../__navbar/navbar.php');
     <!-- End Breadcrumbs -->
 
     <!-- SECTION TUTORIEL -->
-    <section id="tutos">
-        <div class="baniere">
+        <div class="baniere" id="tutoriels">
             <div class="text-center title-baniere">
                 <h1>Les tutoriels by La glisse</h1>
                 <p>Retrouvez toutes les informations pratiques sur cette page !</p>
             </div>
+        </div>
 
+    <section id="tutos">
             <!-- Tutoriels pour la montagne -->
             <div class="container">
                 <h1 class="separateur">Pour la montagne ...</h1>
