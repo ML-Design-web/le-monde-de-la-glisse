@@ -74,3 +74,17 @@
 .owl-carousel button.owl-dot {
     outline: 0;
 }
+
+h1.separateur{
+    position: relative;
+    margin-right: 10vw;
+}
+h1.separateur:after{
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 25vw;
+    bottom: .5em;
+    margin-left: 2.5vw;
+    background-color: #00ffbb;
+}

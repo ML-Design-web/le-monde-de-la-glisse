@@ -73,7 +73,6 @@ include_once('../__navbar/navbar.php');
         </div>
     </section><!-- End Breadcrumbs -->
 
-
     <div class="baniere" id="meteo">
         <div class="text-center title-baniere">
             <h1>Météo</h1>
@@ -128,7 +127,7 @@ include_once('../__footer/footer.php');
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
-<script><!-- Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
+<script>// Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
     const location_list = [
         "Nouvelle-Aquitaine",
         "Occitanie",
@@ -150,7 +149,9 @@ include_once('../__footer/footer.php');
             source: location_list
         });
     } );
+    // ===========================
 
+    // Permet de rediriger l'utilisateur vers la page météo france de la région qu'il aura manuellement saisit
     function search_region(ele) {
         if(event.key === 'Enter') {
             location_list.forEach(element => {

@@ -80,7 +80,119 @@ include_once('../__navbar/navbar.php');
                 <h1>Les tutoriels by La glisse</h1>
                 <p>Retrouvez toutes les informations pratiques sur cette page !</p>
             </div>
+
+            <!-- Tutoriels pour la montagne -->
             <div class="container">
+                <h1 class="separateur">Pour la montagne ...</h1>
+                <div class="gtco-testimonials">
+                    <div class="owl-carousel owl-carousel1 owl-theme">
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>4 étapes pour perfectionner ton take off !</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/3SlOTAJolLI"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment farter soi-même ses skis ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/rnzv8lz_Els"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment assembler votre skateboard ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/eURj_RCYMD8"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment bien gréer sa voile de windsurf ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/uYj2rLhYaSk"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Tutoriels pour le nautique -->
+            <div class="container">
+                <h1 class="separateur">Pour le nautique ...</h1>
+                <div class="gtco-testimonials">
+                    <div class="owl-carousel owl-carousel1 owl-theme">
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>4 étapes pour perfectionner ton take off !</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/3SlOTAJolLI"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment farter soi-même ses skis ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/rnzv8lz_Els"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment assembler votre skateboard ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/eURj_RCYMD8"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment bien gréer sa voile de windsurf ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/uYj2rLhYaSk"
+                                            title="YouTube video player" style="border: 0;"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Tutoriels pour la planche terrestre -->
+            <div class="container">
+                <h1 class="separateur">Pour la planche terrestre ...</h1>
                 <div class="gtco-testimonials">
                     <div class="owl-carousel owl-carousel1 owl-theme">
                         <div>
