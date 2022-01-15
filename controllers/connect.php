@@ -12,7 +12,7 @@ ini_set('display_errors', 'off');
     <meta name="description" content="La glisse vous offre une grande sélection de produits : accessoires de montagne, de nautique, des planches terrestres, des vêtements pour Hommes, Femmes et Enfants, et bien plus encore !
      Découvrez sur notre boutique en ligne les derniers accessoires tendances proposés aux meilleurs prix. Quels que soient vos besoins, votre style, vos habitudes ou vos envies, trouvez le produit qui vous convient à des prix abordables sur la boutique La glisse !"/>
     <meta name="robots" content="index, follow"/>
-    <meta property="theme-color" content="#B0FF00"/>
+    <meta property="theme-color" content="#22baff"/>
     <meta property="og:title" content="Se connecter | La glisse"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://i.imgur.com/PZDTl0m.png"/>
