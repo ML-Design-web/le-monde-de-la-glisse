@@ -47,11 +47,8 @@ ini_set('display_errors', 'off');
     <link href="../__footer/footer.css" rel="stylesheet">
     <link href="../assets/css/shop.css" rel="stylesheet">
 
-    <!-- Slick Carousel -->
-    <link rel="stylesheet" href="../assets/slick/slick.css">
-    <link rel="stylesheet" href="../assets/slick/slick-theme.css">
-    <!-- Themefisher Icon font -->
-    <link rel="stylesheet" href="../assets/themefisher-font/style.css">
+    <!-- Icon font -->
+    <link rel="stylesheet" href="../assets/icon-font/style.css">
 </head>
 
 <body>

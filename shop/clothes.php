@@ -51,7 +51,7 @@ ini_set('display_errors', 'off');
     <link rel="stylesheet" href="../assets/slick/slick.css">
     <link rel="stylesheet" href="../assets/slick/slick-theme.css">
     <!-- Themefisher Icon font -->
-    <link rel="stylesheet" href="../assets/themefisher-font/style.css">
+    <link rel="stylesheet" href="../assets/icon-font/style.css">
 </head>
 
 <body>

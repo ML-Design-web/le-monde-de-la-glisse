@@ -98,7 +98,7 @@ include_once('../__navbar/navbar.php');
         </map>
         <div class="container">
             <div class="col-md-6 form-group d-block mx-auto">
-                <input onkeydown="search_region(this)" type="text" name="location" class="form-control" id="location" placeholder="Ou recherchez une région" data-error="Veuillez sélectionner une région sur la carte ci-dessus." required>
+                <input onkeydown="search_region(this)" type="text" name="location" class="form-control" id="location" placeholder="Ou recherchez une région" required>
                 <p class="text-center">Powered by Meteo France</p>
             </div>
         </div>
