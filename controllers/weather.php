@@ -99,7 +99,7 @@ include_once('../__navbar/navbar.php');
         </map>
         <div class="container">
             <div class="col-md-6 form-group d-block mx-auto">
-                <input type="text" name="location" class="form-control" id="location" placeholder="Ou recherchez une région" data-error="Veuillez sélectionner une région sur la carte ci-dessus." required>
+                <input onkeydown="search_region(this)" type="text" name="location" class="form-control" id="location" placeholder="Ou recherchez une région" data-error="Veuillez sélectionner une région sur la carte ci-dessus." required>
                 <p class="text-center">Powered by Meteo France</p>
             </div>
         </div>
@@ -129,26 +129,79 @@ include_once('../__footer/footer.php');
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
 <script><!-- Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
+    const location_list = [
+        "Nouvelle-Aquitaine",
+        "Occitanie",
+        "Provence-Alpes-Cote-D'Azur",
+        "Auvergne-Rhone-Alpes",
+        "Bourgogne-Franche-Compté",
+        "Grand-Est",
+        "Hauts-De-France",
+        "Normandie",
+        "Bretagne",
+        "Pays-De-La-Loire",
+        "Centre-Val-De-Loire",
+        "Ile-De-France",
+        "Corse",
+    ];
+
     $( function() {
-        const location = [
-            "Nouvelle-Aquitaine",
-            "Occitanie",
-            "Provence-Alpes-Cote-D'Azur",
-            "Auvergne-Rhone-Alpes",
-            "Bourgogne-Franche-Compté",
-            "Grand-Est",
-            "Hauts-De-France",
-            "Normandie",
-            "Bretagne",
-            "Pays-De-La-Loire",
-            "Centre-Val-De-Loire",
-            "Ile-De-France",
-            "Corse",
-        ];
         $( "#location" ).autocomplete({
-            source: location
+            source: location_list
         });
     } );
+
+    function search_region(ele) {
+        if(event.key === 'Enter') {
+            location_list.forEach(element => {
+                if (element === ele.value) {
+                    switch (ele.value) {
+                        case 'Nouvelle-Aquitaine':
+                            window.open("https://meteofrance.com/previsions-meteo-france/nouvelle-aquitaine/9");
+                            break;
+                        case 'Occitanie':
+                            window.open("https://meteofrance.com/previsions-meteo-france/occitanie/regin11");
+                            break;
+                        case "Provence-Alpes-Cote-D'Azur":
+                            window.open("https://meteofrance.com/previsions-meteo-france/provence-alpes-cote-d-azur/12");
+                            break;
+                        case "Auvergne-Rhone-Alpes":
+                            window.open("https://meteofrance.com/previsions-meteo-france/auvergne-rhone-alpes/10");
+                            break;
+                        case "Bourgogne-Franche-Compté":
+                            window.open("https://meteofrance.com/previsions-meteo-france/bourgogne-franche-comte/8");
+                            break;
+                        case "Grand-Est":
+                            window.open("https://meteofrance.com/previsions-meteo-france/grand-est/4");
+                            break;
+                        case "Hauts-De-France":
+                            window.open("https://meteofrance.com/previsions-meteo-france/hauts-de-france/1");
+                            break;
+                        case "Normandie":
+                            window.open("https://meteofrance.com/previsions-meteo-france/normandie/2");
+                            break;
+                        case "Bretagne":
+                            window.open("https://meteofrance.com/previsions-meteo-france/bretagne/5");
+                            break;
+                        case "Pays-De-La-Loire":
+                            window.open("https://meteofrance.com/previsions-meteo-france/pays-de-la-loire/6");
+                            break;
+                        case "Centre-Val-De-Loire":
+                            window.open("https://meteofrance.com/previsions-meteo-france/centre-val-de-loire/7");
+                            break;
+                        case "Ile-De-France":
+                            window.open("https://meteofrance.com/previsions-meteo-france/ile-de-france/3");
+                            break;
+                        case "Corse":
+                            window.open("https://meteofrance.com/previsions-meteo-france/corse/13");
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            })
+        }
+    }
 </script>
 
 </body>
