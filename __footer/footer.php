@@ -58,8 +58,8 @@
 
         <div class="copyright-wrap d-md-flex py-4">
             <div class="me-md-auto text-center text-md-start">
-                <div class="copyright">
-                    &copy; Copyright <strong><span>LA GLISSE</span></strong>. Tous droits réservés.
+                <div class="copyright" id="copyright">
+                    &copy; Copyright <strong><span>LA GLISSE #DATE#</span></strong>. Tous droits réservés.
                 </div>
             </div>
 
@@ -78,3 +78,5 @@
 
     </div>
 </footer><!-- End Footer -->
+
+<script>document.getElementById(`copyright`).innerHTML = document.getElementById(`copyright`).innerHTML.replace(`#DATE#`, new Date().getFullYear());</script>
