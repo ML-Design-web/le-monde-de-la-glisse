@@ -43,6 +43,7 @@ ini_set('display_errors', 'off');
     <!-- Template Main CSS File -->
     <link href="../__navbar/navbar.css" rel="stylesheet">
     <link href="../__footer/footer.css" rel="stylesheet">
+    <link href="../assets/css/template.css" rel="stylesheet">
     <link href="../assets/css/tutoriels.css" rel="stylesheet">
 </head>
 
@@ -68,16 +69,45 @@ include_once('../__navbar/navbar.php');
             </div>
 
         </div>
-    </section><!-- End Breadcrumbs -->
+    </section>
+    <!-- End Breadcrumbs -->
 
-
+    <!-- SECTION TUTORIEL -->
+    <section id="tutos">
     <div class="baniere">
         <div class="text-center title-baniere">
             <h1>Les tutoriels by La glisse</h1>
-            <p>Retrouvez toutes les informations météorologiques sur notre page !</p>
+            <p>Retrouvez toutes les informations pratiques sur cette page !</p>
         </div>
+        <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <iframe width="100%" height="125%"
+                                src="https://www.youtube.com/embed/3SlOTAJolLI">
+                        </iframe>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <iframe width="100%" height="125%"
+                                src="https://www.youtube.com/embed/rnzv8lz_Els">
+                        </iframe>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <iframe width="100%" height="125%"
+                                src="https://www.youtube.com/embed/eURj_RCYMD8">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
     </div>
+    </section>
+    <!-- FIN SECTION TUTORIEL -->
+
+
 </main><!-- End #main -->
+
+
 
 
 

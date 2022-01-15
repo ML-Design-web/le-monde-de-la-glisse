@@ -78,20 +78,7 @@ include_once('../__navbar/navbar.php');
 
     
     <section id="clothes-header">
-        <!--<div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wrapper">
-
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wrapper">
-
-                </div>
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4 wrapper">
-
-                </div>
-            </div>
-        </div>-->
-        
+        <h1 class="accessories">Nos Vêtements</h1>
         <div class="container-wrapper">
 
             <div class="wrapper" onclick="href('men')">

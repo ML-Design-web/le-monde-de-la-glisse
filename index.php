@@ -53,6 +53,7 @@ ini_set('display_errors', 'off');
 <?php
 include_once('__navbar/navbar.php');
 ?>
+<!-- ============== -->
 
 <main id="main">
     <!-- ======= Début Hero Section ======= -->
@@ -107,6 +108,8 @@ include_once('__navbar/navbar.php');
                         <button class="custom-submit-btn" type="submit">ok</button>
                     </form>
 
+
+                    <!-- ======  CATEGORIE DE CHOIX DU SPORT D'ETE  ====== -->
                     <?php
                     if (isset($_POST)) {
                         $selectsport = $_POST['summer'];
@@ -146,7 +149,6 @@ include_once('__navbar/navbar.php');
 
 
     <!-- ======  CATEGORIE DE CHOIX DU SPORT D'HIVER  ====== -->
-
     <section id="wintersport">
         <div class="fond">
             <span class="fond-image-skier"></span>
@@ -314,7 +316,8 @@ include_once('__navbar/navbar.php');
             </div>
 
         </div>
-    </section><!-- Fin Section FAQ -->
+    </section>
+    <!-- Fin Section FAQ -->
 
     <!-- ======= Début Section Avis Clients ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -391,7 +394,8 @@ include_once('__navbar/navbar.php');
             </div>
 
         </div>
-    </section><!-- ======= Fin Section Avis Clients ======= -->
+    </section>
+    <!-- ======= Fin Section Avis Clients ======= -->
 
     <!-- ======= Team Section ======= -->
     <section class="team">
@@ -440,7 +444,8 @@ include_once('__navbar/navbar.php');
             </div>
 
         </div>
-    </section><!-- End Team Section -->
+    </section>
+    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
@@ -576,7 +581,8 @@ include_once('__navbar/navbar.php');
             </div>
 
         </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
 
 </main><!-- End #main -->
 
@@ -584,10 +590,13 @@ include_once('__navbar/navbar.php');
 <?php
 include_once('__footer/footer.php');
 ?>
+<!-- ============== -->
 
+<!-- ======= PRELOADER AND BACK-TO-TOP ======= -->
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
+<!-- ============== -->
 
 <!-- JS Files -->
 <script src="assets/vendor/aos/aos.js"></script>
