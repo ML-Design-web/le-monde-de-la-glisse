@@ -9,20 +9,23 @@ ini_set('display_errors', 'off');
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Accessoires | La glisse</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="description" content="#"/>
+    <meta name="description" content="La glisse vous offre une grande sélection de produits : accessoires de montagne, de nautique, des planches terrestres, des vêtements pour Hommes, Femmes et Enfants, et bien plus encore !
+     Découvrez sur notre boutique en ligne les derniers accessoires tendances proposés aux meilleurs prix. Quels que soient vos besoins, votre style, vos habitudes ou vos envies, trouvez le produit qui vous convient à des prix abordables sur la boutique La glisse !"/>
     <meta name="robots" content="index, follow"/>
     <meta property="theme-color" content="#B0FF00"/>
     <meta property="og:title" content="Accessoires | La glisse"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="#"/>
+    <meta property="og:image" content="https://i.imgur.com/PZDTl0m.png"/>
     <meta property="og:url" content="#"/>
-    <meta property="og:description" content="#"/>
+    <meta property="og:description" content="La glisse vous offre une grande sélection de produits : accessoires de montagne, de nautique, des planches terrestres, des vêtements pour Hommes, Femmes et Enfants, et bien plus encore !
+     Découvrez sur notre boutique en ligne les derniers accessoires tendances proposés aux meilleurs prix. Quels que soient vos besoins, votre style, vos habitudes ou vos envies, trouvez le produit qui vous convient à des prix abordables sur la boutique La glisse !"/>
     <meta property="og:locale" content="fr_FR"/>
     <meta property="keywords" content="#"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:title" content="Accessoires | La glisse"/>
-    <meta name="twitter:description" content="#"/>
-    <meta name="twitter:image" content="#"/>
+    <meta name="twitter:description" content="La glisse vous offre une grande sélection de produits : accessoires de montagne, de nautique, des planches terrestres, des vêtements pour Hommes, Femmes et Enfants, et bien plus encore !
+     Découvrez sur notre boutique en ligne les derniers accessoires tendances proposés aux meilleurs prix. Quels que soient vos besoins, votre style, vos habitudes ou vos envies, trouvez le produit qui vous convient à des prix abordables sur la boutique La glisse !"/>
+    <meta name="twitter:image" content="https://i.imgur.com/PZDTl0m.png"/>
 
     <!-- Favicons -->
     <link href="../assets/img/svg/favicon.svg" rel="icon">
