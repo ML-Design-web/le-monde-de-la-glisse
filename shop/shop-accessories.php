@@ -261,10 +261,10 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-
-
-                <!-- Catégorie Snowboard -->
             </div>
+
+
+            <!-- Catégorie Snowboard -->
             <h3 id="snowbd">Snowboard</h3>
             <div class="row">
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
@@ -397,9 +397,10 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
+            </div>
 
 
-                <!-- Catégorie Patin à glace -->
+            <!-- Catégorie Patin à glace -->
             <h3 id="patins">Patin à glace</h3>
             <div class="row">
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
@@ -480,11 +481,12 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Catégorie Nautique -->
+            <!-- Catégorie Nautique -->
             <h1 class="accessories">Nautique</h1>
 
-                <!-- Catégorie Planches à voile -->
+            <!-- Catégorie Planches à voile -->
             <h3 id="voiles">Planche à voile</h3>
             <div class="row">
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
@@ -643,11 +645,11 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
-
-
-                <!-- Catégorie Kitesurf -->
-
             </div>
+
+
+            <!-- Catégorie Kitesurf -->
+
             <h3 id="kite">Kitesurf</h3>
             <div class="row">
                 <div class="col-4 col-sm-4 col-md-3 col-lg-2">
@@ -806,8 +808,9 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Catégorie Surf -->
+            <!-- Catégorie Surf -->
 
             <h3 id="surf">Surf</h3>
             <div class="row">
@@ -967,8 +970,9 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Catégorie Paddle -->
+            <!-- Catégorie Paddle -->
 
             <h3 id="paddle">Paddle</h3>
             <div class="row">
@@ -1128,330 +1132,332 @@ include_once('../__navbar/navbar.php');
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Catégorie Planche terrestre -->
-                <h1 class="accessories">Planche terrestre </h1>
-                <!-- Catégorie SkateBoard -->
+            <!-- Catégorie Planche terrestre -->
+            <h1 class="accessories">Planche terrestre </h1>
+            <!-- Catégorie SkateBoard -->
 
-                <h3 id="skatebd">SkateBoard</h3>
-                <div class="row">
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+            <h3 id="skatebd">SkateBoard</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">200€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">200€</p>
+                        </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">230€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">230€</p>
+                        </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">260€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">260€</p>
+                        </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">300€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">300€</p>
+                        </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">330€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">330€</p>
+                        </div>
                     </div>
-                    <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                        <div class="product-item">
-                            <div class="product-thumb">
-                                <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
-                                <div class="preview-meta">
-                                    <ul>
-                                        <li>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/skateboard.jpg" alt="Skateboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product-content">
-                                <h4><a href="#null">Skateboard</a></h4>
-                                <p class="price">400€</p>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Skateboard</a></h4>
+                            <p class="price">400€</p>
+                        </div>
                     </div>
-                    <!-- Catégorie LongBoard -->
+                </div>
+            </div>
+            <!-- Catégorie LongBoard -->
 
 
-                    <h3 id="longbd">LongBoard</h3>
-                    <div class="row">
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+            <h3 id="longbd">LongBoard</h3>
+            <div class="row">
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">200€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">200€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">230€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">230€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">260€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">260€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">300€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">300€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">330€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-                            <div class="product-item">
-                                <div class="product-thumb">
-                                    <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
-                                    <div class="preview-meta">
-                                        <ul>
-                                            <li>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">330€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+                    <div class="product-item">
+                        <div class="product-thumb">
+                            <img class="img-responsive" src="../assets/img/jpg/longboard.jpg" alt="Longboard"/>
+                            <div class="preview-meta">
+                                <ul>
+                                    <li>
 									<span data-toggle="modal" data-target="#product-modal">
 										<i class="tf-ion-ios-search-strong"></i>
 									</span>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="tf-ion-ios-heart"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#!"><i class="tf-ion-android-cart"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="product-content">
-                                    <h4><a href="#null">Longboard</a></h4>
-                                    <p class="price">400€</p>
-                                </div>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="tf-ion-ios-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#!"><i class="tf-ion-android-cart"></i></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                        <div class="product-content">
+                            <h4><a href="#null">Longboard</a></h4>
+                            <p class="price">400€</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

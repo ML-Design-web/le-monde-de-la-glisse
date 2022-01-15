@@ -79,7 +79,7 @@ include_once('../__navbar/navbar.php');
         </div>
     </div>
     <section>
-        <img class="carte mx-auto d-block" src="../assets/img/png/carte-france-regions.png" usemap="#image-map">
+        <img class="carte mx-auto d-block" src="../assets/img/png/carte-france-regions.png" usemap="#image-map" alt="Carte-de-France">
         <map name="image-map">
             <area class="poly" alt="Nouvelle-Aquitaine" title="Nouvelle-Aquitaine" href="https://meteofrance.com/previsions-meteo-france/nouvelle-aquitaine/9" coords="166,434,121,410,146,307,160,319,146,297,147,268,166,264,165,248,155,237,169,233,185,230,197,238,204,236,223,263,241,264,259,267,269,286,263,294,267,311,255,330,244,336,232,328,220,346,209,371,187,381,171,387,178,412" shape="poly">
             <area class="poly" alt="Occitanie" title="Occitanie" href="https://meteofrance.com/previsions-meteo-france/occitanie/regin11" coords="170,433,201,440,204,435,223,436,235,442,244,447,267,456,287,451,285,426,294,412,304,411,321,399,328,403,335,394,345,379,338,366,325,366,313,342,296,334,284,345,277,335,269,351,255,351,252,334,236,332,226,337,214,365,197,381,173,387" shape="poly">
