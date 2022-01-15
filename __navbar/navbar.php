@@ -2,7 +2,7 @@
 <header id="header" class="fixed-top" data-aos="fade-up">
     <div class="container d-flex align-items-center justify-content-between">
         <a href="http://localhost/le-monde-de-la-glisse/index.php" class="logo"><img
-                    src="http://localhost/le-monde-de-la-glisse/assets/img/webp/logo.webp" alt="Logo-La-Glisse"
+                    src="https://i.imgur.com/PZDTl0m.png" alt="Logo-La-Glisse"
                     class="img-fluid"></a>
         <nav id="navbar" class="navbar">
             <ul>

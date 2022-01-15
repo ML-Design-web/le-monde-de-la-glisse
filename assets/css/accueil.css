@@ -1,4 +1,5 @@
 @import "template.css";
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -206,7 +207,7 @@
 }
 
 .custom-select select {
-     /*cacher le select original*/
+    /*cacher le select original*/
 
     border-radius: 20px;
     padding-left: 0.4em;
@@ -235,7 +236,7 @@
     right: 20px;
     width: 0;
     height: 0;
-    border: 6px solid ;
+    border: 6px solid;
     border-color: #fff transparent transparent transparent;
     margin-right: 10vw;
 }
@@ -318,10 +319,11 @@
 /* ########################## */
 
 /* section hiver */
-#main{
+#main {
     max-width: 100vw;
     overflow-x: hidden;
 }
+
 #wintersport {
     background-color: #fff;
     height: 80vh;
@@ -380,13 +382,13 @@
         margin-top: -24vh;
     }
 
-    .custom-select select{
+    .custom-select select {
         width: 25vw;
         margin-right: 15vw;
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .text-glisse span {
         font-size: 10vw;
         height: 100px;
@@ -402,11 +404,13 @@
         margin-top: -70vh;
         width: 65%;
     }
-    .custom-select select{
+
+    .custom-select select {
         width: 60vw;
         margin-right: 20vw;
     }
 }
+
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -502,10 +506,97 @@
 }
 
 /*--------------------------------------------------------------
+# Avis clients
+--------------------------------------------------------------*/
+.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+    overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+    box-sizing: content-box;
+    min-height: 320px;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #2c4964;
+}
+
+.testimonials .testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 0 45px;
+}
+
+.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+    color: #20eac4;
+    font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+    display: inline-block;
+    left: -5px;
+    position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+    display: inline-block;
+    right: -5px;
+    position: relative;
+    top: 10px;
+}
+
+.testimonials .testimonial-item p {
+    font-style: italic;
+    margin: 0 15px 0 15px;
+    padding: 20px 20px 60px 20px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.testimonials .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #3fa9f5;
+}
+
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #3fa9f5;
+}
+
+@media (max-width: 767px) {
+    .testimonials {
+        margin: 30px 10px;
+    }
+}
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
-    background-color: var(--background-color-body);
     padding: 60px 0;
 }
 
@@ -513,7 +604,6 @@
     margin-bottom: 20px;
     overflow: hidden;
     border-radius: 5px;
-    background-color: var(--background-color-contenu);
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -535,7 +625,6 @@
 }
 
 .team .member .social a {
-    color: var(--icon-color);
     margin: 0 3px;
     border-radius: 4px;
     width: 36px;
@@ -547,22 +636,9 @@
     align-items: center;
 }
 
-.team .member .social a:hover {
-    color: var(--icon-color);
-    background: var(--background-color-special);
-}
-
 .team .member .social i {
     font-size: 18px;
     line-height: 0;
-}
-
-.member-info {
-    background-color: var(--background-color-contenu);
-}
-
-.member-info a {
-    color: var(--text-color);
 }
 
 .team .member .member-info {
@@ -573,7 +649,6 @@
     font-weight: 700;
     margin-bottom: 5px;
     font-size: 18px;
-    color: var(--text-color);
 }
 
 .team .member .member-info span {
@@ -595,25 +670,11 @@
     bottom: 15px;
 }
 
-
-/*--------------------------------------------------------------
-# Section contact
---------------------------------------------------------------*/
-@media screen and (max-width: 425px) {
-    .carte {
-        width: 100%;
-        height: 100%;
-    }
-    .carte map {
-        display: none;
-
-    }
-}
 /*--------------------------------------------------------------
 # Map for Contact Section
 --------------------------------------------------------------*/
 
-.map-section textarea{
+.map-section textarea {
     resize: none;
     color: #000000;
     background-color: #22baff;
@@ -622,6 +683,7 @@
 .map-section textarea::placeholder {
     color: #000;
 }
+
 .map-section .section-title h2, .faq .section-title p {
     color: #fff;
 }
@@ -706,21 +768,10 @@
     }
 }
 
-@-webkit-keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes animate-loading {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
+@media screen and (max-width: 425px) {
+    .carte {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -811,7 +862,7 @@
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-    border-color: #5846f9;
+    border-color: #20eac4;
 }
 
 .contact .php-email-form input {
@@ -833,4 +884,22 @@
 
 .contact .php-email-form button[type=submit]:hover {
     background: #20eac4;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }

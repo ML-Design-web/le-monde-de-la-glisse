@@ -7,7 +7,7 @@
 
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <a href="http://localhost/le-monde-de-la-glisse/index.html" class="logo-footer"><img
-                                src="http://localhost/le-monde-de-la-glisse/assets/img/webp/logo.webp"
+                                src="https://i.imgur.com/PZDTl0m.png"
                                 alt="Logo-La-Glisse"
                                 class="img-fluid"></a>
                     <p>
