@@ -28,7 +28,7 @@
                         <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#nautic"><span>Nautique</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles">Voiles</a></li>
-                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite">Kite-Surf</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite">Kitesurf</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#surf">Surf</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#paddle">Paddle</a></li>
                             </ul>
@@ -38,8 +38,8 @@
 
                         <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#planches"><span>Planche terrestre</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
-                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#skatebd">Skate-Board</a></li>
-                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#longbd">Long-Board</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#skatebd">Skateboard</a></li>
+                                <li><a href="http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#longbd">Longboard</a></li>
 
                             </ul>
                         </li>
@@ -51,7 +51,7 @@
                 </li>
                 <li><a class="nav-link scrollto" href="http://localhost/le-monde-de-la-glisse/#contact">Contact</a></li>
                 <li><a class="getstarted scrollto" href="http://localhost/le-monde-de-la-glisse/controllers/connect.php"><i class="fs-5 bi bi-person-circle" style="margin: 0;"></i><span class="connect-button">Se connecter</span></a></li>
-                <li><a class="getstarted scrollto" href="#"><i class="fs-5 bi bi-bag" style="margin: 0;">&nbsp;</i><span class="badge">3</span></a></li>
+                <li><a class="getstarted scrollto" href="#"><i class="fs-5 bi bi-bag" style="margin: 0;">&nbsp;</i><span class="badge">0</span></a></li>
             </ul>
             <i class="burger bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

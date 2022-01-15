@@ -39,11 +39,11 @@ ini_set('display_errors', 'off');
     <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
 
     <!-- Template Main CSS File -->
     <link href="../__navbar/navbar.css" rel="stylesheet">
     <link href="../__footer/footer.css" rel="stylesheet">
-    <link href="../assets/css/template.css" rel="stylesheet">
     <link href="../assets/css/tutoriels.css" rel="stylesheet">
 </head>
 
@@ -60,7 +60,6 @@ include_once('../__navbar/navbar.php');
     <!-- ======= Breadcrumbs ======= -->
     <section class="breadcrumbs">
         <div class="container">
-
             <div class="d-flex justify-content-between align-items-center">
                 <ol>
                     <li><a href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
@@ -74,41 +73,64 @@ include_once('../__navbar/navbar.php');
 
     <!-- SECTION TUTORIEL -->
     <section id="tutos">
-    <div class="baniere">
-        <div class="text-center title-baniere">
-            <h1>Les tutoriels by La glisse</h1>
-            <p>Retrouvez toutes les informations pratiques sur cette page !</p>
-        </div>
-        <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <iframe width="100%" height="125%"
-                                src="https://www.youtube.com/embed/3SlOTAJolLI">
-                        </iframe>
-                    </div>
-
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <iframe width="100%" height="125%"
-                                src="https://www.youtube.com/embed/rnzv8lz_Els">
-                        </iframe>
-                    </div>
-
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <iframe width="100%" height="125%"
-                                src="https://www.youtube.com/embed/eURj_RCYMD8">
-                        </iframe>
+        <div class="baniere">
+            <div class="text-center title-baniere">
+                <h1>Les tutoriels by La glisse</h1>
+                <p>Retrouvez toutes les informations pratiques sur cette page !</p>
+            </div>
+            <div class="container">
+                <div class="gtco-testimonials">
+                    <div class="owl-carousel owl-carousel1 owl-theme">
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>4 étapes pour perfectionner ton take off !</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/3SlOTAJolLI"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment farter soi-même ses skis ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/rnzv8lz_Els"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment assembler votre skateboard ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/eURj_RCYMD8"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <h5>Comment bien gréer sa voile de windsurf ?</h5>
+                                    <iframe width="100%" height="125%" src="https://www.youtube.com/embed/uYj2rLhYaSk"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-    </div>
-    </section>
-    <!-- FIN SECTION TUTORIEL -->
-
-
+        </div>
+    </section>  <!-- FIN SECTION TUTORIEL -->
 </main><!-- End #main -->
-
-
-
 
 
 <!-- ======= Footer ======= -->
@@ -118,7 +140,7 @@ include_once('../__footer/footer.php');
 <!-- Fin Footer -->
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+            class="bi bi-arrow-up-short"></i></a>
 <div id="preloader"></div>
 
 <!-- Vendor JS Files -->
@@ -127,6 +149,12 @@ include_once('../__footer/footer.php');
 <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+<script src="https://www.sfait.net/ressources/js/script-home.js"></script>
+
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
 
