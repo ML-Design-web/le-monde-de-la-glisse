@@ -431,13 +431,13 @@ include_once('__navbar/navbar.php');
                         <div class="member-img">
                             <img src="assets/img/team/mathis.webp" class="img-fluid" alt="Profil_Mathis_LAMBERT">
                             <div class="social">
-                                <a href="#"><i class="bi bi-twitter"></i></a>
-                                <a href="#"><i class="bi bi-instagram"></i></a>
-                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://twitter.com/Otryx_"><i class="bi bi-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/mathis-lambert-84218b210"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://www.behance.net/Otryx"><i class="bi bi-behance"></i></a>
                             </div>
                         </div>
                         <div class="member-info">
-                            <h4><a href="#">Mathis Lambert</a></h4>
+                            <h4><a href="https://github.com/ML-Design-web">Mathis Lambert</a></h4>
                             <span>Fondateur</span>
                         </div>
                     </div>

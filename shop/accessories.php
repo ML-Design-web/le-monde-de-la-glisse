@@ -486,7 +486,7 @@ include_once('../__navbar/navbar.php');
             </div>
 
             <!-- Catégorie Nautique -->
-            <h1 class="accessories">Nautique</h1>
+            <h1 id="nautic" class="accessories">Nautique</h1>
 
             <!-- Catégorie Planches à voile -->
             <h3 id="voiles">Planche à voile</h3>
@@ -1137,7 +1137,7 @@ include_once('../__navbar/navbar.php');
             </div>
 
             <!-- Catégorie Planche terrestre -->
-            <h1 class="accessories">Planche terrestre </h1>
+            <h1 id="board" class="accessories">Planche terrestre </h1>
             <!-- Catégorie SkateBoard -->
 
             <h3 id="skatebd">SkateBoard</h3>

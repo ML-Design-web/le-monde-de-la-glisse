@@ -36,7 +36,7 @@
 
 
 
-                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/accessories.php#planches"><span>Planche terrestre</span> <i class="bi bi-chevron-right"></i></a>
+                        <li class="dropdown"><a href="http://localhost/le-monde-de-la-glisse/shop/accessories.php#board"><span>Planche terrestre</span> <i class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/accessories.php#skatebd">Skateboard</a></li>
                                 <li><a href="http://localhost/le-monde-de-la-glisse/shop/accessories.php#longbd">Longboard</a></li>

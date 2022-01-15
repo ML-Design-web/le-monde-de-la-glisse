@@ -74,7 +74,7 @@ include_once('../__navbar/navbar.php');
     </section><!-- End Breadcrumbs -->
 
 
-    <div class="baniere">
+    <div class="baniere" id="meteo">
         <div class="text-center title-baniere">
             <h1>Météo</h1>
             <p>Retrouvez toutes les informations météorologiques sur notre page !</p>
@@ -128,22 +128,9 @@ include_once('../__footer/footer.php');
 
 <!-- Template Main JS File -->
 <script src="../assets/js/main.js"></script>
-
-<script><!-- Permet de saisir automatiquement le nom d'une région dans un champ lorsque l'utilisation clique sur une région -->
-    console.clear();
-
-    const maps = document.querySelectorAll(".poly");
-    const msg = document.querySelector("#location");
-
-    maps.forEach((map) => map.addEventListener("click", handleClick));
-
-    function handleClick(e) {
-        msg.innerText = e.target.getAttribute("alt");
-    }
-</script>
 <script><!-- Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
     $( function() {
-        var location = [
+        const location = [
             "Nouvelle-Aquitaine",
             "Occitanie",
             "Provence-Alpes-Cote-D'Azur",
