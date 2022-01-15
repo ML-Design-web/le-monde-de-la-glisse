@@ -14,7 +14,7 @@
                         70 Avenue Roger Devoucoux <br>
                         83000 Toulon<br>
                         France <br><br>
-                        <strong>Téléphone:</strong> +33 6 21 19 12 14<br>
+                        <strong>Téléphone:</strong> +33 6 12 34 56 78<br>
                         <strong>Email:</strong> hello@la-glisse.fr<br>
                     </p>
                 </div>
@@ -22,22 +22,22 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Liens annexes</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Tutoriel</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Météo</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Nous contacter</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Mon espace client</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/">Accueil</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/controllers/tutoriels.php">Tutoriel</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/controllers/weather.php">Météo</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse#contact">Nous contacter</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/controllers/connect.php">Mon espace client</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>La boutique</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Vêtements par catégorie</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Accessoires par catégorie</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Nos bons plans</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/shop/clothes.php">Vêtements par catégorie</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="http://localhost/le-monde-de-la-glisse/shop/accessories.php">Accessoires par catégorie</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#null">Nos bons plans</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#null">Suivre une commande</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#null">Rétracter une commande</a></li>
                     </ul>
                 </div>
 
@@ -45,8 +45,7 @@
                     <h4>Ne manquez plus jamais un bon plan !</h4>
                     <p>Inscrivez votre adresse mail et ne ratez pas un seul bon plan.</p>
                     <form method="post">
-                        <input type="email" name="email" placeholder="john.doe@domaine.fr"><input type="submit"
-                                                                                                  value="Envoyer">
+                        <input type="email" name="email" placeholder="john.doe@domaine.fr"><input type="submit" value="Envoyer">
                     </form>
                 </div>
 
