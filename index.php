@@ -40,7 +40,7 @@ ini_set('display_errors', 'off');
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="__navbar/navbar_home.css" rel="stylesheet">
@@ -339,7 +339,7 @@ include_once('__navbar/navbar.php');
                                 enseigne à mon entourage !
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Profile_Saul-Goodman">
                             <h3>Saul Goodman</h3>
                             <h4>Homme, 43 ans</h4>
                         </div>
@@ -353,7 +353,7 @@ include_once('__navbar/navbar.php');
                                 et très bon service client qui a su corriger une erreur sur mon adresse très rapidement.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Profile_Sara_Wilsson">
                             <h3>Sara Wilsson</h3>
                             <h4>Femme, 27 ans</h4>
                         </div>
@@ -368,7 +368,7 @@ include_once('__navbar/navbar.php');
                                 Chronopost a lancé le colis par dessus mon portail ...
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Profile_Jena_Karlis">
                             <h3>Jena Karlis</h3>
                             <h4>Femme, 31 ans</h4>
                         </div>
@@ -383,7 +383,7 @@ include_once('__navbar/navbar.php');
                                 qui concurrence de loin Decathlon.
                                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                             </p>
-                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Profile_Matt_Brandon">
                             <h3>Matt Brandon</h3>
                             <h4>Homme, 37 ans</h4>
                         </div>
@@ -456,7 +456,7 @@ include_once('__navbar/navbar.php');
                 <h2>Nous Contacter</h2>
                 <p>Un problème avec votre commande ou avec la livraison ? Contactez-nous dès maintenant ! Nos services
                     se chargeront de vous répondre sous 24h ouvrés, du Lundi au Vendredi de 9h00 à 19h et le Samedi de
-                    10h à 18h.</p>
+                    10h à 18h (hors jours fériés).</p>
             </div>
 
             <div class="row">

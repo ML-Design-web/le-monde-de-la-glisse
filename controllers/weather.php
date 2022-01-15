@@ -41,7 +41,7 @@ ini_set('display_errors', 'off');
     <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="../__navbar/navbar.css" rel="stylesheet">
@@ -100,7 +100,7 @@ include_once('../__navbar/navbar.php');
         <div class="container">
             <div class="col-md-6 form-group d-block mx-auto">
                 <input type="text" name="location" class="form-control" id="location" placeholder="Ou recherchez une région" data-error="Veuillez sélectionner une région sur la carte ci-dessus." required>
-                <p>Powered by Meteo France</p>
+                <p class="text-center">Powered by Meteo France</p>
             </div>
         </div>
     </section>
