@@ -116,22 +116,22 @@ include_once('__navbar/navbar.php');
                         $selectsport = $_POST['summer'];
                         if ($selectsport == 'surf') {
                             echo '<script type="text/javascript">
-                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#surf";
+                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#surf";
                                   </script>';
                         }
                         if ($selectsport == 'paddle') {
                             echo '<script type="text/javascript">
-                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#paddle";
+                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#paddle";
                                   </script>';
                         }
                         if ($selectsport == 'kite') {
                             echo '<script type="text/javascript">
-                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#kite";
+                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#kite";
                                   </script>';
                         }
                         if ($selectsport == 'voile') {
                             echo '<script type="text/javascript">
-                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#voiles";
+                                    document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#voiles";
                                   </script>';
                         }
                     }
@@ -180,17 +180,17 @@ include_once('__navbar/navbar.php');
                         $selectsport = $_POST['winter'];
                         if ($selectsport == 'ski') {
                             echo '<script type="text/javascript">
-                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#ski";
+                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#ski";
                                   </script>';
                         }
                         if ($selectsport == 'snow') {
                             echo '<script type="text/javascript">
-                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#snowbd";
+                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#snowbd";
                                   </script>';
                         }
                         if ($selectsport == 'patin') {
                             echo '<script type="text/javascript">
-                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/shop-accessories.php#patins";
+                                     document.location = "http://localhost/le-monde-de-la-glisse/shop/accessories.php#patins";
                                   </script>';
                         }
                     }
