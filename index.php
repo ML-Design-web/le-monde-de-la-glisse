@@ -615,7 +615,7 @@ include_once('__footer/footer.php');
 
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
-<script><!-- Permet de saisir automatiquement le nom d'une région dans un champ lorsque l'utilisation clique sur une région -->
+<script><!-- Permet de saisir automatiquement le nom d'une région dans un champ lorsque l'utilisateur clique sur une région -->
     console.clear();
 
     const maps = document.querySelectorAll(".poly");
@@ -629,7 +629,7 @@ include_once('__footer/footer.php');
 </script>
 <script><!-- Permet d'afficher des suggestions lorsque l'utilisateur saisis les premières lettres d'un mot dans un champ. -->
     $( function() {
-        var activity = [
+        const activity = [
             "Ski",
             "Snow-Board",
             "Patin",

@@ -30,7 +30,6 @@ $contact->add_message($_POST['location'], 'Lieu pratiqué');
 $contact->add_message($_POST['subject'], 'Sujet');
 $contact->add_message($_POST['message'], 'Message', 10);
 
-$contact->cc = array('mathis.lambert27@gmail.com');
 $contact->cc = array($_POST['email']);
 
 echo $contact->send();
